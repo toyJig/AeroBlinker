@@ -817,7 +817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at -24.13 -49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
