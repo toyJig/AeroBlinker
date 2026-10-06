@@ -868,16 +868,6 @@
 	)
 	(wire
 		(pts
-			(xy -8.89 -50.8) (xy -8.89 -54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3efdb7c1-45df-4b7d-8092-3b0342b0ff22")
-	)
-	(wire
-		(pts
 			(xy -16.51 -36.83) (xy -13.97 -36.83)
 		)
 		(stroke
@@ -908,7 +898,7 @@
 	)
 	(wire
 		(pts
-			(xy 1.27 -44.45) (xy 1.27 -50.8)
+			(xy 1.27 -44.45) (xy 1.27 -54.61)
 		)
 		(stroke
 			(width 0)
@@ -928,23 +918,13 @@
 	)
 	(wire
 		(pts
-			(xy -8.89 -50.8) (xy 1.27 -50.8)
+			(xy -17.78 -54.61) (xy 1.27 -54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb7930b9-62fe-4ec2-ad2d-922b38395745")
-	)
-	(wire
-		(pts
-			(xy -8.89 -54.61) (xy -17.78 -54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d82aeb1a-f46e-448b-a5f8-b8e9128620e3")
 	)
 	(symbol
 		(lib_id "Device:C")
