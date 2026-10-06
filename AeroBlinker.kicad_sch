@@ -1276,7 +1276,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c95de8ab-3b21-41f3-8cdb-6a2633e8bd79")
 		(property "Reference" "U1"
 			(at 3.4133 0 0)
@@ -1290,7 +1289,7 @@
 			)
 		)
 		(property "Value" "STM32F042F6Px"
-			(at 3.4133 1.27 0)
+			(at -6.096 -23.368 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
