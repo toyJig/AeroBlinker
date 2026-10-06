@@ -805,10 +805,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "06d4c0b8-508a-4421-b445-e45d1e2acf9f")
 		(property "Reference" "C2"
-			(at -21.59 -52.0701 0)
+			(at -24.13 -52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -819,7 +818,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at -21.59 -49.5301 0)
+			(at -24.13 -49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
