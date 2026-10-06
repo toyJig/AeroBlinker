@@ -584,6 +584,26 @@
 		)
 		(uuid "4c24b3c9-1680-4196-a4ec-987271f18e0e")
 	)
+	(wire
+		(pts
+			(xy 1.27 -44.45) (xy 1.27 -50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d85f9e-8958-4310-94a3-a467c37eab20")
+	)
+	(wire
+		(pts
+			(xy -8.89 -50.8) (xy 1.27 -50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7930b9-62fe-4ec2-ad2d-922b38395745")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32F0:STM32F042F6Px")
 		(at 1.27 -21.59 0)
