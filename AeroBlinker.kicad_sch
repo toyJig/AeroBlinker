@@ -558,6 +558,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at -16.51 -36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7ccfaf9-5e20-4807-8d2b-d6142da85af7")
+	)
+	(wire
+		(pts
+			(xy -20.32 -36.83) (xy -16.51 -36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323cb746-aebb-43bb-bb3a-6881b5f2f707")
+	)
+	(wire
+		(pts
+			(xy -16.51 -36.83) (xy -13.97 -36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c24b3c9-1680-4196-a4ec-987271f18e0e")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32F0:STM32F042F6Px")
 		(at 1.27 -21.59 0)
