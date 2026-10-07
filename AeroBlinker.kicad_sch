@@ -3336,6 +3336,12 @@
 		(uuid "2c3dd604-3944-454e-bf06-d0a0d085803e")
 	)
 	(junction
+		(at 96.52 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46c8b29f-0c49-4aa1-bd1b-87f8d81683c0")
+	)
+	(junction
 		(at 158.75 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3543,7 +3549,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 72.39) (xy 95.25 72.39)
+			(xy 83.82 72.39) (xy 96.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3603,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 69.85) (xy 95.25 69.85)
+			(xy 83.82 69.85) (xy 96.52 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3750,6 +3756,16 @@
 			(type default)
 		)
 		(uuid "bcaada31-7ac9-41e5-b957-71c6335f6d2e")
+	)
+	(wire
+		(pts
+			(xy 96.52 69.85) (xy 96.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27d3a9c-70bd-423a-98cf-b5af4ba67681")
 	)
 	(wire
 		(pts
@@ -4280,7 +4296,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 95.25 72.39 270)
+		(at 96.52 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4290,7 +4306,7 @@
 		(dnp no)
 		(uuid "0c0b6ca2-d4d3-4a4e-8f3b-e145980e1ada")
 		(property "Reference" "TP2"
-			(at 99.568 72.644 90)
+			(at 100.838 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4301,7 +4317,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 103.886 72.644 90)
+			(at 105.156 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4312,7 +4328,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
-			(at 95.25 77.47 0)
+			(at 96.52 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4323,7 +4339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 77.47 0)
+			(at 96.52 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4334,7 +4350,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 95.25 72.39 0)
+			(at 96.52 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4908,84 +4924,6 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 95.25 69.85 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ebe8fc4-2924-4648-af7b-38f9a2ca6f3f")
-		(property "Reference" "TP1"
-			(at 99.568 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 103.886 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 95.25 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87be0bb6-ccd8-4e77-b15a-38658f416bad")
-		)
-		(instances
-			(project "AeroBlinker"
-				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
