@@ -1875,6 +1875,16 @@
 		)
 		(uuid "495a1d01-6bef-4710-a890-f981f67a34b7")
 	)
+	(label "SYS_SWDIO"
+		(at 30.48 -16.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1ac2f32-5c3f-4b3c-8798-52db1f4ba043")
+	)
 	(label "SYS_SWCLK"
 		(at 30.48 -8.89 180)
 		(effects
@@ -1894,6 +1904,16 @@
 			(justify right bottom)
 		)
 		(uuid "d9d4363b-0761-4ff2-b4d6-4e775040981c")
+	)
+	(label "SYS_SWCLK"
+		(at 30.48 -13.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4479648-5840-4055-9f3e-6f43692ac5ae")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
