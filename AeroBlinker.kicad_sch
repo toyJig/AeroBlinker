@@ -1708,7 +1708,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -33.02 -36.83 270)
+		(at -33.02 -36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1719,7 +1719,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f7ecd5f-6b97-4fdf-8e65-490900b5a300")
 		(property "Reference" "#PWR04"
-			(at -39.37 -36.83 0)
+			(at -33.02 -30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1730,7 +1730,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -39.37 -36.83 0)
+			(at -33.02 -30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,6 +2501,87 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at -36.83 -33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a98c95ba-436b-4339-9442-d5d83f2af5eb")
+		(property "Reference" "C6"
+			(at -34.036 -34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at -34.036 -31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
+			(at -35.8648 -29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -36.83 -33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at -36.83 -33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "611a9210-052c-4a2b-80ae-5961749743d8")
+		)
+		(pin "2"
+			(uuid "09d3a374-05b0-42ce-9e13-f7a6fc32cd91")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "C6")
 					(unit 1)
 				)
 			)
