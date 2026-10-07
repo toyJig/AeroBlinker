@@ -1875,7 +1875,7 @@
 		)
 		(uuid "495a1d01-6bef-4710-a890-f981f67a34b7")
 	)
-	(label "SYS_SWDIO"
+	(label "USB_D+"
 		(at 30.48 -16.51 180)
 		(effects
 			(font
