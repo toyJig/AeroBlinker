@@ -1865,7 +1865,7 @@
 		)
 		(uuid "f1e6dc9a-34be-428f-8e73-db8af9a3e1b5")
 	)
-	(label "SYS_SWCLK"
+	(label "SYS_SWDIO"
 		(at 30.48 -34.29 180)
 		(effects
 			(font
