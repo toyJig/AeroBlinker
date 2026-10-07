@@ -3007,6 +3007,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 -20.32) (xy 106.68 -20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79c1697-68a5-4c9b-bfe1-20da09861545")
+	)
+	(wire
+		(pts
 			(xy -48.26 -36.83) (xy -16.51 -36.83)
 		)
 		(stroke
@@ -3064,6 +3074,16 @@
 			(type default)
 		)
 		(uuid "bcaada31-7ac9-41e5-b957-71c6335f6d2e")
+	)
+	(wire
+		(pts
+			(xy 105.41 -22.86) (xy 106.68 -22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5384ffa-ecd1-4fa4-8b2f-88970b5d64e8")
 	)
 	(wire
 		(pts
@@ -3389,6 +3409,166 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 -30.48 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09837589-9eb8-400c-9a9e-95e014145ad7")
+		(property "Reference" "R3"
+			(at 110.49 -25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 110.49 -27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 110.49 -32.258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ff0089e-d36c-41ef-86a7-3857e4e21449")
+		)
+		(pin "1"
+			(uuid "1c8b1641-4f95-424a-913a-b2ee03840951")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 -33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "114e498f-5a21-4d3a-abc6-c7e45c6010cb")
+		(property "Reference" "R2"
+			(at 110.49 -38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 110.49 -35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 110.49 -31.242 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 -33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 -33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c6a92647-58df-43f9-905d-93e468d38645")
+		)
+		(pin "1"
+			(uuid "fc82c5cf-8682-4a4e-88da-ee7fb0164187")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "R2")
 					(unit 1)
 				)
 			)
