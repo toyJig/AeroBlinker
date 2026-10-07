@@ -4290,7 +4290,7 @@
 		(dnp no)
 		(uuid "0c0b6ca2-d4d3-4a4e-8f3b-e145980e1ada")
 		(property "Reference" "TP2"
-			(at 97.282 74.676 90)
+			(at 99.568 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4301,7 +4301,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 97.282 77.216 90)
+			(at 99.568 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
