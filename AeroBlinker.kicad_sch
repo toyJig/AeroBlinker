@@ -5649,7 +5649,7 @@
 			)
 		)
 		(property "Value" "STM32F042F6Px"
-			(at -6.096 -23.368 0)
+			(at -6.604 -23.368 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
