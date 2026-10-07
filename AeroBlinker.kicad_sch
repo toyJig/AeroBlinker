@@ -1875,6 +1875,16 @@
 		)
 		(uuid "b780369e-330d-4176-9cb9-91995758b2ee")
 	)
+	(label "SYS_SWCLK"
+		(at 30.48 -36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9d4363b-0761-4ff2-b4d6-4e775040981c")
+	)
 	(symbol
 		(lib_id "power:+3.3V")
 		(at -24.13 -2.54 180)
