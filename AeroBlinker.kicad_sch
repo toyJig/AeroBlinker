@@ -3336,7 +3336,7 @@
 		(uuid "2c3dd604-3944-454e-bf06-d0a0d085803e")
 	)
 	(junction
-		(at 97.79 72.39)
+		(at 96.52 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46c8b29f-0c49-4aa1-bd1b-87f8d81683c0")
@@ -3549,7 +3549,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 72.39) (xy 97.79 72.39)
+			(xy 83.82 72.39) (xy 96.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 69.85) (xy 97.79 69.85)
+			(xy 83.82 69.85) (xy 96.52 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3759,7 +3759,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 69.85) (xy 97.79 72.39)
+			(xy 96.52 69.85) (xy 96.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4296,7 +4296,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 97.79 72.39 270)
+		(at 96.52 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4306,7 +4306,7 @@
 		(dnp no)
 		(uuid "0c0b6ca2-d4d3-4a4e-8f3b-e145980e1ada")
 		(property "Reference" "TP2"
-			(at 102.108 72.644 90)
+			(at 100.838 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4317,7 +4317,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 106.426 72.644 90)
+			(at 105.156 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4328,7 +4328,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
-			(at 97.79 77.47 0)
+			(at 96.52 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4339,7 +4339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 77.47 0)
+			(at 96.52 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,7 +4350,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 97.79 72.39 0)
+			(at 96.52 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
