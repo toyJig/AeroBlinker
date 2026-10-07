@@ -3257,6 +3257,16 @@
 		)
 		(uuid "495a1d01-6bef-4710-a890-f981f67a34b7")
 	)
+	(label "USB_D+"
+		(at 135.89 -22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56f15f53-72a8-46df-a170-160eba341ad0")
+	)
 	(label "USB_D-"
 		(at 30.48 -16.51 180)
 		(effects
