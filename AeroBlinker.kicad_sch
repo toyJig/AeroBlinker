@@ -5654,8 +5654,9 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
