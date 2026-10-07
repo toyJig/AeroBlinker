@@ -1677,16 +1677,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 -8.89) (xy 25.4 -8.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23c283f2-c7fa-45f7-a90e-07f5199de76a")
-	)
-	(wire
-		(pts
 			(xy 34.29 -54.61) (xy 39.37 -54.61)
 		)
 		(stroke
@@ -1714,6 +1704,16 @@
 			(type default)
 		)
 		(uuid "4ec3d59a-92cd-418c-a6b2-e60f8f27b624")
+	)
+	(wire
+		(pts
+			(xy 19.05 -8.89) (xy 30.48 -8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f98d84b-6b16-4e1e-8cbf-9518fe51412c")
 	)
 	(wire
 		(pts
@@ -1866,12 +1866,12 @@
 		(uuid "f1e6dc9a-34be-428f-8e73-db8af9a3e1b5")
 	)
 	(label "SYS_SWCLK"
-		(at 19.05 -8.89 0)
+		(at 30.48 -8.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b780369e-330d-4176-9cb9-91995758b2ee")
 	)
