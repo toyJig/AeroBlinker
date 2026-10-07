@@ -3629,6 +3629,16 @@
 		)
 		(uuid "56f15f53-72a8-46df-a170-160eba341ad0")
 	)
+	(label "BOOT"
+		(at -21.59 -21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ad4c7de-0e77-41f7-96bf-9fef9202eca6")
+	)
 	(label "USB_D-"
 		(at 30.48 -16.51 180)
 		(effects
