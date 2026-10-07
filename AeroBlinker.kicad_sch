@@ -1848,7 +1848,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at -24.1301 0 0)
+			(at -21.844 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
