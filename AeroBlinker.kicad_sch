@@ -1994,10 +1994,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1bd68db2-27de-4881-8e34-c9ca531b3435")
 		(property "Reference" "R1"
-			(at -26.67 -17.78 90)
+			(at -18.288 -16.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2007,7 +2006,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at -24.13 -17.78 90)
+			(at -18.288 -19.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
