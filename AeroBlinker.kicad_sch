@@ -1888,7 +1888,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at -22.86 -13.97 90)
+		(at -21.59 -21.59 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1899,7 +1899,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bd68db2-27de-4881-8e34-c9ca531b3435")
 		(property "Reference" "R1"
-			(at -22.86 -19.05 90)
+			(at -21.59 -26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1909,7 +1909,7 @@
 			)
 		)
 		(property "Value" "1KR"
-			(at -22.86 -16.51 90)
+			(at -21.59 -24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1919,7 +1919,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at -22.86 -12.192 90)
+			(at -21.59 -19.812 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1930,7 +1930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -22.86 -13.97 0)
+			(at -21.59 -21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1941,7 +1941,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at -22.86 -13.97 0)
+			(at -21.59 -21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3221,7 +3221,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at -31.75 -13.97 180)
+		(at -30.48 -21.59 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3232,7 +3232,7 @@
 		(fields_autoplaced yes)
 		(uuid "de3378ab-8454-4339-a918-9fbd4a0ab911")
 		(property "Reference" "SW1"
-			(at -31.75 -21.59 0)
+			(at -30.48 -29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3242,7 +3242,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at -31.75 -19.05 0)
+			(at -30.48 -26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3252,7 +3252,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
-			(at -31.75 -13.97 0)
+			(at -30.48 -21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3263,7 +3263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -31.75 -21.59 0)
+			(at -30.48 -29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3274,7 +3274,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at -31.75 -13.97 0)
+			(at -30.48 -21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
