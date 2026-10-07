@@ -3419,7 +3419,7 @@
 		(dnp no)
 		(uuid "de3378ab-8454-4339-a918-9fbd4a0ab911")
 		(property "Reference" "SW1"
-			(at -27.94 -6.35 90)
+			(at -29.972 -6.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3429,7 +3429,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at -27.94 -8.89 90)
+			(at -29.972 -8.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
