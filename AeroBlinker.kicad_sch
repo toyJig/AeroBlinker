@@ -1707,7 +1707,7 @@
 	)
 	(wire
 		(pts
-			(xy -26.67 -21.59) (xy -25.4 -21.59)
+			(xy -29.845 -27.305) (xy -29.845 -28.575)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy -36.83 -19.05) (xy -36.83 -17.78)
+			(xy -27.305 -17.145) (xy -26.035 -17.145)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +1837,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at -36.83 -24.13 90)
+		(at -32.385 -17.145 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1848,7 +1848,7 @@
 		(fields_autoplaced yes)
 		(uuid "0506b468-bf0e-4374-97c8-09dd122090a7")
 		(property "Reference" "#PWR010"
-			(at -33.02 -24.13 0)
+			(at -32.385 -20.955 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1859,7 +1859,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at -39.37 -24.1301 90)
+			(at -32.3851 -14.605 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1870,7 +1870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -36.83 -24.13 0)
+			(at -32.385 -17.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1881,7 +1881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -36.83 -24.13 0)
+			(at -32.385 -17.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1892,7 +1892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at -36.83 -24.13 0)
+			(at -32.385 -17.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1997,7 +1997,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at -21.59 -21.59 90)
+		(at -29.845 -32.385 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2008,7 +2008,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bd68db2-27de-4881-8e34-c9ca531b3435")
 		(property "Reference" "R1"
-			(at -21.59 -26.67 90)
+			(at -34.925 -32.385 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2018,7 +2018,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at -21.59 -24.13 90)
+			(at -32.385 -32.385 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2028,7 +2028,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at -21.59 -19.812 90)
+			(at -28.067 -32.385 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2039,7 +2039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -21.59 -21.59 0)
+			(at -29.845 -32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2050,7 +2050,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at -21.59 -21.59 0)
+			(at -29.845 -32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2395,7 +2395,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -36.83 -17.78 0)
+		(at -26.035 -17.145 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2406,7 +2406,7 @@
 		(fields_autoplaced yes)
 		(uuid "4082f79e-9176-4c8b-bddd-b316fb050203")
 		(property "Reference" "#PWR09"
-			(at -36.83 -11.43 0)
+			(at -19.685 -17.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +2417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -36.83 -11.43 0)
+			(at -19.685 -17.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2428,7 +2428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -36.83 -17.78 0)
+			(at -26.035 -17.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2439,7 +2439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -36.83 -17.78 0)
+			(at -26.035 -17.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2450,7 +2450,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -36.83 -17.78 0)
+			(at -26.035 -17.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3409,7 +3409,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at -31.75 -21.59 180)
+		(at -29.845 -22.225 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3420,7 +3420,7 @@
 		(fields_autoplaced yes)
 		(uuid "de3378ab-8454-4339-a918-9fbd4a0ab911")
 		(property "Reference" "SW1"
-			(at -31.75 -29.21 0)
+			(at -37.465 -22.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3430,7 +3430,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at -31.75 -26.67 0)
+			(at -34.925 -22.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3440,7 +3440,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
-			(at -31.75 -21.59 0)
+			(at -29.845 -22.225 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3451,7 +3451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -31.75 -29.21 0)
+			(at -37.465 -22.225 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3462,7 +3462,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at -31.75 -21.59 0)
+			(at -29.845 -22.225 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
