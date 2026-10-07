@@ -3585,7 +3585,7 @@
 		(dnp no)
 		(uuid "09837589-9eb8-400c-9a9e-95e014145ad7")
 		(property "Reference" "R3"
-			(at 110.49 -25.4 90)
+			(at 110.49 -27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
