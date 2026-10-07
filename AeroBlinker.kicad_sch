@@ -4316,7 +4316,7 @@
 		(dnp no)
 		(uuid "0c0b6ca2-d4d3-4a4e-8f3b-e145980e1ada")
 		(property "Reference" "TP1"
-			(at 102.108 72.644 90)
+			(at 102.108 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4327,7 +4327,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 106.426 72.644 90)
+			(at 102.108 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
