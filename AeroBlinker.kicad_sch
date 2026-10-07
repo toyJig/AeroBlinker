@@ -1928,7 +1928,7 @@
 				)
 			)
 		)
-		(property "Value" "1KR"
+		(property "Value" "10KR"
 			(at -21.59 -24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
