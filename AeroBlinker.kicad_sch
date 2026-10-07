@@ -993,7 +993,7 @@
 		(uuid "f16689c5-0112-48a7-87af-96971ab0011e")
 	)
 	(junction
-		(at 31.75 -46.99)
+		(at 34.29 -46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff47617f-da37-4460-a32c-2a566e0a9ee1")
@@ -1030,16 +1030,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 -46.99) (xy 39.37 -46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41ac0c58-071c-4011-9058-21d81bda3ee6")
-	)
-	(wire
-		(pts
 			(xy -16.51 -36.83) (xy -13.97 -36.83)
 		)
 		(stroke
@@ -1050,7 +1040,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 -46.99) (xy 31.75 -46.99)
+			(xy 22.86 -46.99) (xy 34.29 -46.99)
 		)
 		(stroke
 			(width 0)
@@ -1080,7 +1070,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 -46.99) (xy 39.37 -44.45)
+			(xy 34.29 -46.99) (xy 34.29 -45.72)
 		)
 		(stroke
 			(width 0)
@@ -1090,7 +1080,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 -54.61) (xy 31.75 -54.61)
+			(xy 22.86 -54.61) (xy 34.29 -54.61)
 		)
 		(stroke
 			(width 0)
@@ -1300,7 +1290,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 -44.45 0)
+		(at 34.29 -45.72 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1312,7 +1302,7 @@
 		(fields_autoplaced yes)
 		(uuid "38e898e8-f340-46b3-a559-9af251a9f431")
 		(property "Reference" "#PWR03"
-			(at 39.37 -38.1 0)
+			(at 34.29 -39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1323,7 +1313,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 -38.1 0)
+			(at 34.29 -39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1334,7 +1324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 -44.45 0)
+			(at 34.29 -45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1345,7 +1335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 -44.45 0)
+			(at 34.29 -45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1356,7 +1346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 -44.45 0)
+			(at 34.29 -45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1623,7 +1613,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 31.75 -50.8 0)
+		(at 34.29 -50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1634,7 +1624,7 @@
 		(dnp no)
 		(uuid "93140387-2525-4f82-a464-f594064ae0cf")
 		(property "Reference" "C3"
-			(at 29.21 -52.07 0)
+			(at 31.75 -52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1645,7 +1635,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 29.21 -49.53 0)
+			(at 31.75 -49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1656,7 +1646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.7848 -46.99 0)
+			(at 33.3248 -46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1667,7 +1657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 -50.8 0)
+			(at 34.29 -50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1678,7 +1668,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 31.75 -50.8 0)
+			(at 34.29 -50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
