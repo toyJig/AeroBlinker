@@ -1430,7 +1430,7 @@
 		(uuid "643e2c65-5808-4379-8d19-819b22abcf35")
 	)
 	(junction
-		(at 3.81 -54.61)
+		(at 6.35 -54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a379cb36-8b45-41f5-901d-57c018541b96")
@@ -1527,6 +1527,16 @@
 	)
 	(wire
 		(pts
+			(xy 3.81 -53.34) (xy 3.81 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f60eca-300d-464d-9f92-7ee1888202de")
+	)
+	(wire
+		(pts
 			(xy -17.78 -54.61) (xy -29.21 -54.61)
 		)
 		(stroke
@@ -1577,7 +1587,17 @@
 	)
 	(wire
 		(pts
-			(xy 3.81 -54.61) (xy 3.81 -44.45)
+			(xy 6.35 -53.34) (xy 3.81 -53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a716b6b8-1c56-4d92-a08d-2601b0ac922b")
+	)
+	(wire
+		(pts
+			(xy 6.35 -54.61) (xy 6.35 -53.34)
 		)
 		(stroke
 			(width 0)
@@ -1607,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 -54.61) (xy 3.81 -54.61)
+			(xy 22.86 -54.61) (xy 6.35 -54.61)
 		)
 		(stroke
 			(width 0)
@@ -2269,7 +2289,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 3.81 -54.61 0)
+		(at 6.35 -54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2280,7 +2300,7 @@
 		(fields_autoplaced yes)
 		(uuid "7789ea5e-38e6-493a-badd-01ee512f80d1")
 		(property "Reference" "#PWR07"
-			(at 3.81 -50.8 0)
+			(at 6.35 -50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2291,7 +2311,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 3.81 -58.42 0)
+			(at 6.35 -58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2301,7 +2321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 3.81 -54.61 0)
+			(at 6.35 -54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2312,7 +2332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 3.81 -54.61 0)
+			(at 6.35 -54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2323,7 +2343,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 3.81 -54.61 0)
+			(at 6.35 -54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
