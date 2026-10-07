@@ -1697,13 +1697,13 @@
 	)
 	(wire
 		(pts
-			(xy -17.78 -21.59) (xy -16.51 -21.59)
+			(xy -21.59 -21.59) (xy -16.51 -21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72cca4c9-a755-4ad9-afa6-4edf4e49d8a9")
+		(uuid "6888e135-86a6-4a28-8321-7ad96d9203d7")
 	)
 	(wire
 		(pts
