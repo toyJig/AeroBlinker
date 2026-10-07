@@ -3038,6 +3038,12 @@
 		(uuid "1bfc1cec-1563-4218-bf4d-5d6d909d2e87")
 	)
 	(junction
+		(at 114.3 -30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c3dd604-3944-454e-bf06-d0a0d085803e")
+	)
+	(junction
 		(at 106.68 -22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3365,6 +3371,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 -33.02) (xy 114.3 -30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6da5c5e-d804-405b-a4a9-f341f382ef30")
+	)
+	(wire
+		(pts
 			(xy 105.41 -20.32) (xy 106.68 -20.32)
 		)
 		(stroke
@@ -3542,6 +3558,16 @@
 			(type default)
 		)
 		(uuid "f1ea7ad5-4158-4c55-9656-e5fae4e55438")
+	)
+	(wire
+		(pts
+			(xy 114.3 -30.48) (xy 114.3 -29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f488f0b2-c173-4b7f-83cd-190ab2dab8fa")
 	)
 	(wire
 		(pts
@@ -5176,6 +5202,85 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 -29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a34c8bfe-7942-4a84-84fb-7d035f37f798")
+		(property "Reference" "#PWR014"
+			(at 114.3 -22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 -22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 -29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 -29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 -29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a4a8be6-a47b-43f2-9c92-633d5e3caefe")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
