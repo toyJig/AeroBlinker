@@ -3662,10 +3662,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "114e498f-5a21-4d3a-abc6-c7e45c6010cb")
 		(property "Reference" "R2"
-			(at 110.49 -38.1 90)
+			(at 107.95 -35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
