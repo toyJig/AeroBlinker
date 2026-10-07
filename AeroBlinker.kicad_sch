@@ -2374,6 +2374,14 @@
 		(color 0 0 0 0)
 		(uuid "ff47617f-da37-4460-a32c-2a566e0a9ee1")
 	)
+	(no_connect
+		(at 105.41 -7.62)
+		(uuid "85600687-008b-4d26-9d13-7c6350f4d0d1")
+	)
+	(no_connect
+		(at 105.41 -10.16)
+		(uuid "be5eb33c-b1b8-4038-a94a-4f2d91d2e9fc")
+	)
 	(wire
 		(pts
 			(xy -29.21 -46.99) (xy -29.21 -45.72)
