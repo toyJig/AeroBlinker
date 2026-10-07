@@ -1905,7 +1905,7 @@
 		)
 		(uuid "d9d4363b-0761-4ff2-b4d6-4e775040981c")
 	)
-	(label "SYS_SWCLK"
+	(label "USB_D-"
 		(at 30.48 -13.97 180)
 		(effects
 			(font
