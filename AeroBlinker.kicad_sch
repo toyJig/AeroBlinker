@@ -3594,8 +3594,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 110.49 -27.94 90)
+		(property "Value" "5K"
+			(at 110.49 -30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
