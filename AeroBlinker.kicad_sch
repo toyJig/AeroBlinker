@@ -3590,7 +3590,7 @@
 		(uuid "0e776d32-ea6b-4942-9890-aee036bc7fe7")
 	)
 	(label "NRST"
-		(at -22.86 -36.83 0)
+		(at -21.59 -36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
