@@ -4288,10 +4288,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c0b6ca2-d4d3-4a4e-8f3b-e145980e1ada")
 		(property "Reference" "TP2"
-			(at 100.33 71.1199 90)
+			(at 97.282 74.676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4302,7 +4301,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 73.6599 90)
+			(at 97.282 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4924,10 +4923,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2ebe8fc4-2924-4648-af7b-38f9a2ca6f3f")
 		(property "Reference" "TP1"
-			(at 100.33 68.5799 90)
+			(at 99.568 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4938,7 +4936,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 71.1199 90)
+			(at 99.568 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
