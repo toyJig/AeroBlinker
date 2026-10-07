@@ -3589,6 +3589,16 @@
 		)
 		(uuid "0e776d32-ea6b-4942-9890-aee036bc7fe7")
 	)
+	(label "NRST"
+		(at -22.86 -36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33e3c59b-38f0-4e49-b5ea-ae48494f1d0c")
+	)
 	(label "SYS_SWDIO"
 		(at 30.48 -11.43 180)
 		(effects
