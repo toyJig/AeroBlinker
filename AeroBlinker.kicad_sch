@@ -4301,7 +4301,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 99.568 75.184 90)
+			(at 103.886 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4925,7 +4925,7 @@
 		(dnp no)
 		(uuid "2ebe8fc4-2924-4648-af7b-38f9a2ca6f3f")
 		(property "Reference" "TP1"
-			(at 99.568 67.31 90)
+			(at 99.568 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4936,7 +4936,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 99.568 69.85 90)
+			(at 103.886 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
