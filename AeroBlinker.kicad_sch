@@ -6457,7 +6457,7 @@
 			)
 		)
 		(property "Value" "5K"
-			(at 68.834 129.032 0)
+			(at 68.834 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
