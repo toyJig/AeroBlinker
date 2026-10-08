@@ -4311,7 +4311,7 @@
 		(uuid "1d0314bc-6c34-47a5-880c-12dcb1a956e8")
 	)
 	(rectangle
-		(start 27.432 110.49)
+		(start 27.94 110.49)
 		(end 124.46 152.4)
 		(stroke
 			(width 0)
@@ -4398,7 +4398,7 @@
 	)
 	(text "Buck Converter"
 		(exclude_from_sim no)
-		(at 27.432 111.506 0)
+		(at 27.94 111.506 0)
 		(effects
 			(font
 				(size 2.54 2.54)
