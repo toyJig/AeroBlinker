@@ -3983,7 +3983,7 @@
 	)
 	(text "LED_SOURCE"
 		(exclude_from_sim no)
-		(at 176.53 74.93 0)
+		(at 182.88 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4498,7 +4498,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 74.93) (xy 176.53 74.93)
+			(xy 168.91 74.93) (xy 182.88 74.93)
 		)
 		(stroke
 			(width 0)
