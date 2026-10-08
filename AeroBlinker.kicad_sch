@@ -4707,6 +4707,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 179.07) (xy 43.18 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0476d96c-507a-4a3a-a906-d48812f957d1")
+	)
+	(wire
+		(pts
 			(xy 233.68 128.27) (xy 232.41 128.27)
 		)
 		(stroke
@@ -7647,7 +7657,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 43.18 179.07 90)
+		(at 41.91 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7657,7 +7667,7 @@
 		(dnp no)
 		(uuid "3e9bf239-e520-46ad-b433-9d43d4bc01b4")
 		(property "Reference" "#FLG02"
-			(at 41.275 179.07 0)
+			(at 40.005 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7668,7 +7678,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 39.116 179.07 0)
+			(at 33.528 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7678,7 +7688,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 43.18 179.07 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7689,7 +7699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 179.07 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7700,7 +7710,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 43.18 179.07 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
