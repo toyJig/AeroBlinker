@@ -4516,7 +4516,7 @@
 		(uuid "49205983-f601-429d-8819-4c44e9b43ed8")
 	)
 	(junction
-		(at 212.09 87.63)
+		(at 212.09 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "507fb99e-2879-47b3-bdee-777f3416161c")
@@ -4973,6 +4973,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 88.9) (xy 212.09 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fe05e0-7106-44a7-84ee-712eef891333")
+	)
+	(wire
+		(pts
 			(xy 179.07 49.53) (xy 196.85 49.53)
 		)
 		(stroke
@@ -5090,6 +5100,16 @@
 			(type default)
 		)
 		(uuid "529c3a66-a1bc-46f5-905e-0032fb63c1d2")
+	)
+	(wire
+		(pts
+			(xy 219.71 88.9) (xy 219.71 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a3c9b7-5f74-443d-91b7-49b5103bd9c3")
 	)
 	(wire
 		(pts
@@ -5503,7 +5523,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 87.63) (xy 212.09 87.63)
+			(xy 219.71 88.9) (xy 212.09 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5853,7 +5873,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 87.63) (xy 212.09 88.9)
+			(xy 212.09 88.9) (xy 212.09 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6094,7 +6114,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 88.9 0)
+		(at 212.09 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6105,7 +6125,7 @@
 		(fields_autoplaced yes)
 		(uuid "02b29bf9-ec39-4581-a7b3-55d1aada527c")
 		(property "Reference" "#PWR012"
-			(at 212.09 95.25 0)
+			(at 212.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6116,7 +6136,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 95.25 0)
+			(at 212.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6127,7 +6147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 88.9 0)
+			(at 212.09 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6138,7 +6158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 88.9 0)
+			(at 212.09 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,7 +6169,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 88.9 0)
+			(at 212.09 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
