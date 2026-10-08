@@ -7653,7 +7653,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 123.19 167.64 0)
+		(at 124.46 168.91 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7664,7 +7664,7 @@
 		(dnp no)
 		(uuid "d350a5bb-f08b-4dae-aaaa-c7af2297185e")
 		(property "Reference" "J3"
-			(at 120.65 166.37 0)
+			(at 121.92 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7675,7 +7675,7 @@
 			)
 		)
 		(property "Value" "BATTERY"
-			(at 120.65 171.45 0)
+			(at 121.92 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7686,7 +7686,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 123.19 167.64 0)
+			(at 124.46 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7697,7 +7697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 167.64 0)
+			(at 124.46 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7708,7 +7708,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 123.19 167.64 0)
+			(at 124.46 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7894,7 +7894,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 87.63 167.64 0)
+		(at 88.9 168.91 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7905,7 +7905,7 @@
 		(dnp no)
 		(uuid "dea6fb7f-32ba-4f9b-bc6f-fb6f4a8efe11")
 		(property "Reference" "J1"
-			(at 85.09 166.37 0)
+			(at 86.36 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7916,7 +7916,7 @@
 			)
 		)
 		(property "Value" "BATTERY"
-			(at 85.09 171.45 0)
+			(at 86.36 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7927,7 +7927,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 87.63 167.64 0)
+			(at 88.9 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7938,7 +7938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 167.64 0)
+			(at 88.9 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7949,7 +7949,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 87.63 167.64 0)
+			(at 88.9 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8074,7 +8074,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 105.41 167.64 0)
+		(at 106.68 168.91 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8085,7 +8085,7 @@
 		(dnp no)
 		(uuid "f1ea3d93-f3bf-4b4e-b31b-bb934ae0e8bd")
 		(property "Reference" "J2"
-			(at 102.87 166.37 0)
+			(at 104.14 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8096,7 +8096,7 @@
 			)
 		)
 		(property "Value" "BATTERY"
-			(at 102.87 171.45 0)
+			(at 104.14 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8107,7 +8107,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 105.41 167.64 0)
+			(at 106.68 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8118,7 +8118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 167.64 0)
+			(at 106.68 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8129,7 +8129,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 167.64 0)
+			(at 106.68 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
