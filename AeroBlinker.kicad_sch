@@ -4654,7 +4654,7 @@
 		(uuid "f16689c5-0112-48a7-87af-96971ab0011e")
 	)
 	(junction
-		(at 120.65 48.26)
+		(at 120.65 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff47617f-da37-4460-a32c-2a566e0a9ee1")
@@ -4734,6 +4734,16 @@
 			(type default)
 		)
 		(uuid "0b301116-0076-471d-be85-4883da1aa337")
+	)
+	(wire
+		(pts
+			(xy 120.65 49.53) (xy 120.65 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc98fe9-0901-4b4b-96d5-d8411b702e6c")
 	)
 	(wire
 		(pts
@@ -5107,7 +5117,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 120.65 48.26)
+			(xy 109.22 49.53) (xy 120.65 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5377,7 +5387,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 48.26) (xy 120.65 49.53)
+			(xy 120.65 49.53) (xy 120.65 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5504,6 +5514,16 @@
 			(type default)
 		)
 		(uuid "a6da5c5e-d804-405b-a4a9-f341f382ef30")
+	)
+	(wire
+		(pts
+			(xy 109.22 49.53) (xy 109.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7004592-52c8-4bbf-a41d-637bfadcbe3b")
 	)
 	(wire
 		(pts
@@ -7845,7 +7865,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 49.53 0)
+		(at 120.65 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7857,7 +7877,7 @@
 		(fields_autoplaced yes)
 		(uuid "38e898e8-f340-46b3-a559-9af251a9f431")
 		(property "Reference" "#PWR03"
-			(at 120.65 55.88 0)
+			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7868,7 +7888,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 55.88 0)
+			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7879,7 +7899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 49.53 0)
+			(at 120.65 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7890,7 +7910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 49.53 0)
+			(at 120.65 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7901,7 +7921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 49.53 0)
+			(at 120.65 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
