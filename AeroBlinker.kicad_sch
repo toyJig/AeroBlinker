@@ -3954,7 +3954,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 116.84) (xy 92.71 116.84)
+			(xy 88.9 116.84) (xy 93.98 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4104,7 +4104,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 124.46) (xy 113.03 124.46)
+			(xy 93.98 124.46) (xy 113.03 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7358,7 +7358,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 120.65 0)
+		(at 93.98 120.65 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7369,7 +7369,7 @@
 		(dnp no)
 		(uuid "c494fa57-255b-4f5a-82e3-b2467726383e")
 		(property "Reference" "R5"
-			(at 89.916 119.888 0)
+			(at 91.186 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7379,7 +7379,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 89.916 119.888 0)
+			(at 91.186 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7389,7 +7389,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 94.488 120.65 90)
+			(at 95.758 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7400,7 +7400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 120.65 0)
+			(at 93.98 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7411,7 +7411,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 120.65 0)
+			(at 93.98 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
