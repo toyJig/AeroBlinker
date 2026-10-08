@@ -4542,7 +4542,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 160.02 69.85)
+			(xy 160.02 67.31) (xy 160.02 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4829,6 +4829,16 @@
 			(type default)
 		)
 		(uuid "8caca942-f701-42dd-9078-f29cb4427af1")
+	)
+	(wire
+		(pts
+			(xy 160.02 76.2) (xy 160.02 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df2b1db-09cb-44a6-83b4-ed851cf5c614")
 	)
 	(wire
 		(pts
@@ -6336,7 +6346,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 73.66 180)
+		(at 160.02 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6346,7 +6356,7 @@
 		(dnp no)
 		(uuid "1f18cffa-b87a-405c-a01c-9e86c25bee59")
 		(property "Reference" "R4"
-			(at 163.322 74.676 0)
+			(at 163.322 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6356,7 +6366,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 163.322 72.136 0)
+			(at 163.322 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6366,7 +6376,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 161.798 73.66 90)
+			(at 161.798 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6377,7 +6387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 73.66 0)
+			(at 160.02 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6388,7 +6398,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 73.66 0)
+			(at 160.02 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
