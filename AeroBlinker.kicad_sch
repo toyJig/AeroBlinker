@@ -4612,6 +4612,12 @@
 		(uuid "c84d4e05-6f49-4b46-bc1b-c1bd66578daf")
 	)
 	(junction
+		(at 43.18 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c87e6de0-48a5-4e75-9a38-f0fccb392aa6")
+	)
+	(junction
 		(at 207.01 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5161,6 +5167,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 179.07) (xy 43.18 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0a950d-8cbf-443d-91e4-d3d52b31772e")
+	)
+	(wire
+		(pts
 			(xy 116.84 177.8) (xy 116.84 179.07)
 		)
 		(stroke
@@ -5381,7 +5397,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 173.99) (xy 43.18 175.26)
+			(xy 43.18 173.99) (xy 43.18 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7630,6 +7646,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 43.18 179.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e9bf239-e520-46ad-b433-9d43d4bc01b4")
+		(property "Reference" "#FLG02"
+			(at 41.275 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 39.116 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 43.18 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 43.18 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b518121b-5683-43fa-8e71-723ca166c837")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 240.03 63.5 0)
 		(mirror y)
@@ -9819,7 +9912,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 175.26 0)
+		(at 43.18 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9830,7 +9923,7 @@
 		(fields_autoplaced yes)
 		(uuid "da5525a4-1a1b-454e-8b98-9ffcfd78e9a3")
 		(property "Reference" "#PWR021"
-			(at 43.18 181.61 0)
+			(at 43.18 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9841,7 +9934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 180.34 0)
+			(at 43.18 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9852,7 +9945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 175.26 0)
+			(at 43.18 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9863,7 +9956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 175.26 0)
+			(at 43.18 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9874,7 +9967,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 175.26 0)
+			(at 43.18 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
