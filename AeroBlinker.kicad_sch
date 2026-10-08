@@ -3712,7 +3712,7 @@
 		)
 		(uuid "a3b85461-25a6-4849-b8d2-90626b4cd308")
 	)
-	(text "USB-C"
+	(text "STM32F042F6P6 MCU"
 		(exclude_from_sim no)
 		(at 24.13 21.336 0)
 		(effects
