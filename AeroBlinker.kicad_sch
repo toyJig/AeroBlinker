@@ -3674,7 +3674,7 @@
 		)
 		(uuid "b7d0ebea-6f6e-4b3b-a723-f2ab69c93612")
 	)
-	(text "Buck Converter"
+	(text "USB-C"
 		(exclude_from_sim no)
 		(at 177.038 37.592 0)
 		(effects
