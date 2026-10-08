@@ -3674,6 +3674,18 @@
 		)
 		(uuid "b7d0ebea-6f6e-4b3b-a723-f2ab69c93612")
 	)
+	(rectangle
+		(start 24.13 20.32)
+		(end 158.75 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e846876b-5b0e-42ae-aa95-81a839089c04")
+	)
 	(text "USB-C"
 		(exclude_from_sim no)
 		(at 187.96 28.956 0)
@@ -3699,6 +3711,19 @@
 			(justify left top)
 		)
 		(uuid "a3b85461-25a6-4849-b8d2-90626b4cd308")
+	)
+	(text "USB-C"
+		(exclude_from_sim no)
+		(at 24.13 21.336 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "c9fd5724-8d60-416d-93eb-d6a5f5ba8b53")
 	)
 	(junction
 		(at 220.98 146.05)
