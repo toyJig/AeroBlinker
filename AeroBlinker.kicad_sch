@@ -4360,7 +4360,7 @@
 	)
 	(rectangle
 		(start 16.51 156.21)
-		(end 90.17 189.23)
+		(end 90.17 193.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -4558,7 +4558,7 @@
 		(uuid "643e2c65-5808-4379-8d19-819b22abcf35")
 	)
 	(junction
-		(at 43.18 166.37)
+		(at 35.56 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a9de8bc-074c-4ea0-84d1-59ba995abb36")
@@ -4618,7 +4618,7 @@
 		(uuid "c84d4e05-6f49-4b46-bc1b-c1bd66578daf")
 	)
 	(junction
-		(at 43.18 179.07)
+		(at 35.56 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c87e6de0-48a5-4e75-9a38-f0fccb392aa6")
@@ -4833,7 +4833,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 173.99) (xy 43.18 173.99)
+			(xy 34.29 177.8) (xy 35.56 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4983,7 +4983,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 165.1) (xy 34.29 166.37)
+			(xy 26.67 168.91) (xy 26.67 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5123,7 +5123,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 165.1) (xy 43.18 166.37)
+			(xy 35.56 168.91) (xy 35.56 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5193,7 +5193,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 179.07) (xy 43.18 180.34)
+			(xy 35.56 182.88) (xy 35.56 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5313,7 +5313,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 171.45) (xy 43.18 171.45)
+			(xy 34.29 175.26) (xy 35.56 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5433,7 +5433,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 173.99) (xy 43.18 179.07)
+			(xy 35.56 177.8) (xy 35.56 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5563,7 +5563,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 180.34) (xy 34.29 179.07)
+			(xy 26.67 184.15) (xy 26.67 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5673,7 +5673,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 166.37) (xy 43.18 166.37)
+			(xy 26.67 170.18) (xy 35.56 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5713,7 +5713,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 166.37) (xy 43.18 171.45)
+			(xy 35.56 170.18) (xy 35.56 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5723,7 +5723,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 179.07) (xy 43.18 179.07)
+			(xy 26.67 182.88) (xy 35.56 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9132,7 +9132,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 36.83 171.45 0)
+		(at 29.21 175.26 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9143,7 +9143,7 @@
 		(dnp no)
 		(uuid "ac279155-a39f-461e-9215-96845aef2f40")
 		(property "Reference" "J4"
-			(at 34.29 170.18 0)
+			(at 26.67 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9154,7 +9154,7 @@
 			)
 		)
 		(property "Value" "BATTERY"
-			(at 34.29 175.26 0)
+			(at 26.67 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9165,7 +9165,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 36.83 171.45 0)
+			(at 29.21 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,7 +9176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 171.45 0)
+			(at 29.21 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9187,7 +9187,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 171.45 0)
+			(at 29.21 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9371,7 +9371,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 43.18 165.1 0)
+		(at 35.56 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9381,7 +9381,7 @@
 		(dnp no)
 		(uuid "b9af62b2-bb92-43d2-bc6e-3b96ec542199")
 		(property "Reference" "#PWR024"
-			(at 43.18 168.91 0)
+			(at 35.56 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9392,7 +9392,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 43.18 161.29 0)
+			(at 35.56 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9402,7 +9402,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 43.18 165.1 0)
+			(at 35.56 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9413,7 +9413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 165.1 0)
+			(at 35.56 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9424,7 +9424,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 43.18 165.1 0)
+			(at 35.56 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9747,7 +9747,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 34.29 180.34 0)
+		(at 26.67 184.15 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9758,7 +9758,7 @@
 		(dnp no)
 		(uuid "c9ee17cd-e20f-411f-a7b4-73e3fde47505")
 		(property "Reference" "#FLG04"
-			(at 34.29 182.245 0)
+			(at 26.67 186.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9769,7 +9769,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 34.29 184.15 0)
+			(at 26.67 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9779,7 +9779,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 34.29 180.34 0)
+			(at 26.67 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9790,7 +9790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 180.34 0)
+			(at 26.67 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9801,7 +9801,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 34.29 180.34 0)
+			(at 26.67 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10066,7 +10066,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 180.34 0)
+		(at 35.56 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10077,7 +10077,7 @@
 		(fields_autoplaced yes)
 		(uuid "da5525a4-1a1b-454e-8b98-9ffcfd78e9a3")
 		(property "Reference" "#PWR021"
-			(at 43.18 186.69 0)
+			(at 35.56 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10088,7 +10088,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 185.42 0)
+			(at 35.56 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10099,7 +10099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 180.34 0)
+			(at 35.56 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10110,7 +10110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 180.34 0)
+			(at 35.56 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10121,7 +10121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 180.34 0)
+			(at 35.56 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10404,7 +10404,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 34.29 165.1 0)
+		(at 26.67 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10414,7 +10414,7 @@
 		(dnp no)
 		(uuid "efba128c-27a2-4a44-be84-73498460d983")
 		(property "Reference" "#FLG03"
-			(at 34.29 163.195 0)
+			(at 26.67 167.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10425,7 +10425,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 34.29 161.29 0)
+			(at 26.67 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10435,7 +10435,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 34.29 165.1 0)
+			(at 26.67 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10446,7 +10446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 165.1 0)
+			(at 26.67 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10457,7 +10457,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 34.29 165.1 0)
+			(at 26.67 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
