@@ -7691,7 +7691,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70bbc380-b663-4fce-8f6d-d7875fdc67d5")
 		(property "Reference" "#PWR022"
 			(at 168.91 64.77 0)
@@ -7705,7 +7704,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 168.91 55.88 0)
+			(at 168.91 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
