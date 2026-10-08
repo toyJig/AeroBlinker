@@ -5166,7 +5166,7 @@
 		)
 		(uuid "fe0080ce-d042-4ba4-9f63-e4f2465c7bc7")
 	)
-	(label "NRST"
+	(label "LED_GATE"
 		(at 151.13 67.31 0)
 		(effects
 			(font
