@@ -3759,6 +3759,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 125.73) (xy 195.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5ead78-18fe-4704-aa32-8a13b78f60c7")
+	)
+	(wire
+		(pts
 			(xy 213.36 129.54) (xy 210.82 129.54)
 		)
 		(stroke
@@ -4186,16 +4196,6 @@
 			(type default)
 		)
 		(uuid "9b861cab-b191-4db8-aea4-ed80329526af")
-	)
-	(wire
-		(pts
-			(xy 194.31 127) (xy 195.58 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fcbb445-36b0-4cf6-9866-1139657193fc")
 	)
 	(wire
 		(pts
@@ -6335,7 +6335,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 194.31 127 90)
+		(at 195.58 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6346,7 +6346,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a980304-5077-4703-82ad-bb2814a70b18")
 		(property "Reference" "#PWR018"
-			(at 198.12 127 0)
+			(at 195.58 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6357,18 +6357,17 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 190.5 126.9999 90)
+			(at 195.58 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 127 0)
+			(at 195.58 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6379,7 +6378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 127 0)
+			(at 195.58 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6390,7 +6389,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 194.31 127 0)
+			(at 195.58 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
