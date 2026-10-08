@@ -3689,13 +3689,14 @@
 	)
 	(text "Buck Converter"
 		(exclude_from_sim no)
-		(at 54.356 144.78 0)
+		(at 39.116 141.732 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
 			)
+			(justify left top)
 		)
 		(uuid "a3b85461-25a6-4849-b8d2-90626b4cd308")
 	)
