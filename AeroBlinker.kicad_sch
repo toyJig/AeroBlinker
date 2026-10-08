@@ -8267,7 +8267,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b961358-b8d6-425d-8cce-119db65df2b0")
 		(property "Reference" "FB1"
-			(at 124.4092 29.21 90)
+			(at 124.4092 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8276,8 +8276,8 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 124.4092 31.75 90)
+		(property "Value" "75R"
+			(at 124.4092 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
