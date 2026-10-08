@@ -5215,7 +5215,7 @@
 		)
 		(uuid "b780369e-330d-4176-9cb9-91995758b2ee")
 	)
-	(label "TIM2_CH1"
+	(label "LED_GATE"
 		(at 119.38 63.5 180)
 		(effects
 			(font
