@@ -4228,12 +4228,6 @@
 		(uuid "2c798e7e-6abe-4332-9d23-2bd848085301")
 	)
 	(junction
-		(at 111.76 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "306573c1-d48f-4804-b378-210feb1d720a")
-	)
-	(junction
 		(at 242.57 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4358,6 +4352,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0c2e850-4720-4b3b-bedb-85634a3d0280")
+	)
+	(junction
+		(at 113.03 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7c80ca4-3293-4464-bdad-0c5d2c7c4757")
 	)
 	(junction
 		(at 259.08 128.27)
@@ -4533,7 +4533,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 170.18) (xy 111.76 177.8)
+			(xy 113.03 170.18) (xy 113.03 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4763,7 +4763,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 170.18) (xy 90.17 170.18)
+			(xy 91.44 170.18) (xy 113.03 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4793,7 +4793,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 170.18) (xy 111.76 168.91)
+			(xy 113.03 170.18) (xy 113.03 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4803,7 +4803,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 170.18) (xy 111.76 170.18)
+			(xy 134.62 170.18) (xy 113.03 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4823,7 +4823,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 170.18) (xy 90.17 177.8)
+			(xy 91.44 170.18) (xy 91.44 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5053,6 +5053,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 177.8) (xy 90.17 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31f7179-76f4-454f-b6fd-bdf906cbcc4b")
+	)
+	(wire
+		(pts
 			(xy 215.9 53.34) (xy 215.9 55.88)
 		)
 		(stroke
@@ -5203,6 +5213,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 177.8) (xy 111.76 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf5a9af2-11c2-4007-8523-262032450470")
+	)
+	(wire
+		(pts
 			(xy 121.92 88.9) (xy 120.65 88.9)
 		)
 		(stroke
@@ -5273,7 +5293,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 168.91) (xy 124.46 168.91)
+			(xy 113.03 168.91) (xy 125.73 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5502,7 +5522,7 @@
 		(uuid "7ad4c7de-0e77-41f7-96bf-9fef9202eca6")
 	)
 	(label "LED_SOURCE"
-		(at 124.46 168.91 180)
+		(at 125.73 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
