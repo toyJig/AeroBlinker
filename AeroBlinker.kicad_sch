@@ -6058,10 +6058,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3fa04522-74a9-404a-bd81-405847e69e6a")
 		(property "Reference" "J1"
-			(at 189.23 48.26 0)
+			(at 189.23 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6071,7 +6070,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 189.23 50.8 0)
+			(at 189.23 50.292 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6503,10 +6502,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5b774ecb-441d-4e20-9b68-2667138e77fc")
 		(property "Reference" "U3"
-			(at 78.74 104.14 0)
+			(at 78.74 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6516,7 +6514,7 @@
 			)
 		)
 		(property "Value" "TPS62160DSG"
-			(at 78.74 106.68 0)
+			(at 78.74 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
