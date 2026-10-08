@@ -4993,6 +4993,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 165.1) (xy 34.29 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c8e163-d26f-49c7-96c6-8c2723ed520f")
+	)
+	(wire
+		(pts
 			(xy 107.95 81.28) (xy 119.38 81.28)
 		)
 		(stroke
@@ -10404,7 +10414,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 34.544 161.29 0)
+			(at 34.29 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
