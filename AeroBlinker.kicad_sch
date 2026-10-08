@@ -4287,6 +4287,18 @@
 		)
 	)
 	(rectangle
+		(start 31.75 130.81)
+		(end 105.41 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0e13b2c1-ce20-4650-9ec2-3ed1106049b8")
+	)
+	(rectangle
 		(start 102.87 114.3)
 		(end 147.32 148.59)
 		(stroke
@@ -4384,6 +4396,19 @@
 			(justify left top)
 		)
 		(uuid "a3b85461-25a6-4849-b8d2-90626b4cd308")
+	)
+	(text "JST Connecters (LED)"
+		(exclude_from_sim no)
+		(at 31.75 132.08 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "c7d7d29a-ab7d-4793-8965-8c823f159361")
 	)
 	(text "MCU (STM32F042F6P6)"
 		(exclude_from_sim no)
