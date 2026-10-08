@@ -3650,6 +3650,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 27.94 96.52)
+		(end 133.35 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "97bcaeeb-1b51-4d4d-a92d-94f63c4992c3")
+	)
+	(text "Buck Converter"
+		(exclude_from_sim no)
+		(at 36.576 99.06 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a3b85461-25a6-4849-b8d2-90626b4cd308")
+	)
 	(junction
 		(at 76.2 130.81)
 		(diameter 0)
