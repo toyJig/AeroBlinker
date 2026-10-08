@@ -3981,17 +3981,6 @@
 		)
 		(uuid "e846876b-5b0e-42ae-aa95-81a839089c04")
 	)
-	(text "LED_SOURCE"
-		(exclude_from_sim no)
-		(at 182.88 78.232 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "055e3111-112b-4a71-ace7-9f6d33f347d9")
-	)
 	(text "USB-C"
 		(exclude_from_sim no)
 		(at 187.96 28.956 0)
@@ -5265,6 +5254,16 @@
 			(justify right bottom)
 		)
 		(uuid "c4f6685b-2ec8-4777-ad79-7228b7e82ca1")
+	)
+	(label "LED_GATE"
+		(at 182.88 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9f57ce5-b34f-442e-8363-935dd5fd01bd")
 	)
 	(label "USB_D+"
 		(at 119.38 83.82 180)
