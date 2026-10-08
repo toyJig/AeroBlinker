@@ -4504,12 +4504,6 @@
 		(uuid "431d07f1-1520-40a1-ae0f-a266dcc57b2e")
 	)
 	(junction
-		(at 118.11 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46c8b29f-0c49-4aa1-bd1b-87f8d81683c0")
-	)
-	(junction
 		(at 195.58 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5173,16 +5167,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 118.11 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f98d84b-6b16-4e1e-8cbf-9518fe51412c")
-	)
-	(wire
-		(pts
 			(xy 120.65 171.45) (xy 120.65 170.18)
 		)
 		(stroke
@@ -5653,23 +5637,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 86.36) (xy 118.11 86.36)
+			(xy 105.41 86.36) (xy 119.38 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c202bc1a-e12d-4278-9d82-a4dc5dbc9e81")
-	)
-	(wire
-		(pts
-			(xy 118.11 83.82) (xy 118.11 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c27d3a9c-70bd-423a-98cf-b5af4ba67681")
 	)
 	(wire
 		(pts
@@ -6090,6 +6064,84 @@
 			(justify right bottom)
 		)
 		(uuid "f4479648-5840-4055-9f3e-6f43692ac5ae")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "009ca5ab-5164-401a-aca1-a228c30f13da")
+		(property "Reference" "TP2"
+			(at 123.698 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 128.016 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+			(at 119.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b756015a-f4b7-4fef-ae2c-48df26573b22")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
