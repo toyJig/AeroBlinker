@@ -3707,6 +3707,12 @@
 		(uuid "a379cb36-8b45-41f5-901d-57c018541b96")
 	)
 	(junction
+		(at 71.12 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a69bb8fe-a7fa-4416-8949-4c8b604cd061")
+	)
+	(junction
 		(at 34.29 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6436,7 +6442,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 115.57 0)
+		(at 71.12 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6447,7 +6453,7 @@
 		(dnp no)
 		(uuid "9bc74006-6261-4385-b7c5-cf9664dc050b")
 		(property "Reference" "R4"
-			(at 72.644 114.808 0)
+			(at 73.914 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6457,7 +6463,7 @@
 			)
 		)
 		(property "Value" "5K"
-			(at 72.644 116.84 0)
+			(at 73.914 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6467,7 +6473,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 71.628 115.57 90)
+			(at 72.898 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6478,7 +6484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 115.57 0)
+			(at 71.12 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6489,7 +6495,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 115.57 0)
+			(at 71.12 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
