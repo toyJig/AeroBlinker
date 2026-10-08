@@ -5725,7 +5725,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 50.8 82.55 0)
+		(at 45.72 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5736,7 +5736,7 @@
 		(fields_autoplaced yes)
 		(uuid "2797e40b-a9ba-4df1-b0ba-8ddf0931b3a9")
 		(property "Reference" "SW2"
-			(at 50.8 76.2 0)
+			(at 45.72 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5746,7 +5746,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 50.8 78.74 0)
+			(at 45.72 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5756,7 +5756,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 50.8 77.47 0)
+			(at 45.72 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5767,7 +5767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 77.47 0)
+			(at 45.72 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5778,7 +5778,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 50.8 82.55 0)
+			(at 45.72 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
