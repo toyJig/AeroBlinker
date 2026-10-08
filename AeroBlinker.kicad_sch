@@ -3719,6 +3719,12 @@
 		(uuid "5c28ef1e-6c79-4a0d-938c-6fb79bc8d610")
 	)
 	(junction
+		(at 66.04 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6249a8dc-c262-4e0a-8a22-8fb6f950f8ea")
+	)
+	(junction
 		(at 101.6 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4122,6 +4128,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 130.81) (xy 66.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879f8110-366d-4072-a80c-9fd5049609b4")
+	)
+	(wire
+		(pts
 			(xy 93.98 124.46) (xy 118.11 124.46)
 		)
 		(stroke
@@ -4402,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 120.65) (xy 55.88 124.46)
+			(xy 55.88 120.65) (xy 55.88 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7151,85 +7167,6 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af4de122-a157-428e-8d41-1e90a7007480")
-		(property "Reference" "#PWR017"
-			(at 55.88 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f593b648-4aef-43e4-8c27-7ddba7fd835b")
-		)
-		(instances
-			(project "AeroBlinker"
-				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
