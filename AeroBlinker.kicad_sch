@@ -4073,6 +4073,18 @@
 		)
 	)
 	(rectangle
+		(start 102.87 114.3)
+		(end 176.53 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1d0314bc-6c34-47a5-880c-12dcb1a956e8")
+	)
+	(rectangle
 		(start 177.292 113.538)
 		(end 274.32 154.94)
 		(stroke
@@ -4132,6 +4144,19 @@
 			(justify left top)
 		)
 		(uuid "621b2324-ab05-4d4d-ba8e-6e9410db18a1")
+	)
+	(text "JST Connecters (LED)"
+		(exclude_from_sim no)
+		(at 102.87 115.57 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "75595098-8954-4234-a4e8-1d8c6d515d04")
 	)
 	(text "Buck Converter"
 		(exclude_from_sim no)
