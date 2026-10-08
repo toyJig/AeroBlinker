@@ -9536,7 +9536,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "BATTERY"
+		(property "Value" "LED"
 			(at 102.87 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
