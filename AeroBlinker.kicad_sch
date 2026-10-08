@@ -4893,6 +4893,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 58.42) (xy 69.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286cf2f7-9f89-4452-837c-64c4789c8aa2")
+	)
+	(wire
+		(pts
 			(xy 196.85 62.23) (xy 195.58 62.23)
 		)
 		(stroke
@@ -5493,6 +5503,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 59.69) (xy 44.45 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77ba9bd-f313-461b-a270-c68f6794fbd0")
+	)
+	(wire
+		(pts
 			(xy 196.85 67.31) (xy 195.58 67.31)
 		)
 		(stroke
@@ -5533,7 +5553,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 69.85 58.42)
+			(xy 43.18 59.69) (xy 44.45 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7113,7 +7133,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 66.04 0)
+		(at 43.18 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7124,7 +7144,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f7ecd5f-6b97-4fdf-8e65-490900b5a300")
 		(property "Reference" "#PWR04"
-			(at 43.18 72.39 0)
+			(at 43.18 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7135,7 +7155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 72.39 0)
+			(at 43.18 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7146,7 +7166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 66.04 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7157,7 +7177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 66.04 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7168,7 +7188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 66.04 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9073,7 +9093,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.18 62.23 0)
+		(at 43.18 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9083,7 +9103,7 @@
 		(dnp no)
 		(uuid "a98c95ba-436b-4339-9442-d5d83f2af5eb")
 		(property "Reference" "C6"
-			(at 45.974 60.96 0)
+			(at 45.974 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9094,7 +9114,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 45.974 63.5 0)
+			(at 45.974 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9105,7 +9125,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
-			(at 44.1452 66.04 0)
+			(at 44.1452 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9116,7 +9136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 62.23 0)
+			(at 43.18 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9127,7 +9147,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 43.18 62.23 0)
+			(at 43.18 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
