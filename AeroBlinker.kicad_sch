@@ -5637,7 +5637,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 119.38 86.36)
+			(xy 105.41 86.36) (xy 118.11 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6067,7 +6067,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 119.38 83.82 270)
+		(at 118.11 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6077,7 +6077,7 @@
 		(dnp no)
 		(uuid "009ca5ab-5164-401a-aca1-a228c30f13da")
 		(property "Reference" "TP2"
-			(at 123.698 83.82 90)
+			(at 122.428 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6088,7 +6088,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 128.016 83.82 90)
+			(at 126.746 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6099,7 +6099,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
-			(at 119.38 88.9 0)
+			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6110,7 +6110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 88.9 0)
+			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6121,7 +6121,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 119.38 83.82 0)
+			(at 118.11 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6620,7 +6620,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 119.38 86.36 270)
+		(at 118.11 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6630,7 +6630,7 @@
 		(dnp no)
 		(uuid "0c0b6ca2-d4d3-4a4e-8f3b-e145980e1ada")
 		(property "Reference" "TP1"
-			(at 123.698 86.36 90)
+			(at 122.428 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6641,7 +6641,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 128.016 86.36 90)
+			(at 126.746 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6652,7 +6652,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
-			(at 119.38 91.44 0)
+			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6663,7 +6663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 91.44 0)
+			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6674,7 +6674,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 119.38 86.36 0)
+			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
