@@ -5507,7 +5507,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2.2u"
 			(at 66.04 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
