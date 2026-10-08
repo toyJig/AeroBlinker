@@ -6086,16 +6086,6 @@
 		)
 		(uuid "7ad4c7de-0e77-41f7-96bf-9fef9202eca6")
 	)
-	(label "LED_SOURCE"
-		(at 111.76 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "94d13969-7cfe-4d11-82c9-21c73ddae401")
-	)
 	(label "USB_D-"
 		(at 111.76 74.93 180)
 		(effects
