@@ -6076,7 +6076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "009ca5ab-5164-401a-aca1-a228c30f13da")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 122.428 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6137,7 +6137,7 @@
 		(instances
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
