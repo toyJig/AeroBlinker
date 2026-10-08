@@ -3981,6 +3981,17 @@
 		)
 		(uuid "e846876b-5b0e-42ae-aa95-81a839089c04")
 	)
+	(text "LED_SOURCE"
+		(exclude_from_sim no)
+		(at 176.53 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "055e3111-112b-4a71-ace7-9f6d33f347d9")
+	)
 	(text "USB-C"
 		(exclude_from_sim no)
 		(at 187.96 28.956 0)
