@@ -4398,7 +4398,7 @@
 	)
 	(text "Buck Converter"
 		(exclude_from_sim no)
-		(at 27.432 112.014 0)
+		(at 27.432 111.506 0)
 		(effects
 			(font
 				(size 2.54 2.54)
