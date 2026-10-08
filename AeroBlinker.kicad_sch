@@ -4239,7 +4239,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 60.96) (xy 72.39 60.96)
+			(xy 45.72 60.96) (xy 72.39 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5325,7 +5325,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 68.58 0)
+		(at 45.72 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5336,7 +5336,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f7ecd5f-6b97-4fdf-8e65-490900b5a300")
 		(property "Reference" "#PWR04"
-			(at 48.26 74.93 0)
+			(at 45.72 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,7 +5347,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 74.93 0)
+			(at 45.72 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5358,7 +5358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 68.58 0)
+			(at 45.72 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5369,7 +5369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 68.58 0)
+			(at 45.72 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5380,7 +5380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 68.58 0)
+			(at 45.72 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6904,7 +6904,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 64.77 0)
+		(at 45.72 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6914,7 +6914,7 @@
 		(dnp no)
 		(uuid "a98c95ba-436b-4339-9442-d5d83f2af5eb")
 		(property "Reference" "C6"
-			(at 51.054 63.5 0)
+			(at 48.514 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6925,7 +6925,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 51.054 66.04 0)
+			(at 48.514 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6936,7 +6936,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
-			(at 49.2252 68.58 0)
+			(at 46.6852 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6947,7 +6947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 64.77 0)
+			(at 45.72 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6958,7 +6958,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 64.77 0)
+			(at 45.72 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
