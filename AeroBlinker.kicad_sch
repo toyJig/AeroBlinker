@@ -4457,12 +4457,6 @@
 		(uuid "c84d4e05-6f49-4b46-bc1b-c1bd66578daf")
 	)
 	(junction
-		(at 113.03 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8c66332-2530-491c-9df4-bca90d5955f3")
-	)
-	(junction
 		(at 207.01 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4821,16 +4815,6 @@
 			(type default)
 		)
 		(uuid "454e1e2e-e7bc-407c-9991-8fd7e91c0ff7")
-	)
-	(wire
-		(pts
-			(xy 113.03 168.91) (xy 116.84 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4696a654-e4a8-48e5-9433-4bde2af162ff")
 	)
 	(wire
 		(pts
@@ -5444,16 +5428,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 168.91) (xy 113.03 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6b35af6-8b63-445f-a253-c708c5bb041a")
-	)
-	(wire
-		(pts
 			(xy 224.79 147.32) (xy 224.79 148.59)
 		)
 		(stroke
@@ -5882,6 +5856,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "031e394b-fed3-410a-8a9b-a21c8390633e")
 		(property "Reference" "#FLG01"
 			(at 116.84 167.005 0)
@@ -5895,7 +5870,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 116.84 164.846 0)
+			(at 116.84 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
