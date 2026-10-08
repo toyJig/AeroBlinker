@@ -4358,6 +4358,18 @@
 		)
 		(uuid "e846876b-5b0e-42ae-aa95-81a839089c04")
 	)
+	(rectangle
+		(start 15.24 167.64)
+		(end 88.9 200.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ff242d0d-45d6-4aee-8da2-9982015717ee")
+	)
 	(text "USB-C"
 		(exclude_from_sim no)
 		(at 187.96 28.956 0)
@@ -4396,6 +4408,19 @@
 			(justify left top)
 		)
 		(uuid "a3b85461-25a6-4849-b8d2-90626b4cd308")
+	)
+	(text "Battery"
+		(exclude_from_sim no)
+		(at 15.24 168.91 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "b28eb998-6fbc-49d7-b50e-3ed0190590c7")
 	)
 	(text "Mounts"
 		(exclude_from_sim no)
