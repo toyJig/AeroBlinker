@@ -5273,7 +5273,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 168.91) (xy 123.19 168.91)
+			(xy 111.76 168.91) (xy 124.46 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5502,7 +5502,7 @@
 		(uuid "7ad4c7de-0e77-41f7-96bf-9fef9202eca6")
 	)
 	(label "LED_SOURCE"
-		(at 123.19 168.91 180)
+		(at 124.46 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
