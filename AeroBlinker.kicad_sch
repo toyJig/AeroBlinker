@@ -4343,6 +4343,12 @@
 		(uuid "2c798e7e-6abe-4332-9d23-2bd848085301")
 	)
 	(junction
+		(at 120.65 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "352225a7-eaa9-4e33-a435-14dfd74fda40")
+	)
+	(junction
 		(at 242.57 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4918,7 +4924,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 170.18) (xy 113.03 170.18)
+			(xy 134.62 170.18) (xy 120.65 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5548,6 +5554,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 170.18) (xy 113.03 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2219d9-c6b1-460f-9db0-dd6801bb9127")
+	)
+	(wire
+		(pts
 			(xy 201.93 147.32) (xy 219.71 147.32)
 		)
 		(stroke
@@ -5848,7 +5864,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 116.84 168.91 0)
+		(at 120.65 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5858,7 +5874,7 @@
 		(dnp no)
 		(uuid "031e394b-fed3-410a-8a9b-a21c8390633e")
 		(property "Reference" "#FLG01"
-			(at 116.84 167.005 0)
+			(at 120.65 168.275 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5869,7 +5885,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 116.84 164.846 0)
+			(at 120.65 166.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5879,7 +5895,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 116.84 168.91 0)
+			(at 120.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5890,7 +5906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 168.91 0)
+			(at 120.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5901,7 +5917,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 116.84 168.91 0)
+			(at 120.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
