@@ -3643,6 +3643,18 @@
 		(uuid "b7d0ebea-6f6e-4b3b-a723-f2ab69c93612")
 	)
 	(rectangle
+		(start 68.58 160.02)
+		(end 142.24 179.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b86d08db-ffb7-43bf-857b-943107f2df95")
+	)
+	(rectangle
 		(start 30.48 27.94)
 		(end 156.21 107.95)
 		(stroke
@@ -3692,6 +3704,19 @@
 			(justify left top)
 		)
 		(uuid "c9fd5724-8d60-416d-93eb-d6a5f5ba8b53")
+	)
+	(text "Buck Converter"
+		(exclude_from_sim no)
+		(at 68.58 161.29 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "feb7f2a9-181e-49f7-8415-e51728856f88")
 	)
 	(junction
 		(at 219.71 147.32)
