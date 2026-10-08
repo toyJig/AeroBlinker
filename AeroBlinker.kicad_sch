@@ -5255,7 +5255,7 @@
 		)
 		(uuid "c4f6685b-2ec8-4777-ad79-7228b7e82ca1")
 	)
-	(label "LED_GATE"
+	(label "LED_SOURCE"
 		(at 182.88 74.93 180)
 		(effects
 			(font
