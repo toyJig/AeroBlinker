@@ -4423,16 +4423,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 77.47) (xy 67.31 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e95e1a82-faa2-4ed3-b0fb-81c82a8489de")
-	)
-	(wire
-		(pts
 			(xy 224.79 68.58) (xy 223.52 68.58)
 		)
 		(stroke
