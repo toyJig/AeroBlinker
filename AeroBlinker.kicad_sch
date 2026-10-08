@@ -4145,7 +4145,7 @@
 		)
 		(uuid "621b2324-ab05-4d4d-ba8e-6e9410db18a1")
 	)
-	(text "JST Connecters (LED)"
+	(text "LED Gate (N-MOSFET)"
 		(exclude_from_sim no)
 		(at 102.87 115.57 0)
 		(effects
