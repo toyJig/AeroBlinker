@@ -4281,6 +4281,12 @@
 		(uuid "a379cb36-8b45-41f5-901d-57c018541b96")
 	)
 	(junction
+		(at 160.02 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3b91d8e-0813-4d7c-916f-c55987af7355")
+	)
+	(junction
 		(at 58.42 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4506,7 +4512,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 67.31) (xy 161.29 67.31)
+			(xy 148.59 67.31) (xy 160.02 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4533,6 +4539,16 @@
 			(type default)
 		)
 		(uuid "2d848623-18ce-4098-b41d-f0bd028f1599")
+	)
+	(wire
+		(pts
+			(xy 160.02 67.31) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5545f4-75c5-4ad0-b086-7d76091c114c")
 	)
 	(wire
 		(pts
@@ -4973,6 +4989,16 @@
 			(type default)
 		)
 		(uuid "ad693c27-6a76-4512-a685-39dde51fa743")
+	)
+	(wire
+		(pts
+			(xy 160.02 67.31) (xy 161.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7fdfe7-f93f-419f-86d7-d42e889e6215")
 	)
 	(wire
 		(pts
@@ -6303,6 +6329,85 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f18cffa-b87a-405c-a01c-9e86c25bee59")
+		(property "Reference" "R4"
+			(at 163.322 74.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 163.322 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 161.798 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5050191-4c16-4b9a-a98e-634a22235a77")
+		)
+		(pin "2"
+			(uuid "c1b2eb76-6668-46dc-9be5-68dd83efb991")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9157,6 +9262,85 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5330058-2951-4e5d-bbc0-423b3bd27dec")
+		(property "Reference" "#PWR023"
+			(at 160.02 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac86f151-b4fe-4551-8b8c-050e276d9e23")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
