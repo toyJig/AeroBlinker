@@ -4676,15 +4676,9 @@
 		(at 64.77 62.23)
 		(uuid "dd59192e-e840-4ea0-8e8f-c93012f7962d")
 	)
-	(wire
-		(pts
-			(xy 111.76 59.69) (xy 100.33 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0019102e-f2a6-4f52-8460-38d662cafd9c")
+	(no_connect
+		(at 100.33 59.69)
+		(uuid "f8ccb0db-811d-429d-a7cf-8604296180e2")
 	)
 	(wire
 		(pts
