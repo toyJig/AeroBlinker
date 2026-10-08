@@ -4936,7 +4936,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 111.76 0)
+		(at 86.36 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4946,7 +4946,7 @@
 		(dnp no)
 		(uuid "1a9b071f-aaab-43e5-bb1d-76976f5b92df")
 		(property "Reference" "C9"
-			(at 82.804 110.49 0)
+			(at 89.154 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4957,7 +4957,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 82.804 113.03 0)
+			(at 89.154 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4968,7 +4968,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
-			(at 80.9752 115.57 0)
+			(at 87.3252 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4979,7 +4979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 111.76 0)
+			(at 86.36 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4990,7 +4990,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 111.76 0)
+			(at 86.36 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
