@@ -3671,12 +3671,6 @@
 		(uuid "2c3dd604-3944-454e-bf06-d0a0d085803e")
 	)
 	(junction
-		(at 91.44 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3db00c25-f9ae-48f8-b07e-35ec319b57e8")
-	)
-	(junction
 		(at 110.49 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3687,12 +3681,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49205983-f601-429d-8819-4c44e9b43ed8")
-	)
-	(junction
-		(at 91.44 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4eb929a9-ee2d-42b4-ba8e-a5c2190ed741")
 	)
 	(junction
 		(at 189.23 92.71)
@@ -3896,16 +3884,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 116.84) (xy 91.44 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ad692e-1e1e-44c1-a2c5-ee0e7f6ac72b")
-	)
-	(wire
-		(pts
 			(xy 173.99 67.31) (xy 172.72 67.31)
 		)
 		(stroke
@@ -3976,7 +3954,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 116.84) (xy 91.44 116.84)
+			(xy 88.9 116.84) (xy 92.71 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4126,7 +4104,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 124.46) (xy 113.03 124.46)
+			(xy 92.71 124.46) (xy 113.03 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7380,7 +7358,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 120.65 0)
+		(at 92.71 120.65 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7391,7 +7369,7 @@
 		(dnp no)
 		(uuid "c494fa57-255b-4f5a-82e3-b2467726383e")
 		(property "Reference" "R5"
-			(at 89.154 120.904 90)
+			(at 90.17 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7401,7 +7379,7 @@
 			)
 		)
 		(property "Value" "5K"
-			(at 91.44 120.65 90)
+			(at 90.17 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7411,7 +7389,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 93.218 120.65 90)
+			(at 94.488 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7422,7 +7400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 120.65 0)
+			(at 92.71 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7433,7 +7411,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 120.65 0)
+			(at 92.71 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
