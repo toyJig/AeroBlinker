@@ -4078,7 +4078,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 111.76) (xy 55.88 114.3)
+			(xy 55.88 111.76) (xy 55.88 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4418,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 121.92) (xy 55.88 130.81)
+			(xy 55.88 123.19) (xy 55.88 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4638,7 +4638,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 118.11 0)
+		(at 55.88 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4648,7 +4648,7 @@
 		(dnp no)
 		(uuid "018ca495-317c-4c6b-887b-41927ad1c68e")
 		(property "Reference" "C7"
-			(at 58.674 116.84 0)
+			(at 58.674 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4659,7 +4659,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 58.674 119.38 0)
+			(at 58.674 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4670,7 +4670,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
-			(at 56.8452 121.92 0)
+			(at 56.8452 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4681,7 +4681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 118.11 0)
+			(at 55.88 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4692,7 +4692,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 55.88 118.11 0)
+			(at 55.88 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
