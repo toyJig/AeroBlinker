@@ -4359,8 +4359,8 @@
 		(uuid "e846876b-5b0e-42ae-aa95-81a839089c04")
 	)
 	(rectangle
-		(start 15.24 167.64)
-		(end 88.9 200.66)
+		(start 16.51 156.21)
+		(end 90.17 189.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -4411,7 +4411,7 @@
 	)
 	(text "Battery"
 		(exclude_from_sim no)
-		(at 15.24 168.91 0)
+		(at 16.51 157.48 0)
 		(effects
 			(font
 				(size 2.54 2.54)
