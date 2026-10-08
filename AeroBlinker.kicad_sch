@@ -3719,13 +3719,13 @@
 		(uuid "643e2c65-5808-4379-8d19-819b22abcf35")
 	)
 	(junction
-		(at 113.03 124.46)
+		(at 107.95 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70544aed-7920-4074-832d-511052e9395a")
 	)
 	(junction
-		(at 113.03 111.76)
+		(at 107.95 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e24a421-426e-4a15-bc1e-9a02c907d6fa")
@@ -3864,16 +3864,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 124.46) (xy 119.38 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b11cc5-ef39-4077-96df-4769a55668e2")
-	)
-	(wire
-		(pts
 			(xy 173.99 62.23) (xy 172.72 62.23)
 		)
 		(stroke
@@ -3994,16 +3984,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 119.38 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff6e445-a23b-4671-8c90-3aefaf5ca67e")
-	)
-	(wire
-		(pts
 			(xy 66.04 114.3) (xy 66.04 111.76)
 		)
 		(stroke
@@ -4104,7 +4084,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 124.46) (xy 113.03 124.46)
+			(xy 93.98 124.46) (xy 119.38 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4124,7 +4104,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 121.92) (xy 113.03 124.46)
+			(xy 107.95 121.92) (xy 107.95 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4204,7 +4184,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 113.03 114.3)
+			(xy 107.95 111.76) (xy 107.95 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4244,7 +4224,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 111.76) (xy 113.03 111.76)
+			(xy 97.79 111.76) (xy 119.38 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5150,7 +5130,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 113.03 118.11 0)
+		(at 107.95 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5160,7 +5140,7 @@
 		(dnp no)
 		(uuid "1a9b071f-aaab-43e5-bb1d-76976f5b92df")
 		(property "Reference" "C9"
-			(at 115.824 116.84 0)
+			(at 110.744 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5171,7 +5151,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 115.824 119.38 0)
+			(at 110.744 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5182,7 +5162,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
-			(at 113.9952 121.92 0)
+			(at 108.9152 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5193,7 +5173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 118.11 0)
+			(at 107.95 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5204,7 +5184,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 118.11 0)
+			(at 107.95 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
