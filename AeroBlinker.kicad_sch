@@ -3668,6 +3668,12 @@
 		(uuid "c53affae-0bd7-44d3-a524-88e3fdbf66d2")
 	)
 	(junction
+		(at 66.04 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c84d4e05-6f49-4b46-bc1b-c1bd66578daf")
+	)
+	(junction
 		(at 207.01 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3740,6 +3746,16 @@
 			(type default)
 		)
 		(uuid "0d0ccc89-576e-4acd-a31d-53179ffc44dc")
+	)
+	(wire
+		(pts
+			(xy 64.77 76.2) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3d12fa-e555-468b-8189-1173ff1f92e3")
 	)
 	(wire
 		(pts
@@ -5545,7 +5561,7 @@
 		(dnp no)
 		(uuid "2797e40b-a9ba-4df1-b0ba-8ddf0931b3a9")
 		(property "Reference" "SW2"
-			(at 59.69 69.85 0)
+			(at 59.436 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5555,7 +5571,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 59.69 72.39 0)
+			(at 59.436 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
