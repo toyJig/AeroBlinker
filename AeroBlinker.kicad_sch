@@ -3676,19 +3676,20 @@
 	)
 	(text "USB-C"
 		(exclude_from_sim no)
-		(at 177.038 37.592 0)
+		(at 161.544 37.338 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
 			)
+			(justify left)
 		)
 		(uuid "621b2324-ab05-4d4d-ba8e-6e9410db18a1")
 	)
 	(text "Buck Converter"
 		(exclude_from_sim no)
-		(at 54.61 144.78 0)
+		(at 54.356 144.78 0)
 		(effects
 			(font
 				(size 2.54 2.54)
