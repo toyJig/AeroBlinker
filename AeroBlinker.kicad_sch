@@ -7379,7 +7379,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 91.186 121.666 0)
+			(at 90.17 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
