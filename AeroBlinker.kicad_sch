@@ -3681,7 +3681,7 @@
 		(uuid "2c798e7e-6abe-4332-9d23-2bd848085301")
 	)
 	(junction
-		(at 97.79 114.3)
+		(at 99.06 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "431d07f1-1520-40a1-ae0f-a266dcc57b2e")
@@ -3759,7 +3759,7 @@
 		(uuid "a73e10e4-28e7-4387-961a-8fb31f90f074")
 	)
 	(junction
-		(at 97.79 111.76)
+		(at 99.06 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b546b095-38fa-4a68-85b8-073582cf56fb")
@@ -3819,6 +3819,16 @@
 	(no_connect
 		(at 173.99 82.55)
 		(uuid "be5eb33c-b1b8-4038-a94a-4f2d91d2e9fc")
+	)
+	(wire
+		(pts
+			(xy 90.17 111.76) (xy 88.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bc7197-8572-4a82-9a64-262e9a1dda51")
 	)
 	(wire
 		(pts
@@ -3962,7 +3972,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 114.3) (xy 97.79 111.76)
+			(xy 99.06 114.3) (xy 99.06 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4062,16 +4072,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 111.76) (xy 97.79 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "583106f1-0f77-4ef3-b60e-06260241830a")
-	)
-	(wire
-		(pts
 			(xy 97.79 77.47) (xy 110.49 77.47)
 		)
 		(stroke
@@ -4109,6 +4109,16 @@
 			(type default)
 		)
 		(uuid "6e3097e6-af2c-404a-ac98-add153ca8ee4")
+	)
+	(wire
+		(pts
+			(xy 99.06 111.76) (xy 97.79 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7b86d3-8642-4e40-b3bb-2edd667a47fb")
 	)
 	(wire
 		(pts
@@ -4302,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 111.76) (xy 118.11 111.76)
+			(xy 99.06 111.76) (xy 118.11 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4422,7 +4432,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 114.3) (xy 97.79 114.3)
+			(xy 88.9 114.3) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4449,6 +4459,16 @@
 			(type default)
 		)
 		(uuid "cb758ec4-f17e-4dbc-930c-5ad16e7f4b41")
+	)
+	(wire
+		(pts
+			(xy 99.06 116.84) (xy 97.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18122a5-0947-4074-ae25-9e04df6edcf5")
 	)
 	(wire
 		(pts
@@ -4482,7 +4502,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 114.3) (xy 97.79 116.84)
+			(xy 99.06 114.3) (xy 99.06 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5776,7 +5796,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 92.71 111.76 90)
+		(at 93.98 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5787,7 +5807,7 @@
 		(fields_autoplaced yes)
 		(uuid "3397a53a-262c-4c1d-9bd2-9ab09327f301")
 		(property "Reference" "L1"
-			(at 92.71 106.68 90)
+			(at 93.98 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5797,7 +5817,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 92.71 109.22 90)
+			(at 93.98 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5807,7 +5827,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
-			(at 92.71 111.76 0)
+			(at 93.98 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +5838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 111.76 0)
+			(at 93.98 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5829,7 +5849,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 92.71 111.76 0)
+			(at 93.98 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
