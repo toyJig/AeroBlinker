@@ -6436,8 +6436,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 127 270)
-		(mirror x)
+		(at 71.12 127 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6447,7 +6447,7 @@
 		(dnp no)
 		(uuid "9bc74006-6261-4385-b7c5-cf9664dc050b")
 		(property "Reference" "R4"
-			(at 70.866 124.714 90)
+			(at 68.834 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6457,7 +6457,7 @@
 			)
 		)
 		(property "Value" "5K"
-			(at 71.12 127 90)
+			(at 68.834 129.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6467,7 +6467,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 71.12 128.778 90)
+			(at 72.898 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
