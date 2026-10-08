@@ -3651,8 +3651,8 @@
 		)
 	)
 	(rectangle
-		(start 31.242 98.298)
-		(end 131.572 142.748)
+		(start 31.242 97.028)
+		(end 131.572 141.478)
 		(stroke
 			(width 0)
 			(type default)
@@ -3664,7 +3664,7 @@
 	)
 	(text "Buck Converter"
 		(exclude_from_sim no)
-		(at 46.99 101.6 0)
+		(at 46.99 100.33 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7891,10 +7891,6 @@
 				)
 			)
 		)
-	)
-	(group ""
-		(uuid "85afe81b-5d15-434c-9bf2-3a6bbb19395b")
-		(members "97bcaeeb-1b51-4d4d-a92d-94f63c4992c3" "a3b85461-25a6-4849-b8d2-90626b4cd308")
 	)
 	(sheet_instances
 		(path "/"
