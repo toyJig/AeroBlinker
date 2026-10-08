@@ -4080,6 +4080,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 121.92) (xy 66.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0a7de1-2949-47a2-ba4b-86ae2a1d8262")
+	)
+	(wire
+		(pts
 			(xy 93.98 124.46) (xy 118.11 124.46)
 		)
 		(stroke
@@ -4477,6 +4487,16 @@
 			(type default)
 		)
 		(uuid "fa03115e-b043-4f30-b550-2bb308a43e49")
+	)
+	(wire
+		(pts
+			(xy 66.04 130.81) (xy 78.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0080ce-d042-4ba4-9f63-e4f2465c7bc7")
 	)
 	(label "TIM2_CH1"
 		(at 109.22 49.53 180)
