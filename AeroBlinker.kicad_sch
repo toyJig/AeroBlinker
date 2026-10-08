@@ -9041,7 +9041,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "LED_GND"
+		(property "Value" "BATTERY"
 			(at 34.29 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
