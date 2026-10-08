@@ -7369,7 +7369,7 @@
 		(dnp no)
 		(uuid "c494fa57-255b-4f5a-82e3-b2467726383e")
 		(property "Reference" "R5"
-			(at 89.916 121.92 0)
+			(at 89.916 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7378,7 +7378,7 @@
 				)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "100K"
 			(at 89.916 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
