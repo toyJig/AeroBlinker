@@ -4793,6 +4793,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 170.18) (xy 111.76 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6398462e-a7a1-4406-b4ad-c7bbd4ea4b1e")
+	)
+	(wire
+		(pts
 			(xy 134.62 170.18) (xy 111.76 170.18)
 		)
 		(stroke
@@ -5263,6 +5273,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 168.91) (xy 123.19 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cd1c28-719a-46b7-8de6-a75f338f988b")
+	)
+	(wire
+		(pts
 			(xy 242.57 133.35) (xy 241.3 133.35)
 		)
 		(stroke
@@ -5480,6 +5500,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ad4c7de-0e77-41f7-96bf-9fef9202eca6")
+	)
+	(label "LED_SOURCE"
+		(at 123.19 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94d13969-7cfe-4d11-82c9-21c73ddae401")
 	)
 	(label "USB_D-"
 		(at 119.38 81.28 180)
