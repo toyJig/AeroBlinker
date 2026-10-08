@@ -4302,7 +4302,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 29.21 110.49 0)
+		(at 29.21 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4312,7 +4312,7 @@
 		(dnp no)
 		(uuid "018ca495-317c-4c6b-887b-41927ad1c68e")
 		(property "Reference" "C7"
-			(at 32.004 109.22 0)
+			(at 32.004 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4323,7 +4323,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 32.004 111.76 0)
+			(at 32.004 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4334,7 +4334,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
-			(at 30.1752 114.3 0)
+			(at 30.1752 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +4345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 110.49 0)
+			(at 29.21 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4356,7 +4356,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 29.21 110.49 0)
+			(at 29.21 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
