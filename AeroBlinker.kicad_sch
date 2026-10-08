@@ -7500,7 +7500,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 134.62 137.16 0)
+		(at 134.62 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7511,7 +7511,7 @@
 		(fields_autoplaced yes)
 		(uuid "348f9c3b-6d3a-46f9-8908-e25f963144d8")
 		(property "Reference" "H3"
-			(at 137.16 135.8899 0)
+			(at 137.16 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7522,7 +7522,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 137.16 138.4299 0)
+			(at 137.16 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7533,7 +7533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 137.16 0)
+			(at 134.62 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7544,7 +7544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 137.16 0)
+			(at 134.62 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7555,7 +7555,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 134.62 137.16 0)
+			(at 134.62 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7937,7 +7937,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 134.62 146.05 0)
+		(at 134.62 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7948,7 +7948,7 @@
 		(fields_autoplaced yes)
 		(uuid "477fa0ed-5d11-49de-9c6d-5da8c15735e6")
 		(property "Reference" "H4"
-			(at 137.16 144.7799 0)
+			(at 137.16 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7959,7 +7959,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 137.16 147.3199 0)
+			(at 137.16 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7970,7 +7970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 146.05 0)
+			(at 134.62 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7981,7 +7981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 146.05 0)
+			(at 134.62 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7992,7 +7992,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 134.62 146.05 0)
+			(at 134.62 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8330,7 +8330,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 134.62 119.38 0)
+		(at 134.62 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8341,7 +8341,7 @@
 		(fields_autoplaced yes)
 		(uuid "58486c29-4567-40b8-a939-2a7fb7a8a78c")
 		(property "Reference" "H1"
-			(at 137.16 118.1099 0)
+			(at 137.16 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8352,7 +8352,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 137.16 120.6499 0)
+			(at 137.16 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8363,7 +8363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 119.38 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8374,7 +8374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 119.38 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8385,7 +8385,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 134.62 119.38 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
