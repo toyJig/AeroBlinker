@@ -3712,7 +3712,7 @@
 		)
 		(uuid "a3b85461-25a6-4849-b8d2-90626b4cd308")
 	)
-	(text "STM32F042F6P6 MCU"
+	(text "MCU (STM32F042F6P6)"
 		(exclude_from_sim no)
 		(at 30.48 28.956 0)
 		(effects
