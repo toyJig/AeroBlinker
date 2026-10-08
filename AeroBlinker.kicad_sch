@@ -4378,6 +4378,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 67.31) (xy 161.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25decfad-a1db-4e24-b444-4d8f86261df8")
+	)
+	(wire
+		(pts
 			(xy 224.79 60.96) (xy 223.52 60.96)
 		)
 		(stroke
@@ -5155,6 +5165,16 @@
 			(type default)
 		)
 		(uuid "fe0080ce-d042-4ba4-9f63-e4f2465c7bc7")
+	)
+	(label "NRST"
+		(at 151.13 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00c2b3bb-42e7-434f-8372-414a25a46dad")
 	)
 	(label "TIM2_CH1"
 		(at 119.38 60.96 180)
