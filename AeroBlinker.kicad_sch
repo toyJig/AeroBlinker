@@ -5007,7 +5007,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 48.26) (xy 130.81 54.61)
+			(xy 209.55 119.38) (xy 209.55 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5277,7 +5277,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 57.15) (xy 130.81 63.5)
+			(xy 209.55 128.27) (xy 209.55 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5297,7 +5297,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 57.15) (xy 130.81 57.15)
+			(xy 208.28 128.27) (xy 209.55 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5707,7 +5707,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 54.61) (xy 130.81 54.61)
+			(xy 208.28 125.73) (xy 209.55 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9097,7 +9097,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 63.5 0)
+		(at 209.55 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9108,7 +9108,7 @@
 		(fields_autoplaced yes)
 		(uuid "924e491f-1893-4f29-a371-24692bd38233")
 		(property "Reference" "#PWR027"
-			(at 130.81 69.85 0)
+			(at 209.55 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9119,7 +9119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 68.58 0)
+			(at 209.55 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9130,7 +9130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 63.5 0)
+			(at 209.55 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9141,7 +9141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 63.5 0)
+			(at 209.55 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9152,7 +9152,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 63.5 0)
+			(at 209.55 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9812,7 +9812,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 124.46 54.61 0)
+		(at 203.2 125.73 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9823,7 +9823,7 @@
 		(dnp no)
 		(uuid "c0ea923b-cf43-4f20-a955-b120656d17b9")
 		(property "Reference" "RECV_IN"
-			(at 139.192 53.34 0)
+			(at 217.932 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9834,7 +9834,7 @@
 			)
 		)
 		(property "Value" "RECV_GND"
-			(at 140.97 58.42 0)
+			(at 219.71 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9845,7 +9845,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 124.46 54.61 0)
+			(at 203.2 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9856,7 +9856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 54.61 0)
+			(at 203.2 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9867,7 +9867,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 124.46 54.61 0)
+			(at 203.2 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
