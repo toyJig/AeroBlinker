@@ -6167,17 +6167,17 @@
 	)
 	(global_label "TIM2_CH1"
 		(shape passive)
-		(at 91.44 45.72 0)
+		(at 91.44 45.72 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.508 0.508)
 			)
 			(justify left)
 		)
 		(uuid "c9398ecf-5778-4b53-a40c-6257376ba0bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.3248 45.72 0)
+			(at 91.44 34.8352 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
