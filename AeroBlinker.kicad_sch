@@ -5007,7 +5007,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 119.38) (xy 213.36 125.73)
+			(xy 213.36 118.11) (xy 213.36 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5707,7 +5707,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 125.73) (xy 213.36 125.73)
+			(xy 213.36 125.73) (xy 212.09 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6157,7 +6157,7 @@
 	)
 	(global_label "RECV_PWM"
 		(shape input)
-		(at 213.36 119.38 180)
+		(at 213.36 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6167,7 +6167,7 @@
 		)
 		(uuid "47de90dc-13e9-4dd8-8cb0-9853883dbde5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.4568 119.38 0)
+			(at 200.4568 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
