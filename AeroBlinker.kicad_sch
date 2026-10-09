@@ -9332,7 +9332,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "BATTERY"
+		(property "Value" "RECEIV. GND"
 			(at 201.93 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
