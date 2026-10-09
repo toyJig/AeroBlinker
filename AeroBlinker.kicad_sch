@@ -4448,7 +4448,7 @@
 		)
 		(uuid "c9fd5724-8d60-416d-93eb-d6a5f5ba8b53")
 	)
-	(text "Battery"
+	(text "Receiver Input"
 		(exclude_from_sim no)
 		(at 191.77 107.95 0)
 		(effects
