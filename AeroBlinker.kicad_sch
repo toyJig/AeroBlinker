@@ -6155,30 +6155,6 @@
 		)
 		(uuid "f4479648-5840-4055-9f3e-6f43692ac5ae")
 	)
-	(global_label "RECV_GND"
-		(shape output)
-		(at 213.36 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2040195c-835a-4457-bcf8-4362ff79167e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.9609 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "RECV_PWM"
 		(shape input)
 		(at 213.36 119.38 180)
