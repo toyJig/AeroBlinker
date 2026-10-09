@@ -9791,7 +9791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0ea923b-cf43-4f20-a955-b120656d17b9")
-		(property "Reference" "RECV_IN"
+		(property "Reference" "J5"
 			(at 203.2 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9802,7 +9802,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "RECV_GND"
+		(property "Value" "RECEIVER"
 			(at 204.978 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9855,7 +9855,7 @@
 		(instances
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
-					(reference "RECV_IN")
+					(reference "J5")
 					(unit 1)
 				)
 			)
