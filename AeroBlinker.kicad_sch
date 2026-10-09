@@ -7035,7 +7035,7 @@
 		(dnp no)
 		(uuid "1bd68db2-27de-4881-8e34-c9ca531b3435")
 		(property "Reference" "R1"
-			(at 52.832 75.946 0)
+			(at 52.324 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7045,7 +7045,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 52.832 73.406 0)
+			(at 52.832 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9944,7 +9944,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 71.12 270)
+		(at 55.88 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9954,7 +9954,7 @@
 		(dnp no)
 		(uuid "c199d914-971a-462c-9485-0b7ba0d79fd9")
 		(property "Reference" "R6"
-			(at 58.293 66.929 90)
+			(at 55.753 65.659 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9964,7 +9964,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 58.42 68.58 90)
+			(at 55.88 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9974,7 +9974,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 58.42 69.342 90)
+			(at 55.88 68.072 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9985,7 +9985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 71.12 0)
+			(at 55.88 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9996,7 +9996,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 71.12 0)
+			(at 55.88 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
