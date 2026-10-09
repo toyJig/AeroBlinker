@@ -4552,6 +4552,12 @@
 		(uuid "643e2c65-5808-4379-8d19-819b22abcf35")
 	)
 	(junction
+		(at 213.36 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e53634-d667-4ffd-ac00-4e594eaa944b")
+	)
+	(junction
 		(at 144.78 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5007,7 +5013,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 119.38) (xy 213.36 127)
+			(xy 213.36 119.38) (xy 213.36 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5214,6 +5220,16 @@
 			(type default)
 		)
 		(uuid "66417771-b690-44e7-a1bd-9e338f3a0e10")
+	)
+	(wire
+		(pts
+			(xy 213.36 123.19) (xy 213.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce0dbfc-8040-4af8-9ff1-3f190e4692d4")
 	)
 	(wire
 		(pts
@@ -5947,6 +5963,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 123.19) (xy 223.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ef7835-a7c9-478d-9bd9-34f4043576b0")
+	)
+	(wire
+		(pts
 			(xy 135.89 44.45) (xy 135.89 46.99)
 		)
 		(stroke
@@ -6094,6 +6120,16 @@
 			(justify left bottom)
 		)
 		(uuid "56f15f53-72a8-46df-a170-160eba341ad0")
+	)
+	(label "RECV_IN"
+		(at 223.52 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78181083-3441-46c7-8d25-c798d7ae78f0")
 	)
 	(label "BOOT"
 		(at 59.69 69.85 0)
