@@ -6045,7 +6045,7 @@
 		)
 		(uuid "00c2b3bb-42e7-434f-8372-414a25a46dad")
 	)
-	(label "TIM2_CH1"
+	(label "RECV_IN"
 		(at 111.76 54.61 180)
 		(effects
 			(font
