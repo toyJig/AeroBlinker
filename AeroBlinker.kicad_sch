@@ -4612,12 +4612,6 @@
 		(uuid "c53affae-0bd7-44d3-a524-88e3fdbf66d2")
 	)
 	(junction
-		(at 49.53 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c84d4e05-6f49-4b46-bc1b-c1bd66578daf")
-	)
-	(junction
 		(at 144.78 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5984,16 +5978,6 @@
 			(type default)
 		)
 		(uuid "f488f0b2-c173-4b7f-83cd-190ab2dab8fa")
-	)
-	(wire
-		(pts
-			(xy 49.53 69.85) (xy 64.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5b64f49-4363-412b-8b3c-65d91897b1ad")
 	)
 	(wire
 		(pts
@@ -9960,7 +9944,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 77.47 270)
+		(at 58.42 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9970,7 +9954,7 @@
 		(dnp no)
 		(uuid "c199d914-971a-462c-9485-0b7ba0d79fd9")
 		(property "Reference" "R6"
-			(at 59.563 73.279 90)
+			(at 58.293 66.929 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9980,7 +9964,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 59.944 74.93 90)
+			(at 58.42 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9990,7 +9974,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 59.69 75.692 90)
+			(at 58.42 69.342 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10001,7 +9985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 77.47 0)
+			(at 58.42 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10012,7 +9996,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 77.47 0)
+			(at 58.42 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
