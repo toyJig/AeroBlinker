@@ -9980,7 +9980,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 59.563 75.819 90)
+			(at 59.944 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
