@@ -9823,7 +9823,7 @@
 		(dnp no)
 		(uuid "c0ea923b-cf43-4f20-a955-b120656d17b9")
 		(property "Reference" "RECV_IN"
-			(at 217.932 124.46 0)
+			(at 199.39 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9834,7 +9834,7 @@
 			)
 		)
 		(property "Value" "RECV_GND"
-			(at 219.71 129.54 0)
+			(at 201.168 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
