@@ -4336,7 +4336,7 @@
 	)
 	(rectangle
 		(start 191.77 106.68)
-		(end 218.44 148.59)
+		(end 219.71 148.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -9332,7 +9332,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "RECV. GND"
+		(property "Value" "RECV GND"
 			(at 201.93 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
