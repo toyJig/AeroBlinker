@@ -6155,6 +6155,30 @@
 		)
 		(uuid "f4479648-5840-4055-9f3e-6f43692ac5ae")
 	)
+	(global_label "RECV_PWM"
+		(shape passive)
+		(at 213.36 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47de90dc-13e9-4dd8-8cb0-9853883dbde5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.1519 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TIM2_CH1"
 		(shape input)
 		(at 101.6 54.61 90)
