@@ -5277,7 +5277,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 129.54) (xy 213.36 135.89)
+			(xy 213.36 129.54) (xy 213.36 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5297,7 +5297,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 129.54) (xy 213.36 129.54)
+			(xy 213.36 129.54) (xy 212.09 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6181,7 +6181,7 @@
 	)
 	(global_label "RECV_GND"
 		(shape output)
-		(at 213.36 135.89 180)
+		(at 213.36 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6191,7 +6191,7 @@
 		)
 		(uuid "78c9c2d7-6001-4537-8255-3c16f97adae2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.7591 135.89 0)
+			(at 200.7591 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
