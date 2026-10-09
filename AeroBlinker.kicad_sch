@@ -7930,7 +7930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fa04522-74a9-404a-bd81-405847e69e6a")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 207.01 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8037,7 +8037,7 @@
 		(instances
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
