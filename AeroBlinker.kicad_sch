@@ -6179,6 +6179,30 @@
 			)
 		)
 	)
+	(global_label "RECV_GND"
+		(shape output)
+		(at 200.66 135.8885 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78c9c2d7-6001-4537-8255-3c16f97adae2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2609 135.8885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TIM2_CH1"
 		(shape input)
 		(at 101.6 54.61 90)
