@@ -4336,7 +4336,7 @@
 	)
 	(rectangle
 		(start 191.77 106.68)
-		(end 226.06 148.59)
+		(end 250.19 148.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -4558,7 +4558,7 @@
 		(uuid "643e2c65-5808-4379-8d19-819b22abcf35")
 	)
 	(junction
-		(at 212.09 123.19)
+		(at 212.09 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71e53634-d667-4ffd-ac00-4e594eaa944b")
@@ -5011,16 +5011,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 119.38) (xy 212.09 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c39e408-5d5d-41f0-a241-c0dd1a3f66be")
-	)
-	(wire
-		(pts
 			(xy 173.99 45.72) (xy 182.88 45.72)
 		)
 		(stroke
@@ -5038,6 +5028,16 @@
 			(type default)
 		)
 		(uuid "3d003a42-4096-402f-8086-709e19fbc181")
+	)
+	(wire
+		(pts
+			(xy 212.09 119.38) (xy 212.09 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3d133c-1d83-41c7-b9cc-f30909fb20c9")
 	)
 	(wire
 		(pts
@@ -5188,16 +5188,6 @@
 			(type default)
 		)
 		(uuid "66417771-b690-44e7-a1bd-9e338f3a0e10")
-	)
-	(wire
-		(pts
-			(xy 212.09 123.19) (xy 212.09 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ce0dbfc-8040-4af8-9ff1-3f190e4692d4")
 	)
 	(wire
 		(pts
@@ -5951,7 +5941,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 123.19) (xy 222.25 123.19)
+			(xy 212.09 125.73) (xy 223.52 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6100,7 +6090,7 @@
 		(uuid "56f15f53-72a8-46df-a170-160eba341ad0")
 	)
 	(label "RECV_IN"
-		(at 222.25 123.19 180)
+		(at 223.52 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
