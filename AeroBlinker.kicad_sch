@@ -4642,6 +4642,12 @@
 		(uuid "d7c80ca4-3293-4464-bdad-0c5d2c7c4757")
 	)
 	(junction
+		(at 182.88 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df20fd45-0c53-42fe-8a3c-2f379ee8a5e6")
+	)
+	(junction
 		(at 104.14 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5021,7 +5027,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 45.72) (xy 191.77 45.72)
+			(xy 173.99 45.72) (xy 182.88 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5638,6 +5644,16 @@
 			(type default)
 		)
 		(uuid "b38e7a32-bf11-4e1d-9976-7c50d0c36b80")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 191.77 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3adfddd-2cf0-46be-a464-c3ac2d86321e")
 	)
 	(wire
 		(pts
@@ -9061,6 +9077,83 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 182.88 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7cc19b87-f06e-4686-a630-95c0ae257234")
+		(property "Reference" "#FLG02"
+			(at 182.88 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 182.88 41.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 182.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 182.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab874a57-a884-4ccc-a587-71be0bf3967e")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
