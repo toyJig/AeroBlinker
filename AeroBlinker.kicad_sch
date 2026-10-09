@@ -9792,7 +9792,7 @@
 		(dnp no)
 		(uuid "c0ea923b-cf43-4f20-a955-b120656d17b9")
 		(property "Reference" "J5"
-			(at 203.2 125.984 0)
+			(at 204.978 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9803,7 +9803,7 @@
 			)
 		)
 		(property "Value" "RECEIVER"
-			(at 204.978 131.064 0)
+			(at 204.978 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
