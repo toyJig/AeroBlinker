@@ -4642,6 +4642,12 @@
 		(uuid "d7c80ca4-3293-4464-bdad-0c5d2c7c4757")
 	)
 	(junction
+		(at 101.6 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de1b1935-a421-4a43-8826-10f6b1bfb252")
+	)
+	(junction
 		(at 104.14 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4994,6 +5000,16 @@
 			(type default)
 		)
 		(uuid "3581df02-9142-45ae-83e0-34cb6675b5a3")
+	)
+	(wire
+		(pts
+			(xy 101.6 53.34) (xy 101.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f54bf5-87b7-410d-99f8-f0d1893e765b")
 	)
 	(wire
 		(pts
@@ -5787,6 +5803,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce01286a-abc8-4362-94eb-3e1db5b0f039")
+	)
+	(wire
+		(pts
 			(xy 181.61 50.8) (xy 182.88 50.8)
 		)
 		(stroke
@@ -5937,7 +5963,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 54.61) (xy 111.76 54.61)
+			(xy 100.33 54.61) (xy 101.6 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6157,7 +6183,7 @@
 	)
 	(global_label "TIM2_CH1"
 		(shape passive)
-		(at 102.87 53.34 90)
+		(at 101.6 53.34 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6167,7 +6193,7 @@
 		)
 		(uuid "c9398ecf-5778-4b53-a40c-6257376ba0bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 42.4552 90)
+			(at 101.6 42.4552 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
