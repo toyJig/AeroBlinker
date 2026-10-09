@@ -5007,7 +5007,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 118.11) (xy 213.36 125.73)
+			(xy 213.36 119.38) (xy 213.36 127)
 		)
 		(stroke
 			(width 0)
@@ -5277,7 +5277,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 128.27) (xy 213.36 134.62)
+			(xy 213.36 129.54) (xy 213.36 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5297,7 +5297,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 128.27) (xy 213.36 128.27)
+			(xy 212.09 129.54) (xy 213.36 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5707,7 +5707,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 125.73) (xy 212.09 125.73)
+			(xy 213.36 127) (xy 212.09 127)
 		)
 		(stroke
 			(width 0)
@@ -6157,7 +6157,7 @@
 	)
 	(global_label "RECV_PWM"
 		(shape input)
-		(at 213.36 118.11 180)
+		(at 213.36 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6167,7 +6167,7 @@
 		)
 		(uuid "47de90dc-13e9-4dd8-8cb0-9853883dbde5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.4568 118.11 0)
+			(at 200.4568 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9121,7 +9121,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 134.62 0)
+		(at 213.36 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9132,7 +9132,7 @@
 		(fields_autoplaced yes)
 		(uuid "924e491f-1893-4f29-a371-24692bd38233")
 		(property "Reference" "#PWR027"
-			(at 213.36 140.97 0)
+			(at 213.36 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9143,7 +9143,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 139.7 0)
+			(at 213.36 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9154,7 +9154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 134.62 0)
+			(at 213.36 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9165,7 +9165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 134.62 0)
+			(at 213.36 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,7 +9176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 134.62 0)
+			(at 213.36 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9836,7 +9836,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 207.01 125.73 0)
+		(at 207.01 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9847,7 +9847,7 @@
 		(dnp no)
 		(uuid "c0ea923b-cf43-4f20-a955-b120656d17b9")
 		(property "Reference" "RECV_IN"
-			(at 203.2 124.714 0)
+			(at 203.2 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9858,7 +9858,7 @@
 			)
 		)
 		(property "Value" "RECV_GND"
-			(at 204.978 129.794 0)
+			(at 204.978 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9869,7 +9869,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 207.01 125.73 0)
+			(at 207.01 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9880,7 +9880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 125.73 0)
+			(at 207.01 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9891,7 +9891,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 207.01 125.73 0)
+			(at 207.01 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
