@@ -4370,6 +4370,16 @@
 		)
 		(uuid "ff242d0d-45d6-4aee-8da2-9982015717ee")
 	)
+	(text "TIM2_CH1"
+		(exclude_from_sim no)
+		(at 102.87 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f6d82a0-a386-42ab-a1f3-be49bf6fd710")
+	)
 	(text "USB-C"
 		(exclude_from_sim no)
 		(at 154.94 22.606 0)
