@@ -9960,7 +9960,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 77.47 180)
+		(at 59.69 77.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9970,7 +9970,7 @@
 		(dnp no)
 		(uuid "c199d914-971a-462c-9485-0b7ba0d79fd9")
 		(property "Reference" "R6"
-			(at 62.992 78.486 0)
+			(at 59.563 73.279 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9979,8 +9979,8 @@
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 62.992 75.946 0)
+		(property "Value" "1K"
+			(at 59.563 75.819 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9990,7 +9990,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 61.468 77.47 90)
+			(at 59.69 75.692 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
