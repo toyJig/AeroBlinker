@@ -3564,7 +3564,7 @@
 		(at 152.71 120.75)
 		(descr "Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm")
 		(tags "CONN DEV")
-		(property "Reference" "TP1"
+		(property "Reference" "SWD"
 			(at 2.54 2.5 0)
 			(layer "F.SilkS")
 			(uuid "18844d26-0dc6-42a2-9323-909051417f67")
