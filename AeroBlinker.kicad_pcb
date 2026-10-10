@@ -4210,13 +4210,13 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "a2200e0d-3982-4e03-bae5-54113f573dfc")
-		(at 141.25 134.5 -90)
+		(at 139.75 134.5 -90)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
 			(at 0 2.75 180)
 			(layer "F.SilkS")
-			(uuid "366deff9-faee-45f1-9673-6bdcc614b274")
+			(uuid "7b19384c-a09e-423c-8913-b6a290f86cbe")
 			(effects
 				(font
 					(size 1 1)
@@ -4227,7 +4227,7 @@
 		(property "Value" "AO3400A"
 			(at 0 2.4 90)
 			(layer "F.Fab")
-			(uuid "62f60b97-7b9c-4d13-b796-bb7e85142bf0")
+			(uuid "e7b572a7-7477-448a-9cf8-2f98ea9727c9")
 			(effects
 				(font
 					(size 1 1)
@@ -4239,7 +4239,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "881d1d6a-1237-45c6-baba-0ec10ca7e0dc")
+			(uuid "a636ee59-79d4-4bd4-8114-067f83c2b9fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +4250,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b908225-17a1-4f9f-91c0-0123ca620bca")
+			(uuid "d3df70ea-283d-41d5-8f4c-a590071df7a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +6033,7 @@
 	(footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "d5b05db5-ced8-49cf-8238-ce5edd198231")
-		(at 148 130.5)
+		(at 147.5 130.5)
 		(descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO")
 		(property "Reference" "U1"
@@ -7036,7 +7036,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "fabc9f3d-7c24-4c75-9ad0-e21c8a49f327")
-		(at 143.5 132.5 90)
+		(at 142.5 132.5 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -8233,12 +8233,28 @@
 		(uuid "f1b24a86-829b-494f-bc90-e98f5abf3881")
 	)
 	(segment
+		(start 130.3 134.7425)
+		(end 137.62 134.7425)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+BATT")
+		(uuid "0faae962-5d70-4403-8ed3-8ef02af88a1b")
+	)
+	(segment
 		(start 134.525 123.75)
 		(end 135.35 123.75)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "+BATT")
 		(uuid "2265b719-a77d-40a0-8bfb-5638f1e102ce")
+	)
+	(segment
+		(start 137.62 134.7425)
+		(end 138.8 133.5625)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+BATT")
+		(uuid "37b880a3-8c5e-446f-91d8-d0687ccb0109")
 	)
 	(segment
 		(start 130.502044 122.525)
@@ -8255,14 +8271,6 @@
 		(layer "F.Cu")
 		(net "+BATT")
 		(uuid "54b7b590-9e51-4a51-8c41-5a508395fb38")
-	)
-	(segment
-		(start 139.12 134.7425)
-		(end 140.3 133.5625)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+BATT")
-		(uuid "6a5f0062-9247-41fe-8d90-7f1250dbc21d")
 	)
 	(segment
 		(start 128.6 133.0425)
@@ -8295,14 +8303,6 @@
 		(layer "F.Cu")
 		(net "+BATT")
 		(uuid "b53c180e-83fc-4e7a-8e6d-a010cd74209e")
-	)
-	(segment
-		(start 130.3 134.7425)
-		(end 139.12 134.7425)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+BATT")
-		(uuid "d9ce9335-c2d2-4809-9181-26a03384967e")
 	)
 	(segment
 		(start 133.75 122.525)
@@ -8497,20 +8497,20 @@
 		(uuid "9671a97b-1fb4-42ee-9c47-14126f00e7fb")
 	)
 	(segment
-		(start 141.25 135.4375)
-		(end 139.8125 135.4375)
+		(start 136.985 138.265)
+		(end 136.985 140.65)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_SOURCE")
-		(uuid "594321e4-516d-4f16-b0a8-dd17888a446c")
+		(uuid "5c16ca10-7920-4ce5-a9a5-26b542a10f83")
 	)
 	(segment
-		(start 141.25 136)
-		(end 145.95 140.7)
+		(start 139.75 135.5)
+		(end 136.985 138.265)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_SOURCE")
-		(uuid "64a26fc9-e8c8-4a35-b67b-bbd6e0b5e340")
+		(uuid "5d23fcc1-51e2-4f9e-90bd-218281344dab")
 	)
 	(segment
 		(start 149.98 135.4375)
@@ -8518,7 +8518,15 @@
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_SOURCE")
-		(uuid "732e9d10-f8ea-4474-9f3d-e90331104c5f")
+		(uuid "640e5319-e0e1-43c7-b31d-b4fdcd9d6017")
+	)
+	(segment
+		(start 139.75 135.4375)
+		(end 149.98 135.4375)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/LED_SOURCE")
+		(uuid "679f497a-9439-4782-b892-17347d5cc7bb")
 	)
 	(segment
 		(start 145.95 140.7)
@@ -8526,39 +8534,39 @@
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_SOURCE")
-		(uuid "bffd90f0-8dad-4845-94ce-815ce167ac07")
+		(uuid "76c049fe-691c-4d83-8d76-755c3ec96c96")
 	)
 	(segment
-		(start 141.25 135.4375)
+		(start 140.3125 136)
 		(end 141.25 136)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_SOURCE")
-		(uuid "c760100a-2630-4f87-b20b-99c36d524f56")
+		(uuid "b8f8990c-8de7-4b28-80d4-ca928ae3b381")
 	)
 	(segment
-		(start 136.985 138.265)
-		(end 136.985 140.65)
+		(start 141.25 136)
+		(end 145.95 140.7)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_SOURCE")
-		(uuid "d33eff91-2fdf-4b49-8959-1a2a2ffebd4e")
+		(uuid "b9687264-b8ae-44eb-a0cb-3b96a5b60864")
 	)
 	(segment
-		(start 139.8125 135.4375)
-		(end 136.985 138.265)
+		(start 139.75 135.4375)
+		(end 140.3125 136)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_SOURCE")
-		(uuid "f34405aa-d5f3-46cc-921e-939870f35bef")
+		(uuid "db1a0e4d-6107-4028-ba9b-6415af499f92")
 	)
 	(segment
-		(start 141.25 135.4375)
-		(end 149.98 135.4375)
+		(start 139.75 135.4375)
+		(end 139.75 135.5)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_SOURCE")
-		(uuid "f7a3fd39-81f8-4693-8307-588bbc919b8e")
+		(uuid "f1a65257-d8ae-4e0a-b937-91185e880015")
 	)
 	(segment
 		(start 137.7 128.8125)
