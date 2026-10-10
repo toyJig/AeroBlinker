@@ -5374,7 +5374,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
 		(layer "F.Cu")
 		(uuid "c48a74d3-577c-43cf-ae3c-12e0e2269d72")
-		(at 148.25 121 180)
+		(at 148.75 121 180)
 		(descr "tactile push button, 6x3.5mm, https://www.apem.com/idec-apem/en_US/PCB-switches/Tactile-Switches/MJTP-6mm-through-hole/c/MJTP_6mm_through%20hole?page=1")
 		(tags "PHAP3362 6mm tact sw THT")
 		(property "Reference" "SW2"
@@ -7745,12 +7745,12 @@
 		(uuid "023a39ca-c70c-46c1-b1d4-7beab47fa74c")
 	)
 	(segment
-		(start 142.25 124.75)
-		(end 140.8875 126.1125)
+		(start 146 121)
+		(end 148.5 121)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+3.3V")
-		(uuid "1382d752-1c85-463f-b91e-c1156f9a0c13")
+		(uuid "0358f350-b7a8-4510-b98d-365353b6e009")
 	)
 	(segment
 		(start 137.25 124.25)
@@ -7769,20 +7769,20 @@
 		(uuid "2f60ef12-af68-4553-9069-8e3f74dabe02")
 	)
 	(segment
+		(start 146.7 119.2)
+		(end 148.5 121)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "3786521b-4b60-472c-8423-007655cf542e")
+	)
+	(segment
 		(start 150.425 130.175)
 		(end 147.75 127.5)
 		(width 0.4)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "4203f413-326c-44ad-bf30-de2bd4ea3c40")
-	)
-	(segment
-		(start 140.8875 126.1125)
-		(end 140.8875 126.675)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "43334a3e-a303-4fa7-abe0-ec5e07202a7a")
 	)
 	(segment
 		(start 153 130)
@@ -7809,6 +7809,14 @@
 		(uuid "66f8655a-91e1-4c4d-8935-0463ca1a9a53")
 	)
 	(segment
+		(start 138.5 119.6)
+		(end 138.9 119.2)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "67abe5ed-ece2-4924-a0b6-67688da3544e")
+	)
+	(segment
 		(start 140.8875 126.675)
 		(end 140.8875 126.8675)
 		(width 0.5)
@@ -7823,6 +7831,14 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "73b3ca32-776b-42e1-a9ff-960855d70b41")
+	)
+	(segment
+		(start 140.8875 126.675)
+		(end 140.8875 126.1125)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "77adf3ae-7e37-44d0-a799-c13f2af1b1b8")
 	)
 	(segment
 		(start 147.75 127.5)
@@ -7881,12 +7897,28 @@
 		(uuid "b95ba1d0-344a-481f-bbc4-96568643d0ae")
 	)
 	(segment
+		(start 140.8875 126.1125)
+		(end 146 121)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "c5e07ab0-e320-4dab-8b1f-cae4bf605584")
+	)
+	(segment
 		(start 153.98 130.02)
 		(end 153.5 130.02)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "d82acdf0-8af7-41d0-b417-05f8a4cb5d36")
+	)
+	(segment
+		(start 138.9 119.2)
+		(end 146.7 119.2)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "e5021af3-aaa4-4fe3-99c4-aa8a322904cf")
 	)
 	(segment
 		(start 140.8875 128.325)
