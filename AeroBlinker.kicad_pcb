@@ -4211,7 +4211,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at 0.5 2.5 90)
+			(at 0 2.75 180)
 			(layer "F.SilkS")
 			(uuid "366deff9-faee-45f1-9673-6bdcc614b274")
 			(effects
