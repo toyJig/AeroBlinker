@@ -6039,7 +6039,7 @@
 		(property "Reference" "U1"
 			(at 0.1125 4.175 0)
 			(layer "F.SilkS")
-			(uuid "a172e7ca-8eac-4c96-859a-f9d37f197eaa")
+			(uuid "ab5343b7-f0b9-4491-85dc-2a9f989302c5")
 			(effects
 				(font
 					(size 1 1)
@@ -6050,7 +6050,7 @@
 		(property "Value" "STM32F042F6Px"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "6e5e83ab-96bc-438b-ae95-882f0a8e826c")
+			(uuid "1f1d2f35-c9e5-4aa9-8065-e7787d0037aa")
 			(effects
 				(font
 					(size 1 1)
@@ -6062,7 +6062,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14841f31-01cb-4e6c-9147-ae4939973a39")
+			(uuid "d05303d5-78ea-4b8d-bd40-ecb0b288307e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6073,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a412fce9-42af-4b6e-965c-c81d898b424a")
+			(uuid "4b2ad364-c449-4f51-bdd7-6ca5d2d6abde")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,14 +7817,6 @@
 		(uuid "55f88f4f-aecb-4fd7-a3d0-3fae680af945")
 	)
 	(segment
-		(start 140.8875 126.675)
-		(end 140.8875 127.1175)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "5c884165-7185-4adb-8537-eb80cd9d9c00")
-	)
-	(segment
 		(start 152.825 130.175)
 		(end 153 130)
 		(width 0.3)
@@ -7975,6 +7967,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "1beb79b2-aae7-4cb8-8a8d-1cf008c8a4ba")
+	)
+	(segment
+		(start 138.075 126.675)
+		(end 138 126.75)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "214db2ac-1ca0-4296-a88d-c4ec40470a2d")
 	)
 	(segment
 		(start 159.07 133.245)
@@ -8170,11 +8170,11 @@
 	)
 	(segment
 		(start 139.3375 126.675)
-		(end 139.175 126.675)
+		(end 138.075 126.675)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "GND")
-		(uuid "e522693d-3bbe-46bf-9d8f-6f223d96cfa9")
+		(uuid "be27676c-9957-4065-bb54-5e07eb1e33b6")
 	)
 	(segment
 		(start 159.64 125.175)
@@ -8191,6 +8191,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "ed41478f-5097-4602-8583-d432a85899e6")
+	)
+	(via
+		(at 138 126.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "085f69a2-fafb-4536-bdf0-cdc28d3ea3fd")
 	)
 	(via
 		(at 143 124.25)
