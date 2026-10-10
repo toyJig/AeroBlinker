@@ -7733,6 +7733,22 @@
 		(uuid "7d246bcb-e2fa-4558-9050-6ca1c51db5be")
 	)
 	(segment
+		(start 151.8625 130.175)
+		(end 153.445 130.175)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "a6d07c90-7eb9-439e-86a5-2595679b250d")
+	)
+	(segment
+		(start 153.445 130.175)
+		(end 153.52 130.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "d2bd44f5-420c-4b14-9856-ad15a0ddbcad")
+	)
+	(segment
 		(start 146.1375 129.525)
 		(end 144.505 129.525)
 		(width 0.3)
