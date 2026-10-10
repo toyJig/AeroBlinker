@@ -8665,14 +8665,6 @@
 		(uuid "1561f09b-a869-49fb-9b3c-0afe9b4bb0d8")
 	)
 	(segment
-		(start 146.1375 131.475)
-		(end 144.515 131.475)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED_GATE")
-		(uuid "2d0fa05d-ea95-4ad7-9e6c-42d8b88f6ab0")
-	)
-	(segment
 		(start 144.5 131.49)
 		(end 143.01 131.49)
 		(width 0.2)
