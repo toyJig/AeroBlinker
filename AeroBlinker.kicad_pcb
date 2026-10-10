@@ -5807,7 +5807,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.16 90)
+			(at 1.77 0 180)
 			(layer "F.SilkS")
 			(uuid "f50badf7-cc74-4280-87cf-0f7b4c865a3e")
 			(effects
@@ -5961,11 +5961,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d42814a9-936b-4542-aea2-3574c6766499")
-		(at 140.02 129.25)
+		(at 141.5 128.77 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.16 0)
+			(at 0 -1.16 90)
 			(layer "F.SilkS")
 			(uuid "731435fc-97a1-4aa2-bdd2-56695ef6f60b")
 			(effects
@@ -5976,7 +5976,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "ab60869b-8587-4430-8c29-3136764a7461")
 			(effects
@@ -5987,7 +5987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9b18ebb2-d549-4ff0-a155-ff5e8b52e164")
@@ -5998,7 +5998,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0cee2aef-5b68-4d03-bda1-f81b56f4fc4a")
@@ -6009,7 +6009,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a522027d-a14e-472f-98c9-2e8ce0ddf765")
@@ -6075,7 +6075,7 @@
 			(uuid "b1e26d0f-7fb9-4a3e-88d1-3804ea6c15ec")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "6a52bd5d-108f-4f3c-8fdf-1a7d4e7ff822")
 			(effects
@@ -6086,7 +6086,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 90)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6095,7 +6095,7 @@
 			(uuid "45d0b96f-596a-4fdc-bd86-7121425fa9ec")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 90)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
