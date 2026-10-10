@@ -4332,8 +4332,8 @@
 		)
 	)
 	(rectangle
-		(start 210.82 106.68)
-		(end 237.49 148.59)
+		(start 199.39 106.68)
+		(end 226.06 148.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -4380,8 +4380,8 @@
 		(uuid "b7d0ebea-6f6e-4b3b-a723-f2ab69c93612")
 	)
 	(rectangle
-		(start 158.75 106.68)
-		(end 204.47 148.59)
+		(start 147.32 106.68)
+		(end 193.04 148.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -4404,8 +4404,8 @@
 		(uuid "e846876b-5b0e-42ae-aa95-81a839089c04")
 	)
 	(rectangle
-		(start 125.73 106.68)
-		(end 152.4 148.59)
+		(start 114.3 106.68)
+		(end 140.97 148.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -4456,7 +4456,7 @@
 	)
 	(text "Battery"
 		(exclude_from_sim no)
-		(at 125.73 107.95 0)
+		(at 114.3 107.95 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4469,7 +4469,7 @@
 	)
 	(text "Mounts"
 		(exclude_from_sim no)
-		(at 210.82 107.95 0)
+		(at 199.39 107.95 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4495,7 +4495,7 @@
 	)
 	(text "Receiver In"
 		(exclude_from_sim no)
-		(at 158.75 107.95 0)
+		(at 147.32 107.95 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4519,7 +4519,7 @@
 		(uuid "02689d28-db0d-4176-8071-ee62f55038fc")
 	)
 	(junction
-		(at 144.78 121.92)
+		(at 133.35 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0295099a-a648-4d2d-a31b-9de2328f4495")
@@ -4603,13 +4603,13 @@
 		(uuid "643e2c65-5808-4379-8d19-819b22abcf35")
 	)
 	(junction
-		(at 179.07 123.19)
+		(at 167.64 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71e53634-d667-4ffd-ac00-4e594eaa944b")
 	)
 	(junction
-		(at 179.07 133.35)
+		(at 167.64 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "738a0ab4-9f64-4dbe-8a69-8cc4f57b7c3c")
@@ -4627,7 +4627,7 @@
 		(uuid "913870df-17f7-4569-be76-8aceefc37ceb")
 	)
 	(junction
-		(at 184.15 123.19)
+		(at 172.72 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cae5ff4-4f46-4363-b852-85e48f90f6e5")
@@ -4663,7 +4663,7 @@
 		(uuid "c53affae-0bd7-44d3-a524-88e3fdbf66d2")
 	)
 	(junction
-		(at 144.78 134.62)
+		(at 133.35 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c87e6de0-48a5-4e75-9a38-f0fccb392aa6")
@@ -4750,7 +4750,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 129.54) (xy 179.07 137.16)
+			(xy 167.64 129.54) (xy 167.64 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4900,7 +4900,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 129.54) (xy 144.78 129.54)
+			(xy 132.08 129.54) (xy 133.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5060,7 +5060,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 119.38) (xy 179.07 127)
+			(xy 167.64 119.38) (xy 167.64 127)
 		)
 		(stroke
 			(width 0)
@@ -5120,7 +5120,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 133.35) (xy 184.15 133.35)
+			(xy 167.64 133.35) (xy 172.72 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5280,7 +5280,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 121.92) (xy 144.78 127)
+			(xy 133.35 121.92) (xy 133.35 127)
 		)
 		(stroke
 			(width 0)
@@ -5290,7 +5290,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 133.35) (xy 184.15 132.08)
+			(xy 172.72 133.35) (xy 172.72 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5310,7 +5310,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 134.62) (xy 144.78 135.89)
+			(xy 133.35 134.62) (xy 133.35 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5320,7 +5320,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 129.54) (xy 177.8 129.54)
+			(xy 167.64 129.54) (xy 166.37 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5430,7 +5430,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 127) (xy 144.78 127)
+			(xy 132.08 127) (xy 133.35 127)
 		)
 		(stroke
 			(width 0)
@@ -5450,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 123.19) (xy 184.15 124.46)
+			(xy 172.72 123.19) (xy 172.72 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5460,7 +5460,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 123.19) (xy 194.31 123.19)
+			(xy 172.72 123.19) (xy 182.88 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5590,7 +5590,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 129.54) (xy 144.78 134.62)
+			(xy 133.35 129.54) (xy 133.35 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5670,7 +5670,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 120.65) (xy 135.89 121.92)
+			(xy 124.46 120.65) (xy 124.46 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5730,7 +5730,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 135.89) (xy 135.89 134.62)
+			(xy 124.46 135.89) (xy 124.46 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5750,7 +5750,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 127) (xy 177.8 127)
+			(xy 167.64 127) (xy 166.37 127)
 		)
 		(stroke
 			(width 0)
@@ -5780,7 +5780,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 121.92) (xy 144.78 121.92)
+			(xy 124.46 121.92) (xy 133.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5940,7 +5940,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 120.65) (xy 144.78 121.92)
+			(xy 133.35 120.65) (xy 133.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5950,7 +5950,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 134.62) (xy 144.78 134.62)
+			(xy 124.46 134.62) (xy 133.35 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6010,7 +6010,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 123.19) (xy 184.15 123.19)
+			(xy 167.64 123.19) (xy 172.72 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6159,7 +6159,7 @@
 		(uuid "56f15f53-72a8-46df-a170-160eba341ad0")
 	)
 	(label "RECV_IN"
-		(at 194.31 123.19 180)
+		(at 182.88 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6230,7 +6230,7 @@
 	)
 	(global_label "RECV_PWM"
 		(shape input)
-		(at 179.07 119.38 180)
+		(at 167.64 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6240,7 +6240,7 @@
 		)
 		(uuid "47de90dc-13e9-4dd8-8cb0-9853883dbde5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.1668 119.38 0)
+			(at 154.7368 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6254,7 +6254,7 @@
 	)
 	(global_label "RECV_GND"
 		(shape output)
-		(at 179.07 137.16 180)
+		(at 167.64 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6264,7 +6264,7 @@
 		)
 		(uuid "78c9c2d7-6001-4537-8255-3c16f97adae2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.4691 137.16 0)
+			(at 155.0391 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8030,7 +8030,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 215.9 132.08 0)
+		(at 204.47 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8041,7 +8041,7 @@
 		(fields_autoplaced yes)
 		(uuid "348f9c3b-6d3a-46f9-8908-e25f963144d8")
 		(property "Reference" "H3"
-			(at 218.44 130.8099 0)
+			(at 207.01 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8052,7 +8052,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 218.44 133.3499 0)
+			(at 207.01 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8063,7 +8063,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 215.9 132.08 0)
+			(at 204.47 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8074,7 +8074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 132.08 0)
+			(at 204.47 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,7 +8085,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 215.9 132.08 0)
+			(at 204.47 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8261,7 +8261,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZX84Cxx")
-		(at 184.15 128.27 90)
+		(at 172.72 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8272,7 +8272,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ca17b93-64eb-4c7d-9e79-98befdff4127")
 		(property "Reference" "D2"
-			(at 186.69 126.9999 90)
+			(at 175.26 126.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8283,7 +8283,7 @@
 			)
 		)
 		(property "Value" "BZT585B3V3T-7"
-			(at 186.69 129.5399 90)
+			(at 175.26 129.5399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8294,7 +8294,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 184.15 128.27 0)
+			(at 172.72 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8305,7 +8305,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-			(at 184.15 128.27 0)
+			(at 172.72 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8316,7 +8316,7 @@
 			)
 		)
 		(property "Description" "300mW Zener Diode, SOT-23"
-			(at 184.15 128.27 0)
+			(at 172.72 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8550,7 +8550,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 215.9 139.7 0)
+		(at 204.47 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8561,7 +8561,7 @@
 		(fields_autoplaced yes)
 		(uuid "477fa0ed-5d11-49de-9c6d-5da8c15735e6")
 		(property "Reference" "H4"
-			(at 218.44 138.4299 0)
+			(at 207.01 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8572,7 +8572,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 218.44 140.9699 0)
+			(at 207.01 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8583,7 +8583,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 215.9 139.7 0)
+			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8594,7 +8594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 139.7 0)
+			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8605,7 +8605,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 215.9 139.7 0)
+			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8788,7 +8788,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 215.9 124.46 0)
+		(at 204.47 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8799,7 +8799,7 @@
 		(fields_autoplaced yes)
 		(uuid "55a4c881-f1e2-4e47-a402-70c8d2388f7d")
 		(property "Reference" "H2"
-			(at 218.44 123.1899 0)
+			(at 207.01 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8810,7 +8810,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 218.44 125.7299 0)
+			(at 207.01 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8821,7 +8821,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 215.9 124.46 0)
+			(at 204.47 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8832,7 +8832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 124.46 0)
+			(at 204.47 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8843,7 +8843,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 215.9 124.46 0)
+			(at 204.47 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +8943,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 215.9 116.84 0)
+		(at 204.47 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8954,7 +8954,7 @@
 		(fields_autoplaced yes)
 		(uuid "58486c29-4567-40b8-a939-2a7fb7a8a78c")
 		(property "Reference" "H1"
-			(at 218.44 115.5699 0)
+			(at 207.01 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8965,7 +8965,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 218.44 118.1099 0)
+			(at 207.01 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8976,7 +8976,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 215.9 116.84 0)
+			(at 204.47 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8987,7 +8987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 116.84 0)
+			(at 204.47 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8998,7 +8998,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 215.9 116.84 0)
+			(at 204.47 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9019,7 +9019,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 135.89 120.65 0)
+		(at 124.46 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9029,7 +9029,7 @@
 		(dnp no)
 		(uuid "59d6b837-4e36-40b0-b457-2b42c5fe9a25")
 		(property "Reference" "#FLG06"
-			(at 135.89 118.745 0)
+			(at 124.46 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9040,7 +9040,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 135.89 116.84 0)
+			(at 124.46 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9050,7 +9050,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 135.89 120.65 0)
+			(at 124.46 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9061,7 +9061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 120.65 0)
+			(at 124.46 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9072,7 +9072,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 135.89 120.65 0)
+			(at 124.46 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9754,7 +9754,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 138.43 127 0)
+		(at 127 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9765,7 +9765,7 @@
 		(dnp no)
 		(uuid "ac279155-a39f-461e-9215-96845aef2f40")
 		(property "Reference" "J4"
-			(at 135.89 125.73 0)
+			(at 124.46 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9776,7 +9776,7 @@
 			)
 		)
 		(property "Value" "BATTERY"
-			(at 135.89 130.81 0)
+			(at 124.46 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9787,7 +9787,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 138.43 127 0)
+			(at 127 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9798,7 +9798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 127 0)
+			(at 127 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9809,7 +9809,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 127 0)
+			(at 127 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10070,7 +10070,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 144.78 120.65 0)
+		(at 133.35 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10080,7 +10080,7 @@
 		(dnp no)
 		(uuid "b9af62b2-bb92-43d2-bc6e-3b96ec542199")
 		(property "Reference" "#PWR024"
-			(at 144.78 124.46 0)
+			(at 133.35 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10091,7 +10091,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 144.78 116.84 0)
+			(at 133.35 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10101,7 +10101,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 144.78 120.65 0)
+			(at 133.35 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10112,7 +10112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 120.65 0)
+			(at 133.35 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10123,7 +10123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 144.78 120.65 0)
+			(at 133.35 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10147,7 +10147,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 172.72 127 0)
+		(at 161.29 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10158,7 +10158,7 @@
 		(dnp no)
 		(uuid "c0ea923b-cf43-4f20-a955-b120656d17b9")
 		(property "Reference" "J5"
-			(at 170.688 126.238 0)
+			(at 159.258 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10169,7 +10169,7 @@
 			)
 		)
 		(property "Value" "RECEIVER"
-			(at 170.688 130.302 0)
+			(at 159.258 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10180,7 +10180,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 172.72 127 0)
+			(at 161.29 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10191,7 +10191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 127 0)
+			(at 161.29 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10202,7 +10202,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 172.72 127 0)
+			(at 161.29 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10607,7 +10607,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 135.89 135.89 0)
+		(at 124.46 135.89 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10618,7 +10618,7 @@
 		(dnp no)
 		(uuid "c9ee17cd-e20f-411f-a7b4-73e3fde47505")
 		(property "Reference" "#FLG04"
-			(at 135.89 137.795 0)
+			(at 124.46 137.795 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +10629,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 135.89 139.7 0)
+			(at 124.46 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10639,7 +10639,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 135.89 135.89 0)
+			(at 124.46 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10650,7 +10650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 135.89 0)
+			(at 124.46 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10661,7 +10661,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 135.89 135.89 0)
+			(at 124.46 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10926,7 +10926,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 135.89 0)
+		(at 133.35 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10937,7 +10937,7 @@
 		(fields_autoplaced yes)
 		(uuid "da5525a4-1a1b-454e-8b98-9ffcfd78e9a3")
 		(property "Reference" "#PWR021"
-			(at 144.78 142.24 0)
+			(at 133.35 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10948,7 +10948,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 140.97 0)
+			(at 133.35 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10959,7 +10959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 135.89 0)
+			(at 133.35 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10970,7 +10970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 135.89 0)
+			(at 133.35 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10981,7 +10981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 135.89 0)
+			(at 133.35 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
