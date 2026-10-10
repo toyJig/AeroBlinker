@@ -3919,7 +3919,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
-			(net "/SYS_SWCLK")
+			(net "/SYS_SWDIO")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "4b27d325-10d9-4a96-825e-5809f2191b7f")
