@@ -6033,7 +6033,7 @@
 	(footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "d5b05db5-ced8-49cf-8238-ce5edd198231")
-		(at 149 130.5)
+		(at 148 130.5)
 		(descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO")
 		(property "Reference" "U1"
@@ -8647,38 +8647,6 @@
 		(layer "F.Cu")
 		(net "/SYS_SWCLK")
 		(uuid "f49193ef-650e-4643-b69c-4663cd7b8772")
-	)
-	(segment
-		(start 144.515 131.475)
-		(end 144.5 131.49)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED_GATE")
-		(uuid "088b0a45-c280-4b5e-a5ff-27a1a84f5d38")
-	)
-	(segment
-		(start 142.2 132.3)
-		(end 142.2 133.5625)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED_GATE")
-		(uuid "1561f09b-a869-49fb-9b3c-0afe9b4bb0d8")
-	)
-	(segment
-		(start 144.5 131.49)
-		(end 143.01 131.49)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED_GATE")
-		(uuid "3ef94d35-013c-4bc5-a66b-ed54956b2a26")
-	)
-	(segment
-		(start 143.01 131.49)
-		(end 142.2 132.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED_GATE")
-		(uuid "f0d5e638-0bfe-4c69-ac71-d76019a40afa")
 	)
 	(segment
 		(start 150.775 127.864168)
