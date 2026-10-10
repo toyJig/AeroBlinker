@@ -8357,6 +8357,22 @@
 		(uuid "f7a3fd39-81f8-4693-8307-588bbc919b8e")
 	)
 	(segment
+		(start 134.67 125.7825)
+		(end 137.7 128.8125)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "RECV_PWM")
+		(uuid "6263c2b6-df24-4a02-82a6-79e357df7b35")
+	)
+	(segment
+		(start 130.3 125.7825)
+		(end 134.67 125.7825)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "RECV_PWM")
+		(uuid "e84ed5f3-d44c-4e9a-82ac-5e931d47cd2b")
+	)
+	(segment
 		(start 131.245 130.6875)
 		(end 136.75 130.6875)
 		(width 0.5)
