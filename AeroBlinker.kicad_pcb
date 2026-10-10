@@ -129,7 +129,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "028f4322-08b1-4143-9673-7e81db336d9b")
-		(at 140.1125 126.675 180)
+		(at 139.25 126.675 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
@@ -1397,7 +1397,7 @@
 	(footprint "Inductor_SMD:L_Changjiang_FNR3012S"
 		(layer "F.Cu")
 		(uuid "38987012-08ba-437a-88c3-a0f88c1f6ebd")
-		(at 138.5 120.75 90)
+		(at 143 125 90)
 		(descr "Inductor, Changjiang, FNR3012S, 3.0x3.0x1.2mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L1"
