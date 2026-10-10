@@ -8441,14 +8441,6 @@
 		(uuid "165bb617-dea3-4867-9dac-ca1853b7e316")
 	)
 	(segment
-		(start 153.2125 124.575)
-		(end 153.565552 124.575)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "2460e1a9-de2b-427c-b54e-d0fade3e2b9f")
-	)
-	(segment
 		(start 154.751304 129)
 		(end 155 128.751304)
 		(width 0.2)
