@@ -5252,7 +5252,6 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.1mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "bd048c19-f7e2-4641-8410-aa73b7a6230c")
 		(at 127.25 120.75)
@@ -5261,7 +5260,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.05 0)
 			(layer "F.SilkS")
-			(uuid "178b719b-2450-4303-97e5-132082db6ce2")
+			(uuid "3764e085-d355-43b4-8262-ea546522cc1c")
 			(effects
 				(font
 					(size 1 1)
@@ -5272,7 +5271,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.05 0)
 			(layer "F.Fab")
-			(uuid "64776d73-ad48-42ee-bc1b-f5ac8b78f224")
+			(uuid "e3117f4a-cc1b-46ec-b261-aa547a6a46cf")
 			(effects
 				(font
 					(size 1 1)
@@ -5284,7 +5283,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e094c997-f8e1-46ba-bfbb-dfaaac0b399a")
+			(uuid "1945f662-79f8-4471-a59d-2297b527d040")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5294,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92003e86-8e6b-4e89-ba2e-2659054b4660")
+			(uuid "3ceb358b-2efd-47e2-9be1-93249317f8f2")
 			(effects
 				(font
 					(size 1.27 1.27)
