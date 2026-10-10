@@ -1081,7 +1081,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "379d2e84-8c2d-433b-a128-a269649fad2d")
-		(at 142.5 129.75 -90)
+		(at 142.5 129.5 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -5718,7 +5718,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c4d1ad51-5ac7-4507-b85f-f0fbc8985812")
-		(at 141.5 129.75 90)
+		(at 141.5 129.5 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -5876,7 +5876,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d42814a9-936b-4542-aea2-3574c6766499")
-		(at 140.5 129.75 90)
+		(at 140.5 129.5 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -7954,14 +7954,6 @@
 		(uuid "6015b4e2-a835-40ce-9885-e5ddfa6c97fd")
 	)
 	(segment
-		(start 141.5 129.27)
-		(end 140.5 129.27)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "70c95344-3092-408c-ac70-5fe6cfc8978b")
-	)
-	(segment
 		(start 159.07 126.3)
 		(end 159.07 125.755)
 		(width 0.3)
@@ -8240,6 +8232,22 @@
 		(layer "F.Cu")
 		(net "Net-(U3-PG)")
 		(uuid "cf62cfdb-84f4-468e-80c9-e1152808baed")
+	)
+	(segment
+		(start 142.5 129.02)
+		(end 142.755 129.275)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/NRST")
+		(uuid "336d175b-cfd6-45a9-bcc2-3e7a780cf82c")
+	)
+	(segment
+		(start 142.755 129.275)
+		(end 144.1375 129.275)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/NRST")
+		(uuid "7868a95f-468d-4884-9112-f650e3bd0219")
 	)
 	(segment
 		(start 157.5 127.75)
