@@ -8226,14 +8226,6 @@
 		(uuid "e7d70132-613d-45f1-bb12-d8e0965fedc5")
 	)
 	(segment
-		(start 146.1375 126.46)
-		(end 145.8525 126.175)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/BOOT")
-		(uuid "b0547354-042c-4e9f-91e3-78db7d0785a4")
-	)
-	(segment
 		(start 159.07 130.75)
 		(end 157.74 130.75)
 		(width 0.3)
