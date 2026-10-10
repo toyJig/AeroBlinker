@@ -1941,7 +1941,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "632523e1-0a35-4664-928b-9f2a6ff94fcb")
-		(at 146.3525 124.925)
+		(at 144.74 125)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -2099,7 +2099,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6c5ab2f6-e000-4c0b-9e2a-2ed507d69771")
-		(at 146.3625 126.175)
+		(at 144.75 126.25)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -7874,14 +7874,6 @@
 		(uuid "6015b4e2-a835-40ce-9885-e5ddfa6c97fd")
 	)
 	(segment
-		(start 145.8425 124.925)
-		(end 144.825 124.925)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "6cebe1a2-fe63-4248-bc33-02a0be247382")
-	)
-	(segment
 		(start 141.5 129.27)
 		(end 140.5 129.27)
 		(width 0.3)
@@ -7914,12 +7906,12 @@
 		(uuid "886e366e-979a-4d87-acf0-2d85637b9c40")
 	)
 	(segment
-		(start 144.825 124.925)
-		(end 144.75 125)
+		(start 144.25 124)
+		(end 144.25 124.98)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
-		(uuid "a3fcc8d2-50fe-4d5b-b447-036dcfa36def")
+		(uuid "b0f5bf40-0944-4cf4-b51f-dee25f17f3ff")
 	)
 	(segment
 		(start 159.07 132.7)
@@ -7944,6 +7936,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "be27676c-9957-4065-bb54-5e07eb1e33b6")
+	)
+	(segment
+		(start 144.25 124.98)
+		(end 144.23 125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "db7caf1a-67de-4b4f-a845-ec8f7329d71e")
 	)
 	(segment
 		(start 159.64 125.175)
@@ -7978,7 +7978,7 @@
 		(uuid "132c9672-9cce-4808-ab2b-8c806ff296e5")
 	)
 	(via
-		(at 144.75 125)
+		(at 144.25 124)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -8186,16 +8186,16 @@
 		(uuid "f894c9c4-274b-428c-bb81-c194bc0fa935")
 	)
 	(segment
-		(start 146.8725 126.175)
-		(end 146.8725 124.935)
+		(start 145.26 126.25)
+		(end 145.26 125.01)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "Net-(R1-Pad2)")
 		(uuid "079d3ec5-6c64-4ed9-95dd-faceaa014916")
 	)
 	(segment
-		(start 146.8725 124.935)
-		(end 146.8625 124.925)
+		(start 145.26 125.01)
+		(end 145.25 125)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "Net-(R1-Pad2)")
