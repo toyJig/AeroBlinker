@@ -1239,7 +1239,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "388b935c-e685-446e-bbdd-6a2547b3601d")
-		(at 138.5 123.75 -90)
+		(at 139 123.75 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -7966,14 +7966,6 @@
 		(uuid "47dc5d60-00a2-4097-84ba-31d6efa74ea8")
 	)
 	(segment
-		(start 140.785 124.26)
-		(end 138.5 124.26)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "50549c5c-21bf-4c9a-8b48-8343fa216959")
-	)
-	(segment
 		(start 153 130)
 		(end 153.02 130.02)
 		(width 0.3)
@@ -8022,6 +8014,14 @@
 		(uuid "7ef893c4-9850-4251-938e-686d8e5f8cdc")
 	)
 	(segment
+		(start 140.8875 124.3625)
+		(end 140.785 124.26)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "821c5715-91c9-4a32-9af2-6c7fa120505c")
+	)
+	(segment
 		(start 155.25 129.725)
 		(end 154.275 129.725)
 		(width 0.3)
@@ -8038,12 +8038,12 @@
 		(uuid "913b5f43-7f09-4693-a8ea-6e3f63a6141d")
 	)
 	(segment
-		(start 140.8875 124.3625)
-		(end 140.785 124.26)
+		(start 140.785 124.26)
+		(end 139 124.26)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+3.3V")
-		(uuid "b075fedc-97c1-48da-a3f9-e7d6046fd8c9")
+		(uuid "a8301a61-d3a3-4e53-bf1e-a9a87195558e")
 	)
 	(segment
 		(start 144.25 120.75)
@@ -8078,20 +8078,28 @@
 		(uuid "edc15ce4-b995-463c-bcab-a5bbbe414c8b")
 	)
 	(segment
-		(start 138.49 123.25)
+		(start 137.25 123.25)
+		(end 138.99 123.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(U3-PG)")
+		(uuid "9564ea27-3a55-4563-80bc-8301e8dbbb02")
+	)
+	(segment
+		(start 139 123.24)
 		(end 138.5 123.24)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "Net-(U3-PG)")
-		(uuid "e1e789cc-380c-4e24-9409-1e2bd3ac53eb")
+		(uuid "b3e6e9b3-520e-493a-bf29-afe52718aaaa")
 	)
 	(segment
-		(start 137.25 123.25)
-		(end 138.49 123.25)
+		(start 138.99 123.25)
+		(end 139 123.24)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "Net-(U3-PG)")
-		(uuid "eee3dbd2-a0b8-49fb-8b29-dd9ace37482e")
+		(uuid "cf62cfdb-84f4-468e-80c9-e1152808baed")
 	)
 	(segment
 		(start 146.1375 129.525)
