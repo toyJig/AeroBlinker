@@ -2873,6 +2873,194 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(layer "F.Cu")
+		(uuid "86e472dc-0904-4694-b5af-daa196c2eb97")
+		(at 1.825 1.825)
+		(descr "Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm")
+		(tags "CONN DEV")
+		(property "Reference" "TP2"
+			(at 2.54 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "3a2017cf-3b44-494a-8c6e-2c7cb8cd316b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 2.54 3 0)
+			(layer "F.Fab")
+			(uuid "052fbde9-ad68-47dc-b34c-701be9607d40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd16a169-454f-4d5b-9ce6-504462d12cdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93cb760f-90cb-444e-94ee-360b282ad497")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/15b71145-eb2f-44d4-a89c-e541a4ad7abe")
+		(sheetname "/")
+		(sheetfile "AeroBlinker.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.5 -1.5)
+			(end -1.5 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4a4c5e78-0a59-450e-b3ae-88728a27a419")
+		)
+		(fp_line
+			(start -1.5 -1.5)
+			(end 6.6 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "55e0cc61-3811-4c13-8a74-bafcb876f8d7")
+		)
+		(fp_line
+			(start 6.6 1.5)
+			(end -1.5 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a0d8130-c461-48cf-ad59-767701a63030")
+		)
+		(fp_line
+			(start 6.6 1.5)
+			(end 6.6 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d45ec43-a8bd-4571-b6c7-c0839dc6e5df")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ec4af8f4-ada2-4ada-b465-9cd86fa5b882")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end 6.88 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f7c36ab6-1006-4858-9bae-cb4d69242f4d")
+		)
+		(fp_line
+			(start 6.88 1.8)
+			(end -1.8 1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5f6c237e-060f-481b-8385-5a0b22af57d7")
+		)
+		(fp_line
+			(start 6.88 1.8)
+			(end 6.88 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3ad8f866-1c26-44d3-9797-bd7534eeeb7a")
+		)
+		(fp_line
+			(start 5.08 0)
+			(end 0 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c3633d0c-20df-440f-b787-cbf7a0cb85e6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.54 0 0)
+			(layer "F.Fab")
+			(uuid "0119e7b3-fb16-46bf-af16-5f4cd4fa0d52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.25)
+			(net "/SYS_SWDIO")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "7e796685-e4b5-4a1a-9200-37e3fef429ce")
+		)
+		(pad "2" thru_hole circle
+			(at 5.08 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b356bb73-e1b9-4297-9f85-643d8bcb1c70")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
 		(layer "F.Cu")
 		(uuid "890299a1-f005-431e-a820-7bd0c18ca905")
@@ -6466,7 +6654,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/SYS_SWCLK")
+			(net "/SYS_SWDIO")
 			(pinfunction "PA13_19")
 			(pintype "bidirectional")
 			(uuid "990571bb-2ba2-463c-8d79-8a710c28d6bc")
