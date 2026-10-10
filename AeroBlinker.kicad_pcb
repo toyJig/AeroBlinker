@@ -7841,14 +7841,6 @@
 		(uuid "b0547354-042c-4e9f-91e3-78db7d0785a4")
 	)
 	(segment
-		(start 157.26 130.75)
-		(end 157.25 130.74)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(J6-CC1)")
-		(uuid "12a21f49-2385-47f8-9cf2-c977d2006565")
-	)
-	(segment
 		(start 144.515 131.475)
 		(end 144.5 131.49)
 		(width 0.2)
