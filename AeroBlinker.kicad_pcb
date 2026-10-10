@@ -7648,6 +7648,17 @@
 			)
 		)
 	)
+	(gr_arc
+		(start 124.75 120.75)
+		(mid 125.482233 118.982233)
+		(end 127.25 118.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2edf895d-0af6-4e46-bd69-4b5fcff875c6")
+	)
 	(gr_line
 		(start 124.75 143.75)
 		(end 124.75 120.75)
