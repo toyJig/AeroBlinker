@@ -9147,7 +9147,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS62160DSG"
+		(property "Value" "TPS62162DGR"
 			(at 67.31 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
