@@ -5370,7 +5370,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
 		(layer "F.Cu")
 		(uuid "c48a74d3-577c-43cf-ae3c-12e0e2269d72")
-		(at 142 120.75)
+		(at 142.25 120.75)
 		(descr "tactile push button, 6x3.5mm, https://www.apem.com/idec-apem/en_US/PCB-switches/Tactile-Switches/MJTP-6mm-through-hole/c/MJTP_6mm_through%20hole?page=1")
 		(tags "PHAP3362 6mm tact sw THT")
 		(property "Reference" "SW2"
