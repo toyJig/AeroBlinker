@@ -9888,6 +9888,28 @@
 			)
 		)
 	)
+	(zone
+		(net "+3.3V")
+		(layer "B.Cu")
+		(uuid "cfce773d-9191-4b75-a4e2-c6e3b6a6596d")
+		(hatch edge 0.5)
+		(priority 4)
+		(connect_pads yes
+			(clearance 0.3)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 144.75 119.5) (xy 147.5 122.5) (xy 147.5 129) (xy 148.5 130) (xy 150.5 130) (xy 150.5 129.75)
+				(xy 149.25 129.75) (xy 148.25 128.75) (xy 148.25 122) (xy 147.75 121.5) (xy 147.75 119.75) (xy 147.25 119.5)
+			)
+		)
+	)
 	(generated
 		(uuid "936d4a19-3bb4-424b-b386-087ccddd0591")
 		(type tuning_pattern)
