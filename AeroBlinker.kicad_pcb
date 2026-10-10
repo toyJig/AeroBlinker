@@ -1081,11 +1081,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "379d2e84-8c2d-433b-a128-a269649fad2d")
-		(at 142.5 129.5 -90)
+		(at 142.5 129.5 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at -1.5 0.25 180)
+			(at -1.5 0.25 0)
 			(layer "F.SilkS")
 			(uuid "644273f6-969e-4671-af0a-a1f0665d4a46")
 			(effects
@@ -1096,7 +1096,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 1.16 1.5 180)
+			(at 1.16 1.5 0)
 			(layer "F.Fab")
 			(uuid "eadcfb59-5d3f-4568-9f1e-cfeb0516468b")
 			(effects
@@ -1153,16 +1153,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4602699d-93ac-4aaf-a41a-7fca071ed340")
-		)
-		(fp_line
 			(start -0.107836 -0.36)
 			(end 0.107836 -0.36)
 			(stroke
@@ -1171,6 +1161,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "ed6b3ad2-3a46-44fe-aa95-0f37a2dea828")
+		)
+		(fp_line
+			(start -0.107836 0.36)
+			(end 0.107836 0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4602699d-93ac-4aaf-a41a-7fca071ed340")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 270)
+			(at -0.48 0 90)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1215,7 +1215,7 @@
 			(uuid "8578411c-2175-4954-a920-1da8d9d9c246")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 270)
+			(at 0.48 0 90)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8431,23 +8431,7 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net "RECV_PWM")
-		(uuid "2a9209a2-6def-4baf-a7f6-004b97bc0d7d")
-	)
-	(segment
-		(start 142.661846 131.075)
-		(end 143.161846 130.575)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "RECV_PWM")
-		(uuid "312ef54e-0c19-4e8d-bc9a-e424484ac2fa")
-	)
-	(segment
-		(start 137.7 128.8125)
-		(end 137.7 130.45)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "RECV_PWM")
-		(uuid "516b9886-b0f0-4fa6-8347-ad708af8df25")
+		(uuid "1abce8f4-5e25-40de-b5bf-0348e7d64dab")
 	)
 	(segment
 		(start 134.67 125.7825)
@@ -8458,12 +8442,28 @@
 		(uuid "6263c2b6-df24-4a02-82a6-79e357df7b35")
 	)
 	(segment
-		(start 137.7 130.45)
-		(end 138.325 131.075)
+		(start 143.161846 130.575)
+		(end 144.1375 130.575)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "RECV_PWM")
-		(uuid "cf1269eb-b1ec-4d63-a281-627bf2eb3460")
+		(uuid "80d30465-db16-4835-a3d4-da57b746dd18")
+	)
+	(segment
+		(start 142.661846 131.075)
+		(end 143.161846 130.575)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "RECV_PWM")
+		(uuid "a92c7691-464d-42b7-a8d0-b3141cff6904")
+	)
+	(segment
+		(start 137.7 128.8125)
+		(end 137.7 130.45)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "RECV_PWM")
+		(uuid "ccfac2af-9118-4c43-b9f1-648fde3aaa9d")
 	)
 	(segment
 		(start 130.3 125.7825)
@@ -8474,12 +8474,12 @@
 		(uuid "e84ed5f3-d44c-4e9a-82ac-5e931d47cd2b")
 	)
 	(segment
-		(start 143.161846 130.575)
-		(end 144.1375 130.575)
+		(start 137.7 130.45)
+		(end 138.325 131.075)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "RECV_PWM")
-		(uuid "eb0f00fd-c240-4ca7-9a90-8ff2a1b71534")
+		(uuid "e9670006-558c-4bc7-a86d-812b78b09b88")
 	)
 	(segment
 		(start 131.245 130.6875)
@@ -8536,6 +8536,30 @@
 		(layer "F.Cu")
 		(net "/SYS_SWCLK")
 		(uuid "f39f428e-4864-47e9-8c9c-d8718f159ca1")
+	)
+	(segment
+		(start 142.25 131.99)
+		(end 142.645832 131.99)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/LED_GATE")
+		(uuid "3d7bcc08-3602-4f0d-beab-4777ab39f667")
+	)
+	(segment
+		(start 142.645832 131.99)
+		(end 143.410832 131.225)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/LED_GATE")
+		(uuid "d0de81f2-0352-478b-a9af-c8016fb303e0")
+	)
+	(segment
+		(start 143.410832 131.225)
+		(end 144.1375 131.225)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/LED_GATE")
+		(uuid "e895b68d-487a-4d5a-b317-97edc3235244")
 	)
 	(zone
 		(net "GND")
