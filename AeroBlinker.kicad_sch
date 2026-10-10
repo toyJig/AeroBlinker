@@ -6148,16 +6148,6 @@
 		)
 		(uuid "51553a9a-53c2-41b4-968b-40444c6c5489")
 	)
-	(label "USB_D+"
-		(at 160.02 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56f15f53-72a8-46df-a170-160eba341ad0")
-	)
 	(label "RECV_IN"
 		(at 182.88 123.19 180)
 		(effects
@@ -6177,6 +6167,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ad4c7de-0e77-41f7-96bf-9fef9202eca6")
+	)
+	(label "USB_D+"
+		(at 161.29 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98566bd9-5cbc-4a2e-831e-115086275a08")
 	)
 	(label "USB_D-"
 		(at 111.76 76.2 180)
