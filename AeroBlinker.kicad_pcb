@@ -5559,7 +5559,7 @@
 	(footprint "Button_Switch_SMD:Nidec_Copal_CAS-120A"
 		(layer "F.Cu")
 		(uuid "c48a74d3-577c-43cf-ae3c-12e0e2269d72")
-		(at 146.5 121.1 90)
+		(at 146.25 121 90)
 		(descr "Slide Switch, SMD, Nidec CAS series, https://www.nidec-components.com/e/catalog/switch/cas.pdf")
 		(tags "SMD slide switch Nidec CAS 120A ")
 		(property "Reference" "SW2"
