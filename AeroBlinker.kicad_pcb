@@ -7889,28 +7889,12 @@
 		(uuid "b95ba1d0-344a-481f-bbc4-96568643d0ae")
 	)
 	(segment
-		(start 144.25 120.75)
-		(end 142.25 120.75)
-		(width 0.4)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "bc82b9a5-6824-44dc-91be-be444ff4ca75")
-	)
-	(segment
 		(start 153.98 130.02)
 		(end 153.5 130.02)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "d82acdf0-8af7-41d0-b417-05f8a4cb5d36")
-	)
-	(segment
-		(start 141.1 119.6)
-		(end 142.25 120.75)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "edc15ce4-b995-463c-bcab-a5bbbe414c8b")
 	)
 	(segment
 		(start 140.8875 128.325)
