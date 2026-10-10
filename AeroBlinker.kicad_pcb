@@ -8947,7 +8947,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(U3-PG)")
-		(uuid "6c7e7567-f515-4d03-b345-29238e8876c4")
+		(uuid "30a7585f-fa14-4864-938b-c7f1a85ed602")
 	)
 	(segment
 		(start 139.575 121.4)
@@ -8955,7 +8955,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(U3-PG)")
-		(uuid "7a01e60a-e01a-4e38-bc87-2ac9e00bce55")
+		(uuid "d94a21d3-8119-468a-b3a9-152f758d5c78")
 	)
 	(segment
 		(start 142.5 129.02)
