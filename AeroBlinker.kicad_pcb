@@ -6689,7 +6689,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 1.75 0 180)
+			(at -0.75 -1 180)
 			(layer "F.SilkS")
 			(uuid "63a12936-9090-43f8-9591-e8f12c994193")
 			(effects
@@ -7957,12 +7957,28 @@
 		(uuid "1b92ea7a-6ba8-4d35-9502-28d786f02b7b")
 	)
 	(segment
+		(start 151.5 130.27)
+		(end 151.809999 130.27)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "28246032-a1d0-492b-9a9a-015b9b4424d4")
+	)
+	(segment
 		(start 140.675 120.347613)
 		(end 141.597613 119.425)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "28d16765-b52e-4684-a617-2437e1460f9c")
+	)
+	(segment
+		(start 152.25 130.710001)
+		(end 152.25 131.975)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "3a08c17a-5ba5-4c33-b99d-13ac5a0b3468")
 	)
 	(segment
 		(start 139.2875 125.075)
@@ -7979,6 +7995,22 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "5cf361b7-529f-498f-9ef5-ef1ddb50548c")
+	)
+	(segment
+		(start 152.25 131.975)
+		(end 151.75 132.475)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "66a0c32d-bff1-4450-adce-a7fea98bbb1a")
+	)
+	(segment
+		(start 151.809999 130.27)
+		(end 152.25 130.710001)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "688bc545-b4dc-42d9-9a48-6e8cd3989054")
 	)
 	(segment
 		(start 140.675 121.652387)
