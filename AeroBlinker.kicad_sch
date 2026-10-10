@@ -6459,30 +6459,6 @@
 			)
 		)
 	)
-	(global_label "TIM2_CH1"
-		(shape input)
-		(at 101.6 55.88 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "c9398ecf-5778-4b53-a40c-6257376ba0bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6 48.6819 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 113.03 81.28 270)
