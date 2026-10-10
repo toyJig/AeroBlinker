@@ -6138,16 +6138,6 @@
 		)
 		(uuid "495a1d01-6bef-4710-a890-f981f67a34b7")
 	)
-	(label "USB_D-"
-		(at 160.02 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51553a9a-53c2-41b4-968b-40444c6c5489")
-	)
 	(label "RECV_IN"
 		(at 182.88 123.19 180)
 		(effects
@@ -6169,7 +6159,7 @@
 		(uuid "7ad4c7de-0e77-41f7-96bf-9fef9202eca6")
 	)
 	(label "USB_D+"
-		(at 161.29 67.31 0)
+		(at 160.02 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6207,6 +6197,16 @@
 			(justify right bottom)
 		)
 		(uuid "c4f6685b-2ec8-4777-ad79-7228b7e82ca1")
+	)
+	(label "USB_D-"
+		(at 160.02 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3fb2bc3-417d-4ad1-aeec-a57929c677a7")
 	)
 	(label "LED_SOURCE"
 		(at 64.77 179.07 180)
