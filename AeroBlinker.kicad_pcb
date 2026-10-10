@@ -1086,7 +1086,7 @@
 		(property "Reference" "C6"
 			(at -2.25 0 180)
 			(layer "F.SilkS")
-			(uuid "1e9d0067-0eff-4ab6-9105-4876cb50187d")
+			(uuid "568d64a3-1eaf-423f-ac3f-94d487e0a373")
 			(effects
 				(font
 					(size 1 1)
@@ -1097,7 +1097,7 @@
 		(property "Value" "100n"
 			(at 1.16 1.5 180)
 			(layer "F.Fab")
-			(uuid "1a46b7da-10f6-4aaa-93c4-1b4386d19c04")
+			(uuid "4c55acad-88d2-4b50-8c3d-484193e7dc12")
 			(effects
 				(font
 					(size 1 1)
@@ -1109,7 +1109,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6dcc7bd0-6614-42fb-adf9-12dae3a75a18")
+			(uuid "501f64ce-341d-4c38-884f-35eafb535d36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1120,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51ec8bc9-ee0e-4922-9c87-d63e6ca52346")
+			(uuid "ac87612f-34fb-4a23-b532-b8aa456d835a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,13 +1939,13 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "632523e1-0a35-4664-928b-9f2a6ff94fcb")
-		(at 144.5 124.75 90)
+		(at 145.99 124)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 2 0 90)
+			(at 2 0 0)
 			(layer "F.SilkS")
-			(uuid "c2cf311a-d01e-4b95-a8e5-86e9aec7b24c")
+			(uuid "09f9f534-1e62-44fe-a79e-153ce3aaac6f")
 			(effects
 				(font
 					(size 1 1)
@@ -1954,9 +1954,9 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.17 90)
+			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "45f1b018-c24e-40be-855b-f2f35faf56f1")
+			(uuid "aebe6340-f31b-40d0-86c7-2d8e1ef0d371")
 			(effects
 				(font
 					(size 1 1)
@@ -1965,10 +1965,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0349c42d-24d9-4c92-b7bf-380ccecacca4")
+			(uuid "6af08bf0-0175-4ad2-91a1-87b7bb0771dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,10 +1976,10 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "942fb3e2-507d-4d74-aae8-302082d04eb7")
+			(uuid "809257df-6233-45d6-9e0c-cfc6b4e6865d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +1987,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0b73504c-a7a9-4c68-8d92-9f2746c5093c")
@@ -2053,7 +2053,7 @@
 			(uuid "ffbfaf39-d6ac-4d1a-aff0-22dff10343f4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2d73e9fc-c913-44be-bda3-54e8c53a351c")
 			(effects
@@ -2064,7 +2064,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 90)
+			(at -0.51 0)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2073,7 +2073,7 @@
 			(uuid "dc4e8659-da44-48ef-847a-516dd09fd07e")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 90)
+			(at 0.51 0)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
