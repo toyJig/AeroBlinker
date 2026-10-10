@@ -3905,7 +3905,7 @@
 	(footprint "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a155a16f-0e7b-4031-ad1d-549a403d4f91")
-		(at 179.605 140.25 180)
+		(at 148.5075 140.8 180)
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J2"
@@ -7438,7 +7438,7 @@
 	(footprint "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
 		(layer "F.Cu")
 		(uuid "fccef7ed-fc79-4548-a651-caed4c20029a")
-		(at 158.895 140.25 180)
+		(at 179.5075 110.05 180)
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J4"
