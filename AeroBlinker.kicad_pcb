@@ -7732,6 +7732,22 @@
 		(layer "Edge.Cuts")
 		(uuid "7d246bcb-e2fa-4558-9050-6ca1c51db5be")
 	)
+	(segment
+		(start 146.1375 129.525)
+		(end 144.505 129.525)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/NRST")
+		(uuid "13347ce9-4c5e-4d25-8fd1-9400236c3ec0")
+	)
+	(segment
+		(start 144.505 129.525)
+		(end 144.5 129.52)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/NRST")
+		(uuid "93a35039-7ca4-414d-be39-f81e62a0d1dc")
+	)
 	(zone
 		(net "GND")
 		(layer "B.Cu")
