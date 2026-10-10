@@ -7655,8 +7655,18 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Cmts.User")
+		(layer "Edge.Cuts")
 		(uuid "582b3342-f58c-4169-9ff2-08ef595b430f")
+	)
+	(gr_line
+		(start 127.25 118.25)
+		(end 164 118.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "519cdf3d-0a75-442c-af6c-bcb39f381d99")
 	)
 	(gr_line
 		(start 164 146.25)
@@ -7665,7 +7675,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Cmts.User")
+		(layer "Edge.Cuts")
 		(uuid "0aa92506-9f4b-4bac-b2d1-8fc8c9b89254")
 	)
 	(gr_line
@@ -7675,7 +7685,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Cmts.User")
+		(layer "Edge.Cuts")
 		(uuid "8e827e0a-1d9f-4bc1-a25c-c34e7851b7f4")
 	)
 	(embedded_fonts no)
