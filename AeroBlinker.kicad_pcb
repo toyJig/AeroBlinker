@@ -1236,14 +1236,14 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "388b935c-e685-446e-bbdd-6a2547b3601d")
-		(at 139 123.75 -90)
-		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(at 139.25 124.25 -90)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.5 0)
+			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(uuid "31b81679-7b03-4f40-82d3-cb700ab61257")
 			(effects
@@ -1254,7 +1254,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.17 90)
+			(at 0 1.43 270)
 			(layer "F.Fab")
 			(uuid "86a051e3-c21c-4119-9d8b-886547b33258")
 			(effects
@@ -1265,7 +1265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f692e3f1-c29a-4080-a27f-a4d790639d9e")
@@ -1276,7 +1276,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c0c1b85-03db-4b9c-b383-368ffcd5c5c9")
@@ -1287,7 +1287,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1cfa9b4e-0226-4bba-acb6-1e2b4f1e5d96")
@@ -1311,8 +1311,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1321,8 +1321,8 @@
 			(uuid "f85fe8d5-ac44-44c1-a6b0-6b99183a4507")
 		)
 		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1331,8 +1331,8 @@
 			(uuid "82e510e6-29e5-476c-b4ce-1ecbdf0927c9")
 		)
 		(fp_rect
-			(start -0.93 -0.47)
-			(end 0.93 0.47)
+			(start -1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1342,8 +1342,8 @@
 			(uuid "b7dcc160-42b3-4d10-ae5f-1493cecf563d")
 		)
 		(fp_rect
-			(start -0.525 -0.27)
-			(end 0.525 0.27)
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -1353,19 +1353,19 @@
 			(uuid "c2feb199-4a78-46e6-9e0e-06f943c4200c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "22f37a49-48c2-4891-9db9-e45ca40220b4")
 			(effects
 				(font
-					(size 0.26 0.26)
-					(thickness 0.04)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 270)
-			(size 0.54 0.64)
+			(at -0.825 0 270)
+			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-PG)")
@@ -1373,8 +1373,8 @@
 			(uuid "2d6ca755-59a9-46c3-8724-733be6ebe7a7")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 270)
-			(size 0.54 0.64)
+			(at 0.825 0 270)
+			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3.3V")
@@ -1382,7 +1382,7 @@
 			(uuid "658f6740-3267-4b52-8b86-69e0f4da398d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3919,7 +3919,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
-			(net "/SYS_SWDIO")
+			(net "/SYS_SWCLK")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "4b27d325-10d9-4a96-825e-5809f2191b7f")
@@ -3930,7 +3930,6 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/SYS_SWCLK")
 			(uuid "c3372049-10e6-44d9-bd48-d30ca3bd578b")
 		)
 		(embedded_fonts no)
@@ -8036,14 +8035,6 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "913b5f43-7f09-4693-a8ea-6e3f63a6141d")
-	)
-	(segment
-		(start 140.785 124.26)
-		(end 139 124.26)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "a8301a61-d3a3-4e53-bf1e-a9a87195558e")
 	)
 	(segment
 		(start 144.25 120.75)
