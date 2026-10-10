@@ -5252,6 +5252,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.1mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "bd048c19-f7e2-4641-8410-aa73b7a6230c")
 		(at 127.25 120.75)
