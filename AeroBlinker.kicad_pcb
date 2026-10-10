@@ -4896,7 +4896,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "b6828052-c5e3-419f-bdd7-fe04c52f5298")
-		(at 154.5 127.5 90)
+		(at 155.25 129.5 90)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
@@ -8552,22 +8552,6 @@
 		(layer "F.Cu")
 		(net "/LED_GATE")
 		(uuid "e895b68d-487a-4d5a-b317-97edc3235244")
-	)
-	(segment
-		(start 151.2875 128.625)
-		(end 153.55 126.3625)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/USB_D+")
-		(uuid "003d2f35-9ba7-4176-9989-a551874a8d52")
-	)
-	(segment
-		(start 149.8625 128.625)
-		(end 151.2875 128.625)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/USB_D+")
-		(uuid "2df77c47-29e4-4717-8b1d-370414805ff5")
 	)
 	(zone
 		(net "GND")
