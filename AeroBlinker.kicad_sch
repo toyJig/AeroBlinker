@@ -1642,7 +1642,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BZV55B3V3"
+		(symbol "Diode:BZX84Cxx"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1655,7 +1655,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1664,8 +1664,8 @@
 					)
 				)
 			)
-			(property "Value" "BZV55B3V3"
-				(at 0 -2.54 0)
+			(property "Value" "BZX84Cxx"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1674,18 +1674,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_MiniMELF"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1696,7 +1685,18 @@
 					)
 				)
 			)
-			(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "300mW Zener Diode, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1718,7 +1718,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*MiniMELF*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1729,7 +1729,7 @@
 					)
 				)
 			)
-			(symbol "BZV55B3V3_0_1"
+			(symbol "BZX84Cxx_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
@@ -1767,11 +1767,11 @@
 					)
 				)
 			)
-			(symbol "BZV55B3V3_1_1"
+			(symbol "BZX84Cxx_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1786,10 +1786,11 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 3.81 0 180)
+				(pin no_connect line
+					(at 1.27 0 180)
 					(length 2.54)
-					(name "A"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1797,6 +1798,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4747,6 +4766,12 @@
 		(uuid "913870df-17f7-4569-be76-8aceefc37ceb")
 	)
 	(junction
+		(at 217.17 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cae5ff4-4f46-4363-b852-85e48f90f6e5")
+	)
+	(junction
 		(at 78.74 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4775,12 +4800,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b546b095-38fa-4a68-85b8-073582cf56fb")
-	)
-	(junction
-		(at 217.17 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4fed5ab-23c1-4b53-a5ec-80ad657d5347")
 	)
 	(junction
 		(at 69.85 140.97)
@@ -5508,16 +5527,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 125.73) (xy 227.33 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ae6ed63-d838-4cf1-91d4-984811f8d203")
-	)
-	(wire
-		(pts
 			(xy 69.85 140.97) (xy 78.74 140.97)
 		)
 		(stroke
@@ -5625,6 +5634,16 @@
 			(type default)
 		)
 		(uuid "95c4a0f0-0bbe-48cc-b75d-4646c98a061c")
+	)
+	(wire
+		(pts
+			(xy 217.17 125.73) (xy 227.33 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984c38e1-42ae-4a65-8b58-532e9919eb11")
 	)
 	(wire
 		(pts
@@ -8267,6 +8286,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BZX84Cxx")
+		(at 217.17 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ca17b93-64eb-4c7d-9e79-98befdff4127")
+		(property "Reference" "D2"
+			(at 219.71 128.2699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BZX84Cxx"
+			(at 219.71 130.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300mW Zener Diode, SOT-23"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51c405d7-b2c6-4be9-b341-5cc0d71ab04b")
+		)
+		(pin "2"
+			(uuid "c542f10f-1861-4ad0-94aa-86d5627609f8")
+		)
+		(pin "3"
+			(uuid "ef871689-d42f-4c98-af21-84d2a1cddee4")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 207.01 60.96 0)
 		(mirror y)
@@ -9508,88 +9612,6 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZV55B3V3")
-		(at 217.17 129.54 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d2277eb-a867-4c02-ac21-fc62822722e9")
-		(property "Reference" "D1"
-			(at 219.71 128.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BZV55B3V3"
-			(at 219.71 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 221.615 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 217.17 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 217.17 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01f0a745-a5d4-42b3-b998-bd4fabca6813")
-		)
-		(pin "2"
-			(uuid "a60f1e96-cbc8-4f25-a269-d66652ce6f73")
-		)
-		(instances
-			(project "AeroBlinker"
-				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
-					(reference "D1")
 					(unit 1)
 				)
 			)
