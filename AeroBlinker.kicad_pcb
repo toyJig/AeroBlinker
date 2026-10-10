@@ -6033,13 +6033,13 @@
 	(footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "d5b05db5-ced8-49cf-8238-ce5edd198231")
-		(at 147.75 134.75)
+		(at 149 130.5)
 		(descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO")
 		(property "Reference" "U1"
 			(at 0.1125 4.175 0)
 			(layer "F.SilkS")
-			(uuid "e6ede9c5-0452-4c15-b9d7-38e43ac3ebd3")
+			(uuid "5a1b8c9f-c089-48a4-9d73-de3b2647d000")
 			(effects
 				(font
 					(size 1 1)
@@ -6050,7 +6050,7 @@
 		(property "Value" "STM32F042F6Px"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "48c8248b-b04e-4a61-b58e-45da3a7812dd")
+			(uuid "3e477aba-1f08-4942-b98c-820bda680ce2")
 			(effects
 				(font
 					(size 1 1)
@@ -6062,7 +6062,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5a4cd82-1cc6-4efc-9160-6dd8e3924bd1")
+			(uuid "2dcda7e5-b324-49b7-81a5-48b44dd116d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6073,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0df97755-a407-4259-90a4-6543a3d51b9c")
+			(uuid "3d0f1ab0-7c65-4acf-9e25-252602edc802")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,44 +8273,12 @@
 		(uuid "fcb52e82-fe93-4cb0-a4aa-0105de840382")
 	)
 	(segment
-		(start 150.775 127.864168)
-		(end 150.775 122.435)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "1e83e633-77cc-4d80-83e1-2f6575fa8d3d")
-	)
-	(segment
 		(start 152 123)
 		(end 155.29 123)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/SYS_SWCLK")
 		(uuid "20265e4d-88ad-4141-b922-952092816fa3")
-	)
-	(segment
-		(start 150.775 122.435)
-		(end 152.71 120.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "22770798-a8ec-4144-9770-349cc34f5e59")
-	)
-	(segment
-		(start 151.8625 128.225)
-		(end 151.135832 128.225)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "28236f53-cc35-4d14-9d58-ba457dd05ea8")
-	)
-	(segment
-		(start 151.135832 128.225)
-		(end 150.775 127.864168)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "5a699c26-27c8-4dc7-ab3c-6d3721a49e9a")
 	)
 	(segment
 		(start 155.29 123)
@@ -8487,6 +8455,38 @@
 		(layer "F.Cu")
 		(net "/USB_D-")
 		(uuid "63ba59d6-91ca-443d-90ca-93fddc188149")
+	)
+	(segment
+		(start 150.775 127.864168)
+		(end 150.775 122.435)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/SYS_SWDIO")
+		(uuid "1e83e633-77cc-4d80-83e1-2f6575fa8d3d")
+	)
+	(segment
+		(start 150.775 122.435)
+		(end 152.71 120.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/SYS_SWDIO")
+		(uuid "22770798-a8ec-4144-9770-349cc34f5e59")
+	)
+	(segment
+		(start 151.8625 128.225)
+		(end 151.135832 128.225)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/SYS_SWDIO")
+		(uuid "28236f53-cc35-4d14-9d58-ba457dd05ea8")
+	)
+	(segment
+		(start 151.135832 128.225)
+		(end 150.775 127.864168)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/SYS_SWDIO")
+		(uuid "5a699c26-27c8-4dc7-ab3c-6d3721a49e9a")
 	)
 	(segment
 		(start 143.25 129.27)
@@ -9434,55 +9434,6 @@
 				(xy 126.981048 118.76919) (xy 126.997102 118.767075) (xy 127.245957 118.750765) (xy 127.254067 118.7505)
 				(xy 127.315892 118.7505) (xy 151.606744 118.7505)
 			)
-		)
-	)
-	(generated
-		(uuid "0e806787-e312-4559-9269-0a25a8b9fe98")
-		(type tuning_pattern)
-		(name "Tuning Pattern")
-		(layer "F.Cu")
-		(base_line
-			(pts
-				(xy 153.065685 128.977771) (xy 152.518456 129.525) (xy 151.8625 129.525)
-			)
-		)
-		(base_line_coupled
-			(pts
-				(xy 151.8625 128.875)
-			)
-		)
-		(corner_radius_percent 80)
-		(end
-			(xy 151.8625 129.525)
-		)
-		(initial_side "right")
-		(is_time_domain no)
-		(last_diff_pair_gap 0.18)
-		(last_netname "/USB_D-")
-		(last_status "too_short")
-		(last_track_width 0.2)
-		(last_tuning_length -21.686123)
-		(max_amplitude 1)
-		(min_amplitude 0.2)
-		(min_spacing 0.6)
-		(origin
-			(xy 153.065685 128.977771)
-		)
-		(override_custom_rules no)
-		(rounded yes)
-		(single_sided no)
-		(target_delay 1000000)
-		(target_delay_max 1000000)
-		(target_delay_min 0)
-		(target_length 1000000)
-		(target_length_max 1000000)
-		(target_length_min 0)
-		(target_skew 0)
-		(target_skew_max 0.1)
-		(target_skew_min -0.1)
-		(tuning_mode "diff_pair_skew")
-		(members "3bab0581-c22d-4a5c-b744-1d624a241984" "53869e0d-4e1d-426a-8438-6f93bdaa0b57"
-			"63ba59d6-91ca-443d-90ca-93fddc188149"
 		)
 	)
 	(embedded_fonts no)
