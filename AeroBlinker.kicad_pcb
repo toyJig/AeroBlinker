@@ -8531,7 +8531,7 @@
 	(segment
 		(start 152.9 128.577771)
 		(end 152.9 127.669703)
-		(width 0.2)
+		(width 0.5)
 		(layer "F.Cu")
 		(net "/USB_D+")
 		(uuid "4abe5e74-f40f-4c8f-933a-f9614bd0841f")
