@@ -8400,22 +8400,6 @@
 		(net "/SYS_SWCLK")
 		(uuid "badb9bb5-ab17-417d-b711-7601989c7811")
 	)
-	(segment
-		(start 151.5 127.2125)
-		(end 151.5 123.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "bd877ff2-e842-4b82-925e-f91c734ae246")
-	)
-	(segment
-		(start 151.8625 127.575)
-		(end 151.5 127.2125)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "f49193ef-650e-4643-b69c-4663cd7b8772")
-	)
 	(zone
 		(net "GND")
 		(layer "B.Cu")
