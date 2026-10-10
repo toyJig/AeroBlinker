@@ -4742,13 +4742,13 @@
 		(uuid "643e2c65-5808-4379-8d19-819b22abcf35")
 	)
 	(junction
-		(at 212.09 125.73)
+		(at 212.09 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71e53634-d667-4ffd-ac00-4e594eaa944b")
 	)
 	(junction
-		(at 212.09 133.35)
+		(at 212.09 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "738a0ab4-9f64-4dbe-8a69-8cc4f57b7c3c")
@@ -4766,7 +4766,7 @@
 		(uuid "913870df-17f7-4569-be76-8aceefc37ceb")
 	)
 	(junction
-		(at 217.17 125.73)
+		(at 217.17 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cae5ff4-4f46-4363-b852-85e48f90f6e5")
@@ -5287,7 +5287,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 133.35) (xy 217.17 133.35)
+			(xy 212.09 134.62) (xy 217.17 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5457,7 +5457,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 129.54) (xy 212.09 133.35)
+			(xy 212.09 129.54) (xy 212.09 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5494,16 +5494,6 @@
 			(type default)
 		)
 		(uuid "87e5e212-c948-4298-8e9c-dafdfd290b75")
-	)
-	(wire
-		(pts
-			(xy 212.09 133.35) (xy 212.09 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89fb491b-e47b-4a35-9c4e-318406449bc3")
 	)
 	(wire
 		(pts
@@ -5637,7 +5627,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 125.73) (xy 227.33 125.73)
+			(xy 217.17 124.46) (xy 217.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976a4271-d7a4-43cf-8a58-3c22c687447c")
+	)
+	(wire
+		(pts
+			(xy 217.17 124.46) (xy 227.33 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5947,6 +5947,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 134.62) (xy 217.17 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3178822-6752-4b80-9c65-c8906eed7e50")
+	)
+	(wire
+		(pts
 			(xy 191.77 60.96) (xy 190.5 60.96)
 		)
 		(stroke
@@ -6167,7 +6177,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 125.73) (xy 217.17 125.73)
+			(xy 212.09 124.46) (xy 217.17 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6316,7 +6326,7 @@
 		(uuid "56f15f53-72a8-46df-a170-160eba341ad0")
 	)
 	(label "RECV_IN"
-		(at 227.33 125.73 180)
+		(at 227.33 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
