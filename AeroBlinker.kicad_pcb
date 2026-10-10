@@ -6033,13 +6033,13 @@
 	(footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "d5b05db5-ced8-49cf-8238-ce5edd198231")
-		(at 147.8875 135.725)
+		(at 149 130.5)
 		(descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO")
 		(property "Reference" "U1"
 			(at 0.1125 4.175 0)
 			(layer "F.SilkS")
-			(uuid "f9ffe1e1-1e4c-43b9-8022-bea077f474b5")
+			(uuid "c914c2fc-ef17-4a77-8f2d-ca4771636622")
 			(effects
 				(font
 					(size 1 1)
@@ -6050,7 +6050,7 @@
 		(property "Value" "STM32F042F6Px"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "09a2ecb1-256c-44d6-a064-4bc9e147e95d")
+			(uuid "82117a1b-eb7f-4c4c-9c93-38835498b084")
 			(effects
 				(font
 					(size 1 1)
@@ -6062,7 +6062,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6bf2896-ea58-4c78-bf35-adf077fa8c15")
+			(uuid "9be2ebe2-3837-4f1e-a40d-fcd1de791b32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6073,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0b33d28-cecf-4c03-a3bc-652b3859dec5")
+			(uuid "006c41b7-61d5-4f5e-86eb-17b924f115f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,44 +8273,12 @@
 		(uuid "fcb52e82-fe93-4cb0-a4aa-0105de840382")
 	)
 	(segment
-		(start 150.775 127.864168)
-		(end 150.775 122.435)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "1e83e633-77cc-4d80-83e1-2f6575fa8d3d")
-	)
-	(segment
 		(start 152 123)
 		(end 155.29 123)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/SYS_SWCLK")
 		(uuid "20265e4d-88ad-4141-b922-952092816fa3")
-	)
-	(segment
-		(start 150.775 122.435)
-		(end 152.71 120.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "22770798-a8ec-4144-9770-349cc34f5e59")
-	)
-	(segment
-		(start 151.8625 128.225)
-		(end 151.135832 128.225)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "28236f53-cc35-4d14-9d58-ba457dd05ea8")
-	)
-	(segment
-		(start 151.135832 128.225)
-		(end 150.775 127.864168)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "5a699c26-27c8-4dc7-ab3c-6d3721a49e9a")
 	)
 	(segment
 		(start 155.29 123)
@@ -8575,6 +8543,38 @@
 		(layer "F.Cu")
 		(net "/USB_D-")
 		(uuid "d1741f69-4598-4068-9e31-9625287c8eab")
+	)
+	(segment
+		(start 150.775 127.864168)
+		(end 150.775 122.435)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/SYS_SWDIO")
+		(uuid "1e83e633-77cc-4d80-83e1-2f6575fa8d3d")
+	)
+	(segment
+		(start 150.775 122.435)
+		(end 152.71 120.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/SYS_SWDIO")
+		(uuid "22770798-a8ec-4144-9770-349cc34f5e59")
+	)
+	(segment
+		(start 151.8625 128.225)
+		(end 151.135832 128.225)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/SYS_SWDIO")
+		(uuid "28236f53-cc35-4d14-9d58-ba457dd05ea8")
+	)
+	(segment
+		(start 151.135832 128.225)
+		(end 150.775 127.864168)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/SYS_SWDIO")
+		(uuid "5a699c26-27c8-4dc7-ab3c-6d3721a49e9a")
 	)
 	(segment
 		(start 143.25 129.27)
