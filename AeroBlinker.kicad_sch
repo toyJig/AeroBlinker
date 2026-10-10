@@ -8189,7 +8189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 163.83 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8949,7 +8949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 163.83 124.46 0)
 			(hide yes)
 			(show_name no)
