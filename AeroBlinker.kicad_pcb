@@ -7648,5 +7648,25 @@
 			)
 		)
 	)
+	(gr_line
+		(start 164 146.25)
+		(end 127.25 146.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "0aa92506-9f4b-4bac-b2d1-8fc8c9b89254")
+	)
+	(gr_line
+		(start 166.5 120.75)
+		(end 166.5 143.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "8e827e0a-1d9f-4bc1-a25c-c34e7851b7f4")
+	)
 	(embedded_fonts no)
 )
