@@ -7280,11 +7280,11 @@
 	(footprint "Inductor_SMD:L_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "fac70d9a-1bd0-4580-add2-02a3334f7c69")
-		(at 139.25 128.5)
+		(at 140 128.5 90)
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "inductor")
 		(property "Reference" "FB1"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "c6beb396-e1eb-4761-bdbc-b0c8cc3057d8")
 			(effects
@@ -7295,7 +7295,7 @@
 			)
 		)
 		(property "Value" "75R"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "c7bc8fc6-1ed1-45d4-bf86-af22487b4175")
 			(effects
@@ -7306,7 +7306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1317344-d459-456b-8505-b014e3d471eb")
@@ -7317,7 +7317,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aafe58d0-1565-436e-8183-91dc217fa134")
@@ -7328,7 +7328,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0039b4e9-7a73-4e0b-97cf-d2d170cf9f43")
@@ -7394,7 +7394,7 @@
 			(uuid "471d0c9b-129f-466d-89fc-9427a59b14c9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "c471e311-1e68-46a4-ac55-cc1cf71ea041")
 			(effects
@@ -7405,7 +7405,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7414,7 +7414,7 @@
 			(uuid "78597029-d54a-46b4-bf78-4fcd64707bbd")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
