@@ -6260,7 +6260,7 @@
 		)
 		(uuid "f4479648-5840-4055-9f3e-6f43692ac5ae")
 	)
-	(global_label "RECV_PWM"
+	(global_label "RECV_IN"
 		(shape input)
 		(at 179.07 119.38 180)
 		(fields_autoplaced yes)
@@ -6272,7 +6272,7 @@
 		)
 		(uuid "47de90dc-13e9-4dd8-8cb0-9853883dbde5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.1668 119.38 0)
+			(at 168.4043 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
