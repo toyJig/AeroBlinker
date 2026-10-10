@@ -4669,6 +4669,12 @@
 		(uuid "c53affae-0bd7-44d3-a524-88e3fdbf66d2")
 	)
 	(junction
+		(at 144.78 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c87e6de0-48a5-4e75-9a38-f0fccb392aa6")
+	)
+	(junction
 		(at 173.99 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5326,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 129.54) (xy 144.78 135.89)
+			(xy 144.78 134.62) (xy 144.78 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5626,6 +5632,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 129.54) (xy 144.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad56ddc6-1100-492c-8da1-bd7e64dca290")
+	)
+	(wire
+		(pts
 			(xy 87.63 121.92) (xy 104.14 121.92)
 		)
 		(stroke
@@ -5743,6 +5759,16 @@
 			(type default)
 		)
 		(uuid "bc541ca6-7fde-4eee-b0bf-513a5ca18b3f")
+	)
+	(wire
+		(pts
+			(xy 135.89 135.89) (xy 135.89 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcaf8d23-ea60-452e-886e-112d1176981e")
 	)
 	(wire
 		(pts
@@ -5953,6 +5979,16 @@
 			(type default)
 		)
 		(uuid "e3504592-ed7a-4517-b5ff-059e326352af")
+	)
+	(wire
+		(pts
+			(xy 135.89 134.62) (xy 144.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e543971d-400d-410f-9fae-fb07e13a55c2")
 	)
 	(wire
 		(pts
@@ -10596,6 +10632,84 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 135.89 135.89 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9ee17cd-e20f-411f-a7b4-73e3fde47505")
+		(property "Reference" "#FLG04"
+			(at 135.89 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 135.89 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 135.89 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 135.89 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d7013f7-edb0-4f5f-af0f-e70307e6bada")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
