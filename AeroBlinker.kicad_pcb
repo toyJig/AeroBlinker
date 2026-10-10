@@ -133,7 +133,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 -1.43 0)
+			(at 2.3625 -0.075 0)
 			(layer "F.SilkS")
 			(uuid "03ce1613-b125-4b81-a913-c102e3c97977")
 			(effects
@@ -408,7 +408,7 @@
 		(descr "Texas DSG0008A WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf)")
 		(tags "Texas WSON NoLead")
 		(property "Reference" "U3"
-			(at 0 2 0)
+			(at -0.55 2 0)
 			(layer "F.SilkS")
 			(uuid "07030547-0307-4928-8b63-a1642f6574cb")
 			(effects
