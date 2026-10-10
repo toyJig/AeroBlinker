@@ -3753,7 +3753,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at -2.25 0 180)
+			(at -0.5 -1.25 180)
 			(layer "F.SilkS")
 			(uuid "515b9cd6-209d-4712-9529-fcc655562325")
 			(effects
@@ -8423,14 +8423,6 @@
 		(layer "F.Cu")
 		(net "Net-(J6-D+-PadA6)")
 		(uuid "eff1e4c5-c143-4b4a-8924-fdc9b4a06452")
-	)
-	(segment
-		(start 155 127.75)
-		(end 155 127.640552)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "43fb7534-a762-4d15-be97-d536d86973e0")
 	)
 	(segment
 		(start 151.8625 129.525)
