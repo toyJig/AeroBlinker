@@ -7669,6 +7669,17 @@
 		(uuid "519cdf3d-0a75-442c-af6c-bcb39f381d99")
 	)
 	(gr_arc
+		(start 127.25 146.25)
+		(mid 125.482233 145.517767)
+		(end 124.75 143.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "63ffd9ab-0bbc-4f87-8c30-724df1b373ee")
+	)
+	(gr_arc
 		(start 164 118.25)
 		(mid 165.767767 118.982233)
 		(end 166.5 120.75)
@@ -7698,6 +7709,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "8e827e0a-1d9f-4bc1-a25c-c34e7851b7f4")
+	)
+	(gr_arc
+		(start 166.5 143.75)
+		(mid 165.767767 145.517767)
+		(end 164 146.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7d246bcb-e2fa-4558-9050-6ca1c51db5be")
 	)
 	(embedded_fonts no)
 )
