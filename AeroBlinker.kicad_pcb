@@ -8561,14 +8561,6 @@
 		(uuid "f7a3fd39-81f8-4693-8307-588bbc919b8e")
 	)
 	(segment
-		(start 146.0375 130.925)
-		(end 146.1375 130.825)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "RECV_PWM")
-		(uuid "0bbe4fb9-f0ae-4e24-8501-b47ad744e6f5")
-	)
-	(segment
 		(start 137.7 128.8125)
 		(end 137.7 130.45)
 		(width 0.3)
@@ -8585,14 +8577,6 @@
 		(uuid "6263c2b6-df24-4a02-82a6-79e357df7b35")
 	)
 	(segment
-		(start 141.325 130.925)
-		(end 146.0375 130.925)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "RECV_PWM")
-		(uuid "c3f03476-bef4-44ca-879a-1b1be3931132")
-	)
-	(segment
 		(start 137.7 130.45)
 		(end 138.325 131.075)
 		(width 0.3)
@@ -8607,22 +8591,6 @@
 		(layer "F.Cu")
 		(net "RECV_PWM")
 		(uuid "e84ed5f3-d44c-4e9a-82ac-5e931d47cd2b")
-	)
-	(segment
-		(start 138.325 131.075)
-		(end 141.175 131.075)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "RECV_PWM")
-		(uuid "eeb2b0c7-f3c1-4eb3-93aa-3652184b2b63")
-	)
-	(segment
-		(start 141.175 131.075)
-		(end 141.325 130.925)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "RECV_PWM")
-		(uuid "fb3488e8-7c2f-41b2-beb4-3722779382b1")
 	)
 	(segment
 		(start 131.245 130.6875)
