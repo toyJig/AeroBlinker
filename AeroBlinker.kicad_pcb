@@ -3565,7 +3565,7 @@
 		(descr "Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm")
 		(tags "CONN DEV")
 		(property "Reference" "TP1"
-			(at 2.54 2.5 0)
+			(at 5.79 2.5 0)
 			(layer "F.SilkS")
 			(uuid "74604cbf-a8ac-4d33-b65e-57df8caf3382")
 			(effects
@@ -4895,7 +4895,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "b6828052-c5e3-419f-bdd7-fe04c52f5298")
-		(at 154 125.175 -90)
+		(at 154 124.75 -90)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
@@ -5378,7 +5378,7 @@
 		(descr "tactile push button, 6x3.5mm, https://www.apem.com/idec-apem/en_US/PCB-switches/Tactile-Switches/MJTP-6mm-through-hole/c/MJTP_6mm_through%20hole?page=1")
 		(tags "PHAP3362 6mm tact sw THT")
 		(property "Reference" "SW2"
-			(at 3.25 2.75 0)
+			(at 1.25 2.75 0)
 			(layer "F.SilkS")
 			(uuid "9017dfb9-c8b1-4a4c-8b67-76ba8c613d9b")
 			(effects
