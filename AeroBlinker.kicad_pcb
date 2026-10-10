@@ -3742,6 +3742,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "/SYS_SWCLK")
 			(uuid "c3372049-10e6-44d9-bd48-d30ca3bd578b")
 		)
 		(embedded_fonts no)
