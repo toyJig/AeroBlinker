@@ -7387,7 +7387,7 @@
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "inductor")
 		(property "Reference" "FB1"
-			(at 0 -1.5 270)
+			(at 1.75 0.25 0)
 			(layer "F.SilkS")
 			(uuid "38adae6e-d6ee-4a00-96bb-7227d62a5a69")
 			(effects
