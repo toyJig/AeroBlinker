@@ -9104,7 +9104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 163.83 116.84 0)
 			(hide yes)
 			(show_name no)
