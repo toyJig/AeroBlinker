@@ -8569,6 +8569,14 @@
 		(uuid "840b62b8-f616-48a6-aaac-b545f2478438")
 	)
 	(segment
+		(start 152.9 127.6)
+		(end 153.1125 127.3875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D+")
+		(uuid "9e60d241-300f-445f-9530-f748421cbf27")
+	)
+	(segment
 		(start 154.5 128)
 		(end 153 128)
 		(width 0.2)
@@ -8593,6 +8601,14 @@
 		(uuid "c2fec394-1770-421d-99ec-d0bc64d2d386")
 	)
 	(segment
+		(start 153.1125 127.3875)
+		(end 153.1125 126.125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D+")
+		(uuid "c5877bc7-381e-4cc8-b043-5b84f3e893ec")
+	)
+	(segment
 		(start 152.9 128.577771)
 		(end 152.9 128.5)
 		(width 0.2)
@@ -8607,14 +8623,6 @@
 		(layer "F.Cu")
 		(net "/USB_D+")
 		(uuid "dc0bd132-7307-49be-bae2-dbc0b547181f")
-	)
-	(segment
-		(start 152.9 127.6)
-		(end 153.25 127.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D+")
-		(uuid "edd76156-485c-41a6-8228-8256deb2d821")
 	)
 	(segment
 		(start 150.775 127.864168)
