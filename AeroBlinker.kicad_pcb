@@ -8205,6 +8205,22 @@
 		(uuid "337e771c-2e65-46e4-bce8-03fadf419790")
 	)
 	(segment
+		(start 139.35 123.35)
+		(end 140 124)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "435cba37-e21f-4500-946f-6d48f3081677")
+	)
+	(segment
+		(start 137.5 123.35)
+		(end 139.35 123.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "542285d2-2f90-4d62-96a8-90039189794a")
+	)
+	(segment
 		(start 149.8625 129.925)
 		(end 151.155 129.925)
 		(width 0.3)
@@ -8235,14 +8251,6 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "71f64116-3715-49d5-9119-87114ef29378")
-	)
-	(segment
-		(start 137.5 123.35)
-		(end 139.35 123.35)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "81b9ae38-c4b9-4878-ace4-4d2dbbf69be5")
 	)
 	(segment
 		(start 139.73 129.98)
@@ -8307,14 +8315,6 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "c2207bd5-933e-447e-a649-ab4e6109859d")
-	)
-	(segment
-		(start 139.35 123.35)
-		(end 140 124)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "c2fb6b0b-d18b-46d0-aba5-0a23fb87d75c")
 	)
 	(segment
 		(start 148.275 129.074999)
@@ -9796,6 +9796,27 @@
 			(pts
 				(xy 143.74918 125.250818) (xy 143.749178 125.250819) (xy 143.605617 125.39438) (xy 143.605617 125.394382)
 				(xy 143.5 125.5) (xy 143.5 125.001056) (xy 143.998944 125.001056)
+			)
+		)
+	)
+	(zone
+		(net "+3.3V")
+		(layer "F.Cu")
+		(uuid "72eb28c3-2395-4648-8dc5-99d72e1b6b7b")
+		(hatch edge 0.5)
+		(priority 4)
+		(connect_pads yes
+			(clearance 0.3)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 138.5 123.25) (xy 139 123.75) (xy 139.75 123.75) (xy 139.25 123.25)
 			)
 		)
 	)
