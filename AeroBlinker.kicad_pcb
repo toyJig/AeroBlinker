@@ -2542,7 +2542,7 @@
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J3"
-			(at 0.2575 -4.45 0)
+			(at 0.2575 -4.7 0)
 			(layer "F.SilkS")
 			(uuid "36554415-5338-4f9a-a9c0-cc93a7fd092e")
 			(effects
@@ -3878,7 +3878,7 @@
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J2"
-			(at 0.0075 -4.45 0)
+			(at 0.0075 -4.7 0)
 			(layer "F.SilkS")
 			(uuid "7b785d7c-c4c3-4944-91bd-30379562e17d")
 			(effects
@@ -4563,7 +4563,7 @@
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J1"
-			(at 0.015 -4.4 0)
+			(at 0.015 -4.65 0)
 			(layer "F.SilkS")
 			(uuid "630b9133-3f33-4ab4-b22b-1e10203dce37")
 			(effects
