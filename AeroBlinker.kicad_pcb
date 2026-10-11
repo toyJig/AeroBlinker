@@ -1918,7 +1918,7 @@
 	(footprint "Inductor_SMD:L_Changjiang_FNR3012S"
 		(layer "F.Cu")
 		(uuid "38987012-08ba-437a-88c3-a0f88c1f6ebd")
-		(at 136.75 120.6 -90)
+		(at 136.5 120.75 -90)
 		(descr "Inductor, Changjiang, FNR3012S, 3.0x3.0x1.2mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L1"
@@ -8485,14 +8485,6 @@
 		(uuid "50ef16f7-5e84-4fe0-9f31-831e7569b783")
 	)
 	(segment
-		(start 135.35 122.6)
-		(end 135 122.25)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "51cce31a-a5ed-46b6-b618-a9bcaddcf5c4")
-	)
-	(segment
 		(start 137.25 124.75)
 		(end 136.5 124.75)
 		(width 0.3)
@@ -8525,14 +8517,6 @@
 		(uuid "6bcb7f01-46b0-47bf-9f75-d72c039bf789")
 	)
 	(segment
-		(start 135.35 123.25)
-		(end 135.35 122.6)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "6cedfb9f-ab77-45a6-96a7-b9c26e92e90b")
-	)
-	(segment
 		(start 153.5 127.475001)
 		(end 153.975001 127)
 		(width 0.3)
@@ -8563,14 +8547,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "7e687217-cdf4-430d-b927-7ea5487927f9")
-	)
-	(segment
-		(start 135.735096 123.25)
-		(end 136.3 123.814904)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "7ef0e3a3-aa90-4f15-b419-e979103809f2")
 	)
 	(segment
 		(start 138.25 127)
@@ -8613,14 +8589,6 @@
 		(uuid "b357cd6e-9ce2-4c3f-bf4a-68ad015711cb")
 	)
 	(segment
-		(start 135.35 123.25)
-		(end 135.735096 123.25)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "bcab1e5b-eb52-40b4-a308-fbe8031dca9a")
-	)
-	(segment
 		(start 144.25 124)
 		(end 144.25 124.73)
 		(width 0.2)
@@ -8651,14 +8619,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "dc3eb0cc-6b83-4f3d-9b2a-e560a7565ed5")
-	)
-	(segment
-		(start 136.3 123.814904)
-		(end 136.3 124)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "e22b8c2f-f871-4a37-b46e-05a271a6a83f")
 	)
 	(segment
 		(start 137.75 127)
