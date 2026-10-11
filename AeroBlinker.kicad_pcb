@@ -410,7 +410,7 @@
 		(property "Reference" "U3"
 			(at -0.3 -2 0)
 			(layer "F.SilkS")
-			(uuid "457f0319-d50c-44b8-8d87-205038bee115")
+			(uuid "86082835-04bb-4c0a-a889-071f32e90a0b")
 			(effects
 				(font
 					(size 1 1)
@@ -421,7 +421,7 @@
 		(property "Value" "TPS62162DGR"
 			(at 0 1.95 0)
 			(layer "F.Fab")
-			(uuid "3b189738-4279-4fd9-bef9-fbf79bdc7f2d")
+			(uuid "62b57af2-8e5d-4ff8-a7a4-7445d12dee1a")
 			(effects
 				(font
 					(size 1 1)
@@ -433,7 +433,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0856625-7dc6-4220-a272-19927e9e7568")
+			(uuid "7eaae03b-fd8d-444c-b561-369079125ffe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -444,7 +444,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70e21d66-5ea0-48eb-8070-1520c00b7e12")
+			(uuid "a0c85d19-5540-481d-a4a3-c52a7a4d2616")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,22 +8621,6 @@
 		(uuid "14d1147a-12b3-4661-a7ce-6199a106791e")
 	)
 	(segment
-		(start 135.064086 122.314086)
-		(end 135.35 122.6)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "164faf7d-4d02-43d7-9a57-b4cf3899cbb1")
-	)
-	(segment
-		(start 134.725 122.314086)
-		(end 135.064086 122.314086)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "1a3915db-a839-4c08-80a7-2fb9302a4a47")
-	)
-	(segment
 		(start 153.5 129.25)
 		(end 153.5 127.475001)
 		(width 0.3)
@@ -8693,14 +8677,6 @@
 		(uuid "37a7a9a5-4c30-4a1a-8bd8-f197995b067e")
 	)
 	(segment
-		(start 135.35 122.6)
-		(end 135.35 123.25)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "3d68c356-d594-4caf-bcdc-e7f8fbd29447")
-	)
-	(segment
 		(start 143.24 134)
 		(end 143.75 134)
 		(width 0.3)
@@ -8749,6 +8725,14 @@
 		(uuid "50ef16f7-5e84-4fe0-9f31-831e7569b783")
 	)
 	(segment
+		(start 135.35 122.6)
+		(end 135 122.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "51cce31a-a5ed-46b6-b618-a9bcaddcf5c4")
+	)
+	(segment
 		(start 137.25 124.75)
 		(end 136.5 124.75)
 		(width 0.3)
@@ -8779,6 +8763,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "6bcb7f01-46b0-47bf-9f75-d72c039bf789")
+	)
+	(segment
+		(start 135.35 123.25)
+		(end 135.35 122.6)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "6cedfb9f-ab77-45a6-96a7-b9c26e92e90b")
 	)
 	(segment
 		(start 153.5 127.475001)
@@ -9101,7 +9093,7 @@
 		(uuid "d9db4a1d-083f-4b7d-a4ac-8dcade659c9a")
 	)
 	(via
-		(at 134.725 122.314086)
+		(at 135 122.25)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
