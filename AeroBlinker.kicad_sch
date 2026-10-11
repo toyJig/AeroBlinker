@@ -4354,6 +4354,12 @@
 		(uuid "0295099a-a648-4d2d-a31b-9de2328f4495")
 	)
 	(junction
+		(at 85.09 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "051e29ae-7814-44d7-9490-43181c0eb03f")
+	)
+	(junction
 		(at 60.96 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4468,12 +4474,6 @@
 		(uuid "c53affae-0bd7-44d3-a524-88e3fdbf66d2")
 	)
 	(junction
-		(at 76.2 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c789abf9-f803-48bf-8ff0-003f64ab5b7a")
-	)
-	(junction
 		(at 133.35 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4571,6 +4571,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 36.83) (xy 85.09 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0202a2b6-48bb-4e02-91e8-bf503f84f812")
+	)
+	(wire
+		(pts
 			(xy 50.8 36.83) (xy 50.8 38.1)
 		)
 		(stroke
@@ -4578,16 +4588,6 @@
 			(type default)
 		)
 		(uuid "0432d64d-cd68-4964-aa93-b8a68c579d45")
-	)
-	(wire
-		(pts
-			(xy 76.2 36.83) (xy 85.09 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06c4c3bb-d8ef-410d-8221-c4cd77ed5c9e")
 	)
 	(wire
 		(pts
@@ -5291,6 +5291,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 36.83) (xy 104.14 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a084feee-845b-4f15-af2f-41d73eee1227")
+	)
+	(wire
+		(pts
 			(xy 173.99 44.45) (xy 173.99 45.72)
 		)
 		(stroke
@@ -5331,7 +5341,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 46.99) (xy 76.2 45.72)
+			(xy 104.14 46.99) (xy 104.14 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5461,7 +5471,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 36.83) (xy 76.2 36.83)
+			(xy 63.5 36.83) (xy 82.55 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5631,7 +5641,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 38.1) (xy 76.2 36.83)
+			(xy 104.14 38.1) (xy 104.14 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8276,7 +8286,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 41.91 0)
+		(at 104.14 41.91 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8287,29 +8297,29 @@
 		(dnp no)
 		(uuid "51c0b11b-aaba-4429-a4e3-494f3e696bc8")
 		(property "Reference" "C4"
-			(at 78.74 40.64 0)
+			(at 101.346 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 78.74 43.18 0)
+			(at 101.346 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 75.2348 45.72 0)
+			(at 103.1748 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,7 +8330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 41.91 0)
+			(at 104.14 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8331,7 +8341,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 41.91 0)
+			(at 104.14 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9635,7 +9645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 46.99 0)
+		(at 104.14 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9646,7 +9656,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4babe57-b224-4433-b2a3-7c8392391169")
 		(property "Reference" "#PWR03"
-			(at 76.2 53.34 0)
+			(at 104.14 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9657,7 +9667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 53.34 0)
+			(at 104.14 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9668,7 +9678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 46.99 0)
+			(at 104.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9679,7 +9689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 46.99 0)
+			(at 104.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9690,7 +9700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 46.99 0)
+			(at 104.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
