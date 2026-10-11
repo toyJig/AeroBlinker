@@ -8738,6 +8738,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "LED"
+		(at 161.5 138.25 270)
+		(layer "F.SilkS")
+		(uuid "fb4e9c8e-7a6b-4c89-95c1-0dfc905f2b79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 137.25 124.25)
 		(end 137.75 124.25)
