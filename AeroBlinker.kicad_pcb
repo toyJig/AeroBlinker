@@ -8428,7 +8428,7 @@
 		)
 		(model "C:/Users/toy/Documents/KiCad/Footprint Models/B2P-VH.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
