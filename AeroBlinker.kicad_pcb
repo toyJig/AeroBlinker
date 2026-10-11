@@ -1922,7 +1922,7 @@
 		(descr "Inductor, Changjiang, FNR3012S, 3.0x3.0x1.2mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L1"
-			(at 2.5 0 0)
+			(at -2.5 -0.75 0)
 			(layer "F.SilkS")
 			(uuid "1fa09be0-b0ee-42d3-9b29-2f8f5333923f")
 			(effects
@@ -8813,12 +8813,20 @@
 		(uuid "0dcc3be8-becc-449b-b8dd-7ea5a54b9d7b")
 	)
 	(segment
-		(start 135.6 122.85)
-		(end 135.285614 122.85)
+		(start 134.35 122.85)
+		(end 133.85 122.35)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+BATT")
-		(uuid "11a00942-deb6-4d62-bbbd-45b266f812a1")
+		(uuid "190bfce1-f09d-40fd-a8be-b879da3ab5e5")
+	)
+	(segment
+		(start 133.425 122.35)
+		(end 133.25 122.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+BATT")
+		(uuid "405738c7-1bf6-47d3-9eb1-11622f151175")
 	)
 	(segment
 		(start 130.360622 122.525)
@@ -8837,6 +8845,14 @@
 		(uuid "58105211-4b99-4b7e-8c34-50759ec8e12e")
 	)
 	(segment
+		(start 135.6 122.85)
+		(end 134.35 122.85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+BATT")
+		(uuid "593e1533-d112-4472-b3e6-bc7b61848667")
+	)
+	(segment
 		(start 130.3 134.7425)
 		(end 134.5075 134.7425)
 		(width 0.5)
@@ -8851,14 +8867,6 @@
 		(layer "F.Cu")
 		(net "+BATT")
 		(uuid "793778a3-7c75-461b-8134-9405d4124210")
-	)
-	(segment
-		(start 134.785614 122.35)
-		(end 133.425 122.35)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+BATT")
-		(uuid "950c6979-cd74-49ea-a66f-d5b680383c1b")
 	)
 	(segment
 		(start 127.75 132.1925)
@@ -8877,20 +8885,12 @@
 		(uuid "ea5ad5ab-e5ba-4feb-a469-7e11398c68f2")
 	)
 	(segment
-		(start 133.425 122.35)
-		(end 133.25 122.525)
+		(start 133.85 122.35)
+		(end 133.425 122.35)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+BATT")
-		(uuid "f25fd236-76e0-4233-b1cd-d243f4dc48cd")
-	)
-	(segment
-		(start 135.285614 122.85)
-		(end 134.785614 122.35)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+BATT")
-		(uuid "f6ebfebb-5588-4b4e-a9b1-5e1bbeb0a6aa")
+		(uuid "ed7dc5b5-7157-467c-965e-5ec1a3f26196")
 	)
 	(segment
 		(start 138.964386 121.7)
