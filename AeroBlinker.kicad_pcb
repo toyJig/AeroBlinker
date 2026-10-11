@@ -9542,14 +9542,6 @@
 		(uuid "f629f002-8733-4b86-b94e-af0b7f6a6de3")
 	)
 	(segment
-		(start 151.15 128.053434)
-		(end 151.15 128)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D+")
-		(uuid "b8ea5540-0a3d-42ac-bb85-14fe9333689d")
-	)
-	(segment
 		(start 159.980761 122.4)
 		(end 161.2 123.619239)
 		(width 0.3)
