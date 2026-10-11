@@ -7862,7 +7862,7 @@
 		)
 	)
 	(gr_text "BATT"
-		(at 134.25 134.25 270)
+		(at 134.25 135 270)
 		(layer "F.SilkS")
 		(uuid "83131f35-ec61-4ed6-a178-1d3dd223f0db")
 		(effects
