@@ -7323,7 +7323,7 @@
 		(property "Reference" "J4"
 			(at -1.4925 -3.2 180)
 			(layer "F.SilkS")
-			(uuid "cb27d833-87a1-4f1d-80e0-801389ce7076")
+			(uuid "2b6466be-674d-4f4c-9299-80aec67e7ced")
 			(effects
 				(font
 					(size 1 1)
@@ -7334,7 +7334,7 @@
 		(property "Value" "BATTERY"
 			(at 1.98 6 90)
 			(layer "F.Fab")
-			(uuid "7fdd9044-fb19-46bd-a611-6ce24f2b3aca")
+			(uuid "1333a85d-f0e1-4e66-85aa-b3c93926b57c")
 			(effects
 				(font
 					(size 1 1)
@@ -7346,7 +7346,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1fd340a-6b44-4bb7-b97b-a7ff45fc4a1e")
+			(uuid "0bb996ed-bd23-4926-a939-5d44e5ec161e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,7 +7357,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4285fdb0-3dbd-4681-8f1c-a4727b08fe00")
+			(uuid "6b891630-6e10-4685-805d-93140615bf00")
 			(effects
 				(font
 					(size 1.27 1.27)
