@@ -1918,7 +1918,7 @@
 	(footprint "Inductor_SMD:L_Changjiang_FNR3012S"
 		(layer "F.Cu")
 		(uuid "38987012-08ba-437a-88c3-a0f88c1f6ebd")
-		(at 140 123 -90)
+		(at 140 124 -90)
 		(descr "Inductor, Changjiang, FNR3012S, 3.0x3.0x1.2mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L1"
@@ -8405,6 +8405,14 @@
 		(uuid "1bf1175d-c83d-4366-8f16-cde23328f7d9")
 	)
 	(segment
+		(start 137.5 124.6)
+		(end 137.5 125.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "296c36c3-6258-4bff-b528-16a09942a2a2")
+	)
+	(segment
 		(start 157 126.119592)
 		(end 155.814273 124.933865)
 		(width 0.3)
@@ -8507,14 +8515,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "723ac7d0-33b6-43d3-9768-8d03103d6290")
-	)
-	(segment
-		(start 137.5 123.85)
-		(end 137.5 124.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "7a22b80e-5310-46cf-8029-d61aa84612f4")
 	)
 	(segment
 		(start 157.675 126.175)
@@ -8661,7 +8661,7 @@
 		(uuid "fe0ccb8f-206b-4933-b4f0-68aa94c38e58")
 	)
 	(via
-		(at 137.5 124.9)
+		(at 137.5 125.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
