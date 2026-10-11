@@ -133,7 +133,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0.75 1.5 90)
+			(at 0.75 -1.75 180)
 			(layer "F.SilkS")
 			(uuid "96136eb0-a3a4-4e9d-bfd2-6d55cfbe3e55")
 			(effects
@@ -8397,14 +8397,6 @@
 		(uuid "1bf1175d-c83d-4366-8f16-cde23328f7d9")
 	)
 	(segment
-		(start 138 127)
-		(end 139.225 127)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "309870be-5315-4318-9fbe-267668fa46b4")
-	)
-	(segment
 		(start 157 126.119592)
 		(end 155.814273 124.933865)
 		(width 0.3)
@@ -8427,6 +8419,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "484bd7c1-92b7-4b9e-a271-9fd4996fa98b")
+	)
+	(segment
+		(start 140.5 127)
+		(end 139.225 127)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "49c966b3-f186-4b76-a0f4-b86d3d4e2e22")
 	)
 	(segment
 		(start 159.07 133.245)
@@ -8669,7 +8669,7 @@
 		(uuid "02852e7f-6449-4b62-99a6-166e2197d04b")
 	)
 	(via
-		(at 138 127)
+		(at 140.5 127)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
