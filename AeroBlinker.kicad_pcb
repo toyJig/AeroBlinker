@@ -8702,7 +8702,7 @@
 		(uuid "085f69a2-fafb-4536-bdf0-cdc28d3ea3fd")
 	)
 	(via
-		(at 143.035422 125.811039)
+		(at 142.985546 125.859209)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
