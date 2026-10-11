@@ -2847,6 +2847,7 @@
 		(property "Reference" "J5"
 			(at 1.2175 -4.7 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "65a55bde-1876-4386-a54c-72104867e051")
 			(effects
 				(font
@@ -7851,6 +7852,18 @@
 		(at 154.25 138.25 90)
 		(layer "F.SilkS")
 		(uuid "e6bae2b6-012e-4883-b6a6-26b8823cb2c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RECV"
+		(at 134.25 125.75 270)
+		(layer "F.SilkS")
+		(uuid "0e9be1b4-1bcf-4bc8-b09e-71cb64b4e411")
 		(effects
 			(font
 				(size 1 1)
