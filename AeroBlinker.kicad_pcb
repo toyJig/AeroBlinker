@@ -3164,7 +3164,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/27a42ffb-0a64-46eb-9d4a-23a93759c319")
 		(sheetname "/")
 		(sheetfile "AeroBlinker.kicad_sch")
 		(units
@@ -6417,7 +6416,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "100n"
 			(at -1.23 0.25 180)
 			(layer "F.Fab")
 			(uuid "cd5d1dd5-509e-4a55-8d7d-8debc5504a01")
@@ -6532,7 +6531,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1-VDDA)")
+			(net "+3.3V")
 			(pintype "passive")
 			(uuid "a588e2e7-baff-4962-90af-8aec19288e91")
 		)
@@ -6621,7 +6620,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/93140387-2525-4f82-a464-f594064ae0cf")
 		(sheetname "/")
 		(sheetfile "AeroBlinker.kicad_sch")
 		(units
@@ -7012,7 +7010,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1-VDDA)")
+			(net "+3.3V")
 			(pinfunction "VDDA_5")
 			(pintype "power_in")
 			(uuid "5622577b-ca5b-45e8-a93f-310e01fcadad")
@@ -7940,7 +7938,6 @@
 			)
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
-		(path "/4b961358-b8d6-425d-8cce-119db65df2b0")
 		(sheetname "/")
 		(sheetfile "AeroBlinker.kicad_sch")
 		(units
