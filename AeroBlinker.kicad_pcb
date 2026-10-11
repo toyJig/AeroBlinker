@@ -8130,7 +8130,7 @@
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J4"
-			(at -0.2425 -4.7 180)
+			(at -0.2425 -4.7 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1e93449f-a521-4586-b851-de4d8a5de866")
@@ -8424,6 +8424,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/toy/Documents/KiCad/Footprint Models/B2P-VH.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
