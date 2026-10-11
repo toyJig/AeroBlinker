@@ -1918,7 +1918,7 @@
 	(footprint "Inductor_SMD:L_Changjiang_FNR3012S"
 		(layer "F.Cu")
 		(uuid "38987012-08ba-437a-88c3-a0f88c1f6ebd")
-		(at 140 122.85 -90)
+		(at 141 121 -90)
 		(descr "Inductor, Changjiang, FNR3012S, 3.0x3.0x1.2mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L1"
