@@ -8727,7 +8727,7 @@
 		)
 	)
 	(gr_text "RECV"
-		(at 133 125.75 270)
+		(at 133 125.5 270)
 		(layer "F.SilkS")
 		(uuid "0e9be1b4-1bcf-4bc8-b09e-71cb64b4e411")
 		(effects
