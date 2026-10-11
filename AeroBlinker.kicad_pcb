@@ -129,7 +129,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "028f4322-08b1-4143-9673-7e81db336d9b")
-		(at 140.1125 126.675 180)
+		(at 139.75 126.75 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
@@ -8213,6 +8213,14 @@
 		(uuid "454c41bf-536b-4443-8dca-5c5cc0a6ad84")
 	)
 	(segment
+		(start 139.25 128.025)
+		(end 139.25 129.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "5b7395b9-1b24-49c7-89b8-ca8a5d5142b2")
+	)
+	(segment
 		(start 137.814386 123.35)
 		(end 138.464386 124)
 		(width 0.2)
@@ -8245,6 +8253,14 @@
 		(uuid "6a1fe05a-8338-42eb-9bb7-a43de29ed8bf")
 	)
 	(segment
+		(start 139.73 129.98)
+		(end 141.5 129.98)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "6fe20c91-da9c-4cbc-9a24-a6dd1ff0c27e")
+	)
+	(segment
 		(start 151.5 130.27)
 		(end 152.955 130.27)
 		(width 0.3)
@@ -8253,12 +8269,20 @@
 		(uuid "71f64116-3715-49d5-9119-87114ef29378")
 	)
 	(segment
-		(start 139.73 129.98)
-		(end 141.5 129.98)
+		(start 140.6 126.675)
+		(end 139.25 128.025)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+3.3V")
-		(uuid "8b178ea8-c9e5-4964-b4f1-c4de83163700")
+		(uuid "7281b029-2605-4101-89c5-cf499c252f3d")
+	)
+	(segment
+		(start 139.25 129.5)
+		(end 139.73 129.98)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "73323269-5daa-41d0-a7df-7eee6b49edcb")
 	)
 	(segment
 		(start 144.1375 129.925)
@@ -8277,22 +8301,6 @@
 		(uuid "8f6d9ea5-087f-4bcc-b877-74fd262fa628")
 	)
 	(segment
-		(start 139.25 129.5)
-		(end 139.73 129.98)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "9740b3ee-8cfc-4980-9b2c-30964170a10d")
-	)
-	(segment
-		(start 139.25 128.3125)
-		(end 139.25 129.5)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "9e120a48-816a-4ab2-bcc4-d6fad37a9f14")
-	)
-	(segment
 		(start 139.475 119.95)
 		(end 139.325 120.1)
 		(width 0.3)
@@ -8307,6 +8315,14 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "a88c9d3c-b6e7-4eb7-8b8b-6c33b170280d")
+	)
+	(segment
+		(start 140.8875 126.675)
+		(end 140.6 126.675)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "b2f34be4-7d84-45b4-93b9-f97d474f4291")
 	)
 	(segment
 		(start 147.7 119.95)
@@ -8331,14 +8347,6 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "d5a476f3-d13b-490e-9d02-1efd6c75ce21")
-	)
-	(segment
-		(start 140.8875 126.675)
-		(end 139.25 128.3125)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "dc8363bf-fa72-4da9-a1dd-47f5f05f654e")
 	)
 	(segment
 		(start 151.155 129.925)
