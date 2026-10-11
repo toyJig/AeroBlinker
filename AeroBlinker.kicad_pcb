@@ -292,7 +292,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f6ebbf1b-cc51-450a-8b5b-e461aeb1319b")
+			(uuid "b9f3ff5f-0d6e-46df-a5b0-4c8d03aaa963")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -304,7 +304,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f39ef207-0d2b-421e-9211-463db9e4735a")
+			(uuid "218e99eb-fda6-4ba9-844e-d216d4a5c90d")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -316,7 +316,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0223068a-6689-4ea8-8b70-368eda11ae8e")
+			(uuid "c145cf0e-192f-4127-973c-d0e74bad0196")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,7 +327,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec6e6d50-52c1-44e6-a44e-93807783e83f")
+			(uuid "58d6ccac-998b-46ec-a6d6-7c3adc15b707")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,13 +3272,13 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "82d4e563-079a-4c7f-8361-c6bcf8dff01f")
-		(at 156 140.5)
+		(at 156 141.225)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J3"
 			(at 1.25 -3.55 0)
 			(layer "F.SilkS")
-			(uuid "d28e37d4-d1fc-4d63-baaf-56cd28231cbb")
+			(uuid "6b6af6b5-8094-4a45-8c0e-1a6f4e4094a2")
 			(effects
 				(font
 					(size 1 1)
@@ -3289,7 +3289,7 @@
 		(property "Value" "LED_GND"
 			(at 1.25 4.6 0)
 			(layer "F.Fab")
-			(uuid "52c81a22-2757-4a0a-b009-fb77e0b355d0")
+			(uuid "3eb3543b-999a-498f-be63-2a454e05f609")
 			(effects
 				(font
 					(size 1 1)
@@ -3301,7 +3301,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f625e432-0daa-4f86-8141-8af0b427040c")
+			(uuid "36a48486-8fab-4c98-99af-4a2c79e81831")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,7 +3312,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e751f133-3920-4b67-be31-0ff1593c789e")
+			(uuid "422d5dc8-facb-4e31-9e2f-eb12d5fed026")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,13 +4555,13 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a155a16f-0e7b-4031-ad1d-549a403d4f91")
-		(at 147 140.5)
+		(at 147 141.225)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J2"
 			(at 1.25 -3.55 0)
 			(layer "F.SilkS")
-			(uuid "f361cd88-5eeb-434f-bab8-cfc8dd04800b")
+			(uuid "121df0a5-0223-4372-b749-d46403a83093")
 			(effects
 				(font
 					(size 1 1)
@@ -4572,7 +4572,7 @@
 		(property "Value" "LED_GND"
 			(at 1.25 4.6 0)
 			(layer "F.Fab")
-			(uuid "50251185-9729-44c4-9ace-cb0449c1cefe")
+			(uuid "8544f6f8-e619-4046-9c60-cf321c550e6d")
 			(effects
 				(font
 					(size 1 1)
@@ -4584,7 +4584,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39921517-f4c7-4093-a764-91483c54d3ae")
+			(uuid "6e9d3261-7c5e-4321-8275-0dfa6a8114a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4595,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0436301-e29f-4031-81ce-5bb2bd86fbb5")
+			(uuid "3eba9246-b0ec-4823-ad12-1951e05292ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,13 +5224,13 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b0d7d21b-5f6c-4140-bb58-32822fe99482")
-		(at 137.7425 140.45)
+		(at 137.7425 141.175)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J1"
 			(at 1.25 -3.55 0)
 			(layer "F.SilkS")
-			(uuid "bb518d40-5473-4bc7-a43d-34e324c98aed")
+			(uuid "88968a42-1174-4d60-bdad-8463d1faeb50")
 			(effects
 				(font
 					(size 1 1)
@@ -5241,7 +5241,7 @@
 		(property "Value" "LED_GND"
 			(at 1.25 4.6 0)
 			(layer "F.Fab")
-			(uuid "94ab587e-1f31-41e0-ade4-8b8e33ec836e")
+			(uuid "cda775d4-53a6-426e-aed1-a268c2772687")
 			(effects
 				(font
 					(size 1 1)
@@ -5253,7 +5253,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "401be286-3781-4cd4-a250-efd85a8cdd51")
+			(uuid "ce89a64e-5b28-4d4c-863f-bfdea31d6eb8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +5264,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17e48ee0-6efc-49e4-ac58-eb09b872fe3f")
+			(uuid "6e03b69b-49f2-4749-bb20-55b9e39cd2af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8022,7 +8022,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 142 137.525 0)
+		(at 142 138.25 0)
 		(layer "F.SilkS")
 		(uuid "5e3aa0a0-af5a-4b8e-be43-9d43540cff43")
 		(effects
@@ -8070,7 +8070,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 151.25 137.525 0)
+		(at 151.25 138.25 0)
 		(layer "F.SilkS")
 		(uuid "fe880c01-141b-405f-b8ee-4e9dab0864a0")
 		(effects
@@ -8118,7 +8118,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 160.25 137.525 0)
+		(at 160.25 138.25 0)
 		(layer "F.SilkS")
 		(uuid "b79884b9-1bdb-4aba-86f9-35f45d705836")
 		(effects
@@ -8130,7 +8130,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 136 137.525 90)
+		(at 136 138.25 90)
 		(layer "F.SilkS")
 		(uuid "5ef18c48-cc36-4ad5-b480-b3c0d1cc7fa7")
 		(effects
@@ -8142,7 +8142,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 145.25 137.525 90)
+		(at 145.25 138.25 90)
 		(layer "F.SilkS")
 		(uuid "2d48abf2-ac06-445a-8eb9-056a4e9846ed")
 		(effects
@@ -8154,7 +8154,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 154.25 137.525 90)
+		(at 154.25 138.25 90)
 		(layer "F.SilkS")
 		(uuid "e6bae2b6-012e-4883-b6a6-26b8823cb2c4")
 		(effects
