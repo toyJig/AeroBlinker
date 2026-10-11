@@ -8308,10 +8308,34 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "CLK"
+		(at 155.75 120.05 0)
+		(layer "F.SilkS")
+		(uuid "990e87c9-28b3-4f4a-abb2-4c81bd128a63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SWD"
 		(at 157.25 123.5 0)
 		(layer "F.SilkS")
 		(uuid "7bac8985-c3f0-4ace-93bf-64a04079149c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 159 119.75 0)
+		(layer "F.SilkS")
+		(uuid "e40e9acf-8b74-4680-8ec8-73b7abd60442")
 		(effects
 			(font
 				(size 1 1)
