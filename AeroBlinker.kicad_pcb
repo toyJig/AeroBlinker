@@ -9758,36 +9758,6 @@
 		)
 	)
 	(zone
-		(net "+3.3V")
-		(layer "F.Cu")
-		(uuid "321fdc99-ed23-4799-a250-a3945f519b39")
-		(hatch edge 0.5)
-		(priority 5)
-		(connect_pads yes
-			(clearance 0.3)
-		)
-		(min_thickness 0.25)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 0)
-		)
-		(polygon
-			(pts
-				(xy 139.75 119.5) (xy 141.75 119.5) (xy 140.75 120.25)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 141.445039 119.519685) (xy 141.490794 119.572489) (xy 141.500738 119.641647) (xy 141.471713 119.705203)
-				(xy 141.4524 119.7232) (xy 140.8244 120.1942) (xy 140.758958 120.218676) (xy 140.690671 120.203886)
-				(xy 140.6756 120.1942) (xy 140.0476 119.7232) (xy 140.005779 119.667229) (xy 140.000858 119.597533)
-				(xy 140.034398 119.53624) (xy 140.095751 119.50281) (xy 140.122 119.5) (xy 141.378 119.5)
-			)
-		)
-	)
-	(zone
 		(net "GND")
 		(layer "F.Cu")
 		(uuid "34bf863c-f93b-476a-ab77-1be091e500ca")
