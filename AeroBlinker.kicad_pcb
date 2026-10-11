@@ -8740,14 +8740,6 @@
 		(uuid "02fc41b9-5d31-41b0-8daa-094e05a6552e")
 	)
 	(segment
-		(start 148.775 127.614168)
-		(end 148.775 124.435)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWDIO")
-		(uuid "1fddc8b1-bde2-4255-96a2-b1186ae2dfbf")
-	)
-	(segment
 		(start 149.135832 127.975)
 		(end 148.775 127.614168)
 		(width 0.3)
