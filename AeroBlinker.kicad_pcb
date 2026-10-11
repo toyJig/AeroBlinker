@@ -1918,7 +1918,7 @@
 	(footprint "Inductor_SMD:L_Changjiang_FNR3012S"
 		(layer "F.Cu")
 		(uuid "38987012-08ba-437a-88c3-a0f88c1f6ebd")
-		(at 141 121 -90)
+		(at 140 123 -90)
 		(descr "Inductor, Changjiang, FNR3012S, 3.0x3.0x1.2mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L1"
@@ -9812,37 +9812,6 @@
 			(pts
 				(xy 143.74918 125.250818) (xy 143.749178 125.250819) (xy 143.605617 125.39438) (xy 143.605617 125.394382)
 				(xy 143.5 125.5) (xy 143.5 125.001056) (xy 143.998944 125.001056)
-			)
-		)
-	)
-	(zone
-		(net "+3.3V")
-		(layer "F.Cu")
-		(uuid "72eb28c3-2395-4648-8dc5-99d72e1b6b7b")
-		(hatch edge 0.5)
-		(priority 4)
-		(connect_pads yes
-			(clearance 0.3)
-		)
-		(min_thickness 0.25)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 138.5 123.25) (xy 139 123.75) (xy 139.75 123.75) (xy 139.25 123.25)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 139.265677 123.269685) (xy 139.286319 123.286319) (xy 139.538319 123.538319) (xy 139.571804 123.599642)
-				(xy 139.56682 123.669334) (xy 139.524948 123.725267) (xy 139.459484 123.749684) (xy 139.450638 123.75)
-				(xy 139.051362 123.75) (xy 138.984323 123.730315) (xy 138.963681 123.713681) (xy 138.711681 123.461681)
-				(xy 138.678196 123.400358) (xy 138.68318 123.330666) (xy 138.725052 123.274733) (xy 138.790516 123.250316)
-				(xy 138.799362 123.25) (xy 139.198638 123.25)
 			)
 		)
 	)
