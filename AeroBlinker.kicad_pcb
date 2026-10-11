@@ -7705,6 +7705,18 @@
 		(layer "Edge.Cuts")
 		(uuid "7d246bcb-e2fa-4558-9050-6ca1c51db5be")
 	)
+	(gr_text "BATT"
+		(at 129 142.25 0)
+		(layer "F.SilkS")
+		(uuid "83131f35-ec61-4ed6-a178-1d3dd223f0db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+"
 		(at 132.75 124.75 0)
 		(layer "F.SilkS")
@@ -7853,18 +7865,6 @@
 		(at 134.25 125.75 270)
 		(layer "F.SilkS")
 		(uuid "0e9be1b4-1bcf-4bc8-b09e-71cb64b4e411")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "BATT"
-		(at 134.25 135 270)
-		(layer "F.SilkS")
-		(uuid "83131f35-ec61-4ed6-a178-1d3dd223f0db")
 		(effects
 			(font
 				(size 1 1)
