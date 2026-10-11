@@ -8297,7 +8297,7 @@
 		)
 	)
 	(gr_text "IO"
-		(at 154 120 0)
+		(at 153.75 120 0)
 		(layer "F.SilkS")
 		(uuid "29c6bf75-ed8f-45e9-9b9b-55353263d6ef")
 		(effects
@@ -8309,7 +8309,7 @@
 		)
 	)
 	(gr_text "CLK"
-		(at 155.75 120.05 0)
+		(at 155.45 120.05 0)
 		(layer "F.SilkS")
 		(uuid "990e87c9-28b3-4f4a-abb2-4c81bd128a63")
 		(effects
