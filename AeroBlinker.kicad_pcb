@@ -8458,14 +8458,6 @@
 		(uuid "9564ea27-3a55-4563-80bc-8301e8dbbb02")
 	)
 	(segment
-		(start 139 123.24)
-		(end 138.5 123.24)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(U3-PG)")
-		(uuid "b3e6e9b3-520e-493a-bf29-afe52718aaaa")
-	)
-	(segment
 		(start 138.99 123.25)
 		(end 139 123.24)
 		(width 0.3)
