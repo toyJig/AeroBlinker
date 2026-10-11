@@ -8885,6 +8885,14 @@
 		(uuid "793778a3-7c75-461b-8134-9405d4124210")
 	)
 	(segment
+		(start 135.6 121.85)
+		(end 135.6 122.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+BATT")
+		(uuid "7acd87f7-47e5-4e6e-8bf8-72cdfb3dd289")
+	)
+	(segment
 		(start 133.425 122.35)
 		(end 133.25 122.525)
 		(width 0.2)
