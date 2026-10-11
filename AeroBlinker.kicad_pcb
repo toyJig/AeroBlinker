@@ -6147,7 +6147,7 @@
 	(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 		(layer "F.Cu")
 		(uuid "c48a74d3-577c-43cf-ae3c-12e0e2269d72")
-		(at 144.95 120.5)
+		(at 144.75 120.75)
 		(descr "CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf")
 		(tags "tactile switch kmr2")
 		(property "Reference" "SW2"
@@ -8687,6 +8687,22 @@
 		(uuid "242683fe-dfb5-4239-b9e5-0cc1e2086da3")
 	)
 	(segment
+		(start 141.272613 119.75)
+		(end 147.5 119.75)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "39a4a3f9-c4a4-4501-a083-f11bde191db6")
+	)
+	(segment
+		(start 147.5 119.75)
+		(end 148.75 121)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "3d940272-0296-45b9-be71-e49cfaf5c2f1")
+	)
+	(segment
 		(start 140.597613 120.347613)
 		(end 139.85 119.6)
 		(width 0.5)
@@ -8743,14 +8759,6 @@
 		(uuid "71f64116-3715-49d5-9119-87114ef29378")
 	)
 	(segment
-		(start 147.175 119.425)
-		(end 148.75 121)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "7f6e02c1-2feb-4531-83ae-fb31dfec9835")
-	)
-	(segment
 		(start 140.675 120.347613)
 		(end 140.597613 120.347613)
 		(width 0.5)
@@ -8791,20 +8799,20 @@
 		(uuid "bdbba999-c790-41d7-998c-b8d778436776")
 	)
 	(segment
+		(start 140.675 120.347613)
+		(end 141.272613 119.75)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "d0366e13-7ddd-4a51-aa99-e79e72231275")
+	)
+	(segment
 		(start 142.02 122.997387)
 		(end 140.675 121.652387)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "d2063699-26ec-4622-9cae-6e873543f060")
-	)
-	(segment
-		(start 141.597613 119.425)
-		(end 147.175 119.425)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "d22d508e-9451-48cc-8ee0-0b046e959057")
 	)
 	(segment
 		(start 140.8875 127.075)
@@ -8845,14 +8853,6 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "f3040241-8725-490a-9fc8-ab68bbf84804")
-	)
-	(segment
-		(start 140.675 120.347613)
-		(end 141.597613 119.425)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "f916dd59-fc85-49b3-af5b-93b023e6c30f")
 	)
 	(segment
 		(start 159.07 126.3)
@@ -10439,23 +10439,14 @@
 			(clearance 0.3)
 		)
 		(min_thickness 0.25)
-		(fill yes
+		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
 			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
-				(xy 139.5 119.25) (xy 142 119.25) (xy 140.75 120.25)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 141.713542 119.269685) (xy 141.759297 119.322489) (xy 141.769241 119.391647) (xy 141.740216 119.455203)
-				(xy 141.723965 119.470828) (xy 140.827462 120.18803) (xy 140.762816 120.214538) (xy 140.694101 120.201888)
-				(xy 140.672538 120.18803) (xy 139.776035 119.470828) (xy 139.735983 119.413577) (xy 139.73324 119.343762)
-				(xy 139.768679 119.283546) (xy 139.831046 119.252049) (xy 139.853497 119.25) (xy 141.646503 119.25)
+				(xy 139.5 119.25) (xy 141.25 119.5) (xy 140.75 120.25)
 			)
 		)
 	)
