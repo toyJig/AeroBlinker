@@ -3524,16 +3524,15 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "9485670a-8580-4300-858b-ab76ffb0f3ca")
 		(at 152.71 121)
-		(descr "Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm")
-		(tags "CONN DEV")
-		(property "Reference" "TP1"
-			(at 2.54 2.5 0)
+		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "TP3"
+			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "18844d26-0dc6-42a2-9323-909051417f67")
 			(effects
 				(font
@@ -3543,7 +3542,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 2.54 3 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
 			(uuid "da0b8fbc-266a-4ea0-970f-36b9e28e40f0")
 			(effects
@@ -3591,18 +3590,8 @@
 		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.5 -1.5)
-			(end -1.5 1.5)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "39552706-f1af-4293-a441-c60820d106ab")
-		)
-		(fp_line
-			(start -1.5 -1.5)
-			(end 6.6 -1.5)
+			(start -0.95 -0.95)
+			(end 0.95 -0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3611,8 +3600,18 @@
 			(uuid "f007b8a7-0b7e-44ff-87e7-e49635c8ca08")
 		)
 		(fp_line
-			(start 6.6 1.5)
-			(end -1.5 1.5)
+			(start -0.95 0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39552706-f1af-4293-a441-c60820d106ab")
+		)
+		(fp_line
+			(start 0.95 -0.95)
+			(end 0.95 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3621,8 +3620,8 @@
 			(uuid "6b5ddd78-4587-462b-8a02-4f49525cac5c")
 		)
 		(fp_line
-			(start 6.6 1.5)
-			(end 6.6 -1.5)
+			(start 0.95 0.95)
+			(end -0.95 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3631,8 +3630,8 @@
 			(uuid "cd240272-6d14-4bdc-82a8-10d019baa0ca")
 		)
 		(fp_line
-			(start -1.8 -1.8)
-			(end -1.8 1.8)
+			(start -1.25 -1.25)
+			(end -1.25 1.25)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3641,18 +3640,8 @@
 			(uuid "e92e08f3-4d83-46d7-bad3-a6ac86cc4eba")
 		)
 		(fp_line
-			(start -1.8 -1.8)
-			(end 6.88 -1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "48ca6680-9377-4db9-b78b-fb83b1828847")
-		)
-		(fp_line
-			(start 6.88 1.8)
-			(end -1.8 1.8)
+			(start -1.25 -1.25)
+			(end 1.25 -1.25)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3661,8 +3650,18 @@
 			(uuid "56f76860-ae3c-4b02-bd40-c684702d0929")
 		)
 		(fp_line
-			(start 6.88 1.8)
-			(end 6.88 -1.8)
+			(start 1.25 1.25)
+			(end -1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "48ca6680-9377-4db9-b78b-fb83b1828847")
+		)
+		(fp_line
+			(start 1.25 1.25)
+			(end 1.25 -1.25)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3670,18 +3669,8 @@
 			(layer "F.CrtYd")
 			(uuid "5f26bb67-72d1-4176-94f4-5eb1dc5a339c")
 		)
-		(fp_line
-			(start 5.08 0)
-			(end 0 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d49cb9ce-f637-4a1a-94d1-6c93e011b4e5")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "25f922ee-768e-4ebb-a05e-3c0455ee3074")
 			(effects
@@ -3691,25 +3680,14 @@
 				)
 			)
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" smd rect
 			(at 0 0)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.25)
+			(size 1.5 1.5)
+			(layers "F.Cu" "F.Mask")
 			(net "/SYS_SWCLK")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "4b27d325-10d9-4a96-825e-5809f2191b7f")
-		)
-		(pad "2" thru_hole circle
-			(at 5.08 0)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "c3372049-10e6-44d9-bd48-d30ca3bd578b")
 		)
 		(embedded_fonts no)
 	)
