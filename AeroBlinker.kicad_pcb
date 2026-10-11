@@ -5511,13 +5511,13 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "b6828052-c5e3-419f-bdd7-fe04c52f5298")
-		(at 154.8 128.2 180)
+		(at 155.6 129 180)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
 			(at 0 2.5 180)
 			(layer "F.SilkS")
-			(uuid "b40d1d75-463a-427e-b9bb-fe1f3ac2970f")
+			(uuid "5edae884-3c1d-4ff9-af9d-aa4efa0ba6e5")
 			(effects
 				(font
 					(size 1 1)
@@ -5528,7 +5528,7 @@
 		(property "Value" "USBLC6-2SC6"
 			(at 0 2.4 0)
 			(layer "F.Fab")
-			(uuid "7f92fe89-0204-4f77-b9db-975f3b082085")
+			(uuid "d669c91c-e9db-4829-8ab3-966fd433d1d8")
 			(effects
 				(font
 					(size 1 1)
@@ -5540,7 +5540,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85be23fa-c0d0-4987-a6cd-174b586c7bb3")
+			(uuid "32c6d732-9cb8-4918-8791-b4f382c5012f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5551,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29b9795d-6c0d-46f1-b34b-f8a2f510e7cf")
+			(uuid "35e12509-6c74-4057-899b-747009a7a168")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,22 +8950,6 @@
 		(uuid "7868a95f-468d-4884-9112-f650e3bd0219")
 	)
 	(segment
-		(start 159.07 127.75)
-		(end 157.075 127.75)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(J6-CC2)")
-		(uuid "617c6167-4d7a-4a4f-9ede-459115214ca1")
-	)
-	(segment
-		(start 157.075 127.75)
-		(end 157 127.825)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(J6-CC2)")
-		(uuid "999e2e63-ec52-4a69-82cd-1c1ad12ae96e")
-	)
-	(segment
 		(start 146.12901 121.55)
 		(end 146.8 121.55)
 		(width 0.5)
@@ -9446,20 +9430,28 @@
 		(uuid "c9c84591-36a2-4d11-ab39-36e35be2a981")
 	)
 	(segment
-		(start 152.15 127.25)
-		(end 153.6625 127.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D+")
-		(uuid "3ec55d18-1223-47ef-a1e5-6601a6394521")
-	)
-	(segment
 		(start 149.8625 128.625)
 		(end 150.775 128.625)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D+")
-		(uuid "d8064dcc-091a-4478-baf3-2b3006166227")
+		(uuid "354fe1e1-78f3-4fc4-b9ff-39ddc1ad949e")
+	)
+	(segment
+		(start 152.15 127.25)
+		(end 153.6625 127.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D+")
+		(uuid "445b85dd-010b-47a3-9d28-c14ad055e4af")
+	)
+	(segment
+		(start 153.6625 127.25)
+		(end 154.4625 128.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D+")
+		(uuid "8e2d80ec-d798-4f63-8d5a-750ddcb0ccec")
 	)
 	(segment
 		(start 150.775 128.625)
@@ -9467,7 +9459,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D+")
-		(uuid "d895f845-d0b2-45ec-b567-361a07f41d4b")
+		(uuid "dbbbb499-c872-4b12-8808-08e3dcab7896")
 	)
 	(segment
 		(start 159.980761 122.4)
