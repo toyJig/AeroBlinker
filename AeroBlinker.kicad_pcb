@@ -7321,7 +7321,7 @@
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J4"
-			(at 0.0075 -4.7 180)
+			(at -0.2425 -4.7 180)
 			(layer "F.SilkS")
 			(uuid "2b6466be-674d-4f4c-9299-80aec67e7ced")
 			(effects
