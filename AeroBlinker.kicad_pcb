@@ -3430,7 +3430,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "82d4e563-079a-4c7f-8361-c6bcf8dff01f")
-		(at 156 140.475)
+		(at 156 141.225)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J3"
@@ -4712,7 +4712,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a155a16f-0e7b-4031-ad1d-549a403d4f91")
-		(at 147 140.475)
+		(at 147 141.225)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J2"
@@ -5381,7 +5381,7 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b0d7d21b-5f6c-4140-bb58-32822fe99482")
-		(at 137.7425 140.425)
+		(at 137.7425 141.175)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J1"
@@ -8583,7 +8583,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 142 137.5 0)
+		(at 142 138.25 0)
 		(layer "F.SilkS")
 		(uuid "5e3aa0a0-af5a-4b8e-be43-9d43540cff43")
 		(effects
@@ -8619,7 +8619,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 151.25 137.5 0)
+		(at 151.25 138.25 0)
 		(layer "F.SilkS")
 		(uuid "fe880c01-141b-405f-b8ee-4e9dab0864a0")
 		(effects
@@ -8679,7 +8679,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 160.25 137.5 0)
+		(at 160.25 138.25 0)
 		(layer "F.SilkS")
 		(uuid "b79884b9-1bdb-4aba-86f9-35f45d705836")
 		(effects
@@ -8691,7 +8691,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 136 137.5 90)
+		(at 136 138.25 90)
 		(layer "F.SilkS")
 		(uuid "5ef18c48-cc36-4ad5-b480-b3c0d1cc7fa7")
 		(effects
@@ -8703,7 +8703,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 145.25 137.5 90)
+		(at 145.25 138.25 90)
 		(layer "F.SilkS")
 		(uuid "2d48abf2-ac06-445a-8eb9-056a4e9846ed")
 		(effects
@@ -8715,7 +8715,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 154.25 137.5 90)
+		(at 154.25 138.25 90)
 		(layer "F.SilkS")
 		(uuid "e6bae2b6-012e-4883-b6a6-26b8823cb2c4")
 		(effects
@@ -11146,6 +11146,12 @@
 		(uuid "35072bdc-726d-47ef-a707-df127f5b3fb5")
 		(members "2d48abf2-ac06-445a-8eb9-056a4e9846ed" "a155a16f-0e7b-4031-ad1d-549a403d4f91"
 			"fe880c01-141b-405f-b8ee-4e9dab0864a0"
+		)
+	)
+	(group ""
+		(uuid "86f334c0-20b0-4b69-8aad-a92daa0ee2b2")
+		(members "5e3aa0a0-af5a-4b8e-be43-9d43540cff43" "5ef18c48-cc36-4ad5-b480-b3c0d1cc7fa7"
+			"b0d7d21b-5f6c-4140-bb58-32822fe99482"
 		)
 	)
 	(group ""
