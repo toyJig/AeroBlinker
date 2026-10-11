@@ -6762,7 +6762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c0b6ca2-d4d3-4a4e-8f3b-e145980e1ada")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 118.618 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6823,7 +6823,7 @@
 		(instances
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6920,7 +6920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15b71145-eb2f-44d4-a89c-e541a4ad7abe")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 118.618 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6981,7 +6981,7 @@
 		(instances
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
