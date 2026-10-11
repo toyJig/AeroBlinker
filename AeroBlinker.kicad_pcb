@@ -129,11 +129,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "028f4322-08b1-4143-9673-7e81db336d9b")
-		(at 139.75 126.75 180)
+		(at 139.75 126.75 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 2.3625 0.425 0)
+			(at 2.3625 0.425 90)
 			(layer "F.SilkS")
 			(uuid "96136eb0-a3a4-4e9d-bfd2-6d55cfbe3e55")
 			(effects
@@ -144,7 +144,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "12b8d3d5-67df-4007-b401-1dc0112d52b0")
 			(effects
@@ -155,7 +155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08e8010b-50c0-4e90-875f-934326bc98b2")
@@ -166,7 +166,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "521e642a-e40a-467b-988c-6c2530a1893d")
@@ -177,7 +177,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0709205e-1c19-4dec-88ef-eb55a37f84b0")
@@ -243,7 +243,7 @@
 			(uuid "c6c164bf-adbb-48ac-91a2-f8388ff6d8a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "9c12e734-9fa3-4bdd-bd55-3bfdca28b5cd")
 			(effects
@@ -254,7 +254,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0 180)
+			(at -0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -263,7 +263,7 @@
 			(uuid "cefba411-8c1b-4bc4-a052-b79033a9cf11")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0 180)
+			(at 0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8315,14 +8315,6 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "a88c9d3c-b6e7-4eb7-8b8b-6c33b170280d")
-	)
-	(segment
-		(start 140.8875 126.675)
-		(end 140.6 126.675)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "b2f34be4-7d84-45b4-93b9-f97d474f4291")
 	)
 	(segment
 		(start 147.7 119.95)
