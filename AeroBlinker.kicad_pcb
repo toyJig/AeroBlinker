@@ -467,12 +467,6 @@
 		(path "/5b774ecb-441d-4e20-9b68-2667138e77fc")
 		(sheetname "/")
 		(sheetfile "AeroBlinker.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "9" "1" "4" "7" "6" "8" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -747,7 +741,7 @@
 		(pad "9" thru_hole circle
 			(at 0 -0.55)
 			(size 0.5 0.5)
-			(drill 0.3)
+			(drill 0.2)
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
@@ -781,7 +775,7 @@
 		(pad "9" thru_hole circle
 			(at 0 0.55)
 			(size 0.5 0.5)
-			(drill 0.3)
+			(drill 0.2)
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
