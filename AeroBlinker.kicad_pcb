@@ -5345,6 +5345,7 @@
 		(property "Reference" "SW2"
 			(at -1.5 -2.25 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c08c0c64-cfea-4d34-8c18-6613aa29ee79")
 			(effects
 				(font
@@ -7774,7 +7775,7 @@
 		)
 	)
 	(gr_text "BOOT"
-		(at 145.75 124 0)
+		(at 145.75 124.25 0)
 		(layer "F.SilkS")
 		(uuid "e7a4d02b-968c-4d95-8011-00bffc92b0b8")
 		(effects
