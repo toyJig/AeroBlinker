@@ -792,7 +792,7 @@
 	(footprint "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 		(layer "F.Cu")
 		(uuid "0f9a899a-e2c2-47ad-8905-db0e70ca9c75")
-		(at 136.05 120.75)
+		(at 136.05 120.5)
 		(descr "Texas DSG0008A WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf)")
 		(tags "Texas WSON NoLead")
 		(property "Reference" "U3"
@@ -1760,11 +1760,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "388b935c-e685-446e-bbdd-6a2547b3601d")
-		(at 139.25 124.25 -90)
+		(at 138 117.75)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "b96dfcfd-d988-4635-a406-bbf3e8474f74")
 			(effects
@@ -1775,7 +1775,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.43 270)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cebddb0e-9e30-4e4e-992f-0e7c6e462eca")
 			(effects
@@ -1786,7 +1786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c65841ca-12e3-448e-b3e2-195bfa2f80e9")
@@ -1797,7 +1797,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b620d4dc-a45d-4555-932b-495579e1a0f8")
@@ -1808,7 +1808,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1cfa9b4e-0226-4bba-acb6-1e2b4f1e5d96")
@@ -1832,16 +1832,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.237258 0.5225)
-			(end 0.237258 0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f85fe8d5-ac44-44c1-a6b0-6b99183a4507")
-		)
-		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
 			(stroke
@@ -1850,6 +1840,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "82e510e6-29e5-476c-b4ce-1ecbdf0927c9")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f85fe8d5-ac44-44c1-a6b0-6b99183a4507")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -1874,7 +1874,7 @@
 			(uuid "c2feb199-4a78-46e6-9e0e-06f943c4200c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "22f37a49-48c2-4891-9db9-e45ca40220b4")
 			(effects
@@ -1885,7 +1885,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0 270)
+			(at -0.825 0)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1894,7 +1894,7 @@
 			(uuid "2d6ca755-59a9-46c3-8724-733be6ebe7a7")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0 270)
+			(at 0.825 0)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1918,7 +1918,7 @@
 	(footprint "Inductor_SMD:L_Changjiang_FNR3012S"
 		(layer "F.Cu")
 		(uuid "38987012-08ba-437a-88c3-a0f88c1f6ebd")
-		(at 139.5 120.75 -90)
+		(at 139.5 120.5 -90)
 		(descr "Inductor, Changjiang, FNR3012S, 3.0x3.0x1.2mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L1"
@@ -8205,24 +8205,24 @@
 		(uuid "19e0d034-2b04-41c4-9b9a-e6058140f98e")
 	)
 	(segment
-		(start 139.5 121.9)
-		(end 139.1 121.5)
+		(start 139.5 121.65)
+		(end 139.1 121.25)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "1c5dd9da-a396-4a35-bcc6-b95f1f6d9423")
 	)
 	(segment
-		(start 138 121.5)
-		(end 137.5 121)
+		(start 138 121.25)
+		(end 137.5 120.75)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "27cdd578-78c0-41d7-839b-43cdea72df68")
 	)
 	(segment
-		(start 139.1 121.5)
-		(end 138 121.5)
+		(start 139.1 121.25)
+		(end 138 121.25)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+3.3V")
@@ -8237,8 +8237,8 @@
 		(uuid "39a4a3f9-c4a4-4501-a083-f11bde191db6")
 	)
 	(segment
-		(start 137.5 121)
-		(end 137 121)
+		(start 137.5 120.75)
+		(end 137 120.75)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+3.3V")
@@ -8909,16 +8909,16 @@
 		(uuid "ea5ad5ab-e5ba-4feb-a469-7e11398c68f2")
 	)
 	(segment
-		(start 139.5 119.6)
-		(end 138.6 120.5)
+		(start 139.5 119.35)
+		(end 138.6 120.25)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(U3-SW)")
 		(uuid "c795fc12-77d4-4929-a97c-af7b83dd691f")
 	)
 	(segment
-		(start 138.6 120.5)
-		(end 137 120.5)
+		(start 138.6 120.25)
+		(end 137 120.25)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(U3-SW)")
