@@ -9137,7 +9137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill0.7mm"
 			(at 121.92 82.55 0)
 			(hide yes)
 			(show_name no)
