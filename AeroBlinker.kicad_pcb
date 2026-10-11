@@ -777,6 +777,7 @@
 		(property "Reference" "TP1"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "90839ced-68b8-42d9-82dc-315c7434c43a")
 			(effects
 				(font
@@ -2237,6 +2238,7 @@
 		(property "Reference" "TP2"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b204108a-bc49-4487-8432-c168f832333e")
 			(effects
 				(font
@@ -4034,6 +4036,7 @@
 		(property "Reference" "TP3"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5c5eb621-45a4-4d7f-bd74-263fd504361c")
 			(effects
 				(font
