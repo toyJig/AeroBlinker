@@ -796,7 +796,7 @@
 		(descr "Texas DSG0008A WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf)")
 		(tags "Texas WSON NoLead")
 		(property "Reference" "U3"
-			(at -0.3 -2 0)
+			(at -0.419417 -1.995236 0)
 			(layer "F.SilkS")
 			(uuid "86082835-04bb-4c0a-a889-071f32e90a0b")
 			(effects
@@ -1922,7 +1922,7 @@
 		(descr "Inductor, Changjiang, FNR3012S, 3.0x3.0x1.2mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L1"
-			(at 0.75 -2.45 180)
+			(at 0.751639 -2.4933 180)
 			(layer "F.SilkS")
 			(uuid "274eb824-67d4-40f5-9db5-6918130fc671")
 			(effects
