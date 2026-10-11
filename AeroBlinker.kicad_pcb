@@ -8082,7 +8082,7 @@
 		)
 	)
 	(gr_text "CLK"
-		(at 153.25 118.75 0)
+		(at 153.25 120 0)
 		(layer "F.SilkS")
 		(uuid "990e87c9-28b3-4f4a-abb2-4c81bd128a63")
 		(effects
@@ -8106,7 +8106,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 158.25 120 0)
+		(at 158 120 0)
 		(layer "F.SilkS")
 		(uuid "e40e9acf-8b74-4680-8ec8-73b7abd60442")
 		(effects
