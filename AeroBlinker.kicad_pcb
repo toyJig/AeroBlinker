@@ -9857,7 +9857,7 @@
 	(segment
 		(start 141.51 131.99)
 		(end 142.25 131.99)
-		(width 0.6)
+		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_GATE")
 		(uuid "c1d20ac6-e756-407d-bb98-72e68f377c95")
@@ -9881,7 +9881,7 @@
 	(segment
 		(start 140.7 133.5625)
 		(end 140.7 132.8)
-		(width 0.6)
+		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_GATE")
 		(uuid "f7fc1dbd-ccad-44e3-b2fd-3631dc0636cc")
@@ -9889,7 +9889,7 @@
 	(segment
 		(start 140.7 132.8)
 		(end 141.51 131.99)
-		(width 0.6)
+		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_GATE")
 		(uuid "f8595aed-699d-4976-a644-30e75b0eb2c1")
