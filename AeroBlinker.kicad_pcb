@@ -792,7 +792,7 @@
 	(footprint "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 		(layer "F.Cu")
 		(uuid "0f9a899a-e2c2-47ad-8905-db0e70ca9c75")
-		(at 136.3 124)
+		(at 136.5 120.4)
 		(descr "Texas DSG0008A WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf)")
 		(tags "Texas WSON NoLead")
 		(property "Reference" "U3"
@@ -1918,7 +1918,7 @@
 	(footprint "Inductor_SMD:L_Changjiang_FNR3012S"
 		(layer "F.Cu")
 		(uuid "38987012-08ba-437a-88c3-a0f88c1f6ebd")
-		(at 138.5 120.75 90)
+		(at 140.5 116.75 90)
 		(descr "Inductor, Changjiang, FNR3012S, 3.0x3.0x1.2mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L1"
@@ -8205,14 +8205,6 @@
 		(uuid "19e0d034-2b04-41c4-9b9a-e6058140f98e")
 	)
 	(segment
-		(start 142.02 124.75)
-		(end 142.02 122.997387)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "1a5c9732-f1a4-4264-84a0-2003ae64ab6b")
-	)
-	(segment
 		(start 141.272613 119.75)
 		(end 147.5 119.75)
 		(width 0.5)
@@ -8235,14 +8227,6 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "46269be6-3c99-45b1-89f5-88a075cfe764")
-	)
-	(segment
-		(start 140.675 121.652387)
-		(end 140.675 120.347613)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "52413046-3f7c-41db-98be-df7fce593277")
 	)
 	(segment
 		(start 139.85 119.6)
@@ -8355,14 +8339,6 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "d0366e13-7ddd-4a51-aa99-e79e72231275")
-	)
-	(segment
-		(start 142.02 122.997387)
-		(end 140.675 121.652387)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "d2063699-26ec-4622-9cae-6e873543f060")
 	)
 	(segment
 		(start 149.8625 129.925)
