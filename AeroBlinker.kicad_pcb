@@ -6151,7 +6151,7 @@
 		(descr "CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf")
 		(tags "tactile switch kmr2")
 		(property "Reference" "SW2"
-			(at 0 -2.45 0)
+			(at 3.5 0 270)
 			(layer "F.SilkS")
 			(uuid "b8ca40df-83a9-41be-8e85-0fdc32800fa6")
 			(effects
