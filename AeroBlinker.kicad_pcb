@@ -408,7 +408,7 @@
 		(descr "Texas DSG0008A WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf)")
 		(tags "Texas WSON NoLead")
 		(property "Reference" "U3"
-			(at 0 -1.95 0)
+			(at -0.3 -2 0)
 			(layer "F.SilkS")
 			(uuid "07030547-0307-4928-8b63-a1642f6574cb")
 			(effects
