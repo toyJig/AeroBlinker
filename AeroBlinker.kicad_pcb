@@ -8855,7 +8855,7 @@
 	(segment
 		(start 148.425 130.575)
 		(end 149.8625 130.575)
-		(width 0.3)
+		(width 0.4)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "b357cd6e-9ce2-4c3f-bf4a-68ad015711cb")
