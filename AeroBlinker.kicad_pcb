@@ -8506,6 +8506,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "BOOT"
+		(at 145 123.75 0)
+		(layer "F.SilkS")
+		(uuid "e7a4d02b-968c-4d95-8011-00bffc92b0b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "3.3V"
 		(at 150 120 0)
 		(layer "F.SilkS")
@@ -8630,18 +8642,6 @@
 		(at 133 125.5 270)
 		(layer "F.SilkS")
 		(uuid "0e9be1b4-1bcf-4bc8-b09e-71cb64b4e411")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "BOOT"
-		(at 147.75 118.75 270)
-		(layer "F.SilkS")
-		(uuid "e7a4d02b-968c-4d95-8011-00bffc92b0b8")
 		(effects
 			(font
 				(size 1 1)
