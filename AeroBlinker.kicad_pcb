@@ -8367,7 +8367,7 @@
 	(segment
 		(start 138.6 121)
 		(end 137 121)
-		(width 0.3)
+		(width 0.2)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "f569ffc0-0ca0-4211-96d7-ecd6eebfca13")
@@ -8895,7 +8895,7 @@
 	(segment
 		(start 139.5 119.6)
 		(end 138.6 120.5)
-		(width 0.3)
+		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(U3-SW)")
 		(uuid "4908989a-42f3-4a2e-91ca-681037a8ea39")
@@ -8903,7 +8903,7 @@
 	(segment
 		(start 138.6 120.5)
 		(end 137 120.5)
-		(width 0.3)
+		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(U3-SW)")
 		(uuid "c3e3936d-3348-4e81-b23c-831de1a03087")
