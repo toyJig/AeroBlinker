@@ -2231,7 +2231,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "63ba3d6b-69e6-43b8-91bd-6d4ddfadad3d")
-		(at 154.275 120.325)
+		(at 154 121)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP2"
@@ -2872,7 +2872,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "7ae75c21-922e-4df4-ad85-a70babb16dbb")
-		(at 154.275 123.875)
+		(at 160.25 121)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP4"
@@ -4028,7 +4028,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "9485670a-8580-4300-858b-ab76ffb0f3ca")
-		(at 157.75 121)
+		(at 156.5 121)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP3"
