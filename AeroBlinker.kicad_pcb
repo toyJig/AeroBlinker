@@ -9618,7 +9618,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "1b20b248-26f4-4952-98a7-d3949b95b537")
+		(uuid "23729c22-9dea-4f7d-ae85-f7fe6a5f863a")
 	)
 	(segment
 		(start 149.8625 129.275)
@@ -9637,6 +9637,14 @@
 		(uuid "2b5a7e36-f844-44de-ad40-8ffcec4de7ed")
 	)
 	(segment
+		(start 152 128.75)
+		(end 152 128.3125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "81826b5c-d696-4702-a42d-b083e72f9ae4")
+	)
+	(segment
 		(start 152.5 128.75)
 		(end 152 128.75)
 		(width 0.2)
@@ -9651,14 +9659,6 @@
 		(layer "F.Cu")
 		(net "/USB_D-")
 		(uuid "e4ae2744-b445-4646-970a-9b7227b97ee7")
-	)
-	(segment
-		(start 152 128.75)
-		(end 152 128.3125)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "f296211d-c1e5-41b0-856b-3e350c96a1e4")
 	)
 	(segment
 		(start 152.3625 127)
@@ -10464,55 +10464,6 @@
 		(uuid "93232655-739a-4c99-a924-28f3f983c839")
 		(members "82d4e563-079a-4c7f-8361-c6bcf8dff01f" "b79884b9-1bdb-4aba-86f9-35f45d705836"
 			"e6bae2b6-012e-4883-b6a6-26b8823cb2c4"
-		)
-	)
-	(generated
-		(uuid "2457fd0f-c59c-4912-a180-1998f5bfb7af")
-		(type tuning_pattern)
-		(name "Tuning Pattern")
-		(layer "F.Cu")
-		(base_line
-			(pts
-				(xy 152 128.75) (xy 152 128.3125) (xy 152.3625 127.95)
-			)
-		)
-		(base_line_coupled
-			(pts
-				(xy 151.375 128.125) (xy 151.4 128.1)
-			)
-		)
-		(corner_radius_percent 80)
-		(end
-			(xy 152.3625 127.95)
-		)
-		(initial_side "right")
-		(is_time_domain no)
-		(last_diff_pair_gap 0.18)
-		(last_netname "/USB_D-")
-		(last_status "too_long")
-		(last_track_width 0.2)
-		(last_tuning_length 0.213389)
-		(max_amplitude 1)
-		(min_amplitude 0.2)
-		(min_spacing 0.66)
-		(origin
-			(xy 152 128.75)
-		)
-		(override_custom_rules no)
-		(rounded yes)
-		(single_sided no)
-		(target_delay 1000000)
-		(target_delay_max 1000000)
-		(target_delay_min 0)
-		(target_length 1000000)
-		(target_length_max 1000000)
-		(target_length_min 0)
-		(target_skew 0)
-		(target_skew_max 0.1)
-		(target_skew_min -0.1)
-		(tuning_mode "diff_pair_skew")
-		(members "1b20b248-26f4-4952-98a7-d3949b95b537" "2b5a7e36-f844-44de-ad40-8ffcec4de7ed"
-			"cee1624e-732c-4c14-94ea-30d01f9662f6" "f296211d-c1e5-41b0-856b-3e350c96a1e4"
 		)
 	)
 	(embedded_fonts no)
