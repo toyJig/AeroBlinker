@@ -9729,7 +9729,8 @@
 		(fill yes
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
+			(island_removal_mode 2)
+			(island_area_min 10)
 		)
 		(polygon
 			(pts
