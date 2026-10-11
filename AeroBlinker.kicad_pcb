@@ -792,7 +792,7 @@
 	(footprint "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 		(layer "F.Cu")
 		(uuid "0f9a899a-e2c2-47ad-8905-db0e70ca9c75")
-		(at 139.75 120.4 -90)
+		(at 138 120.8 -90)
 		(descr "Texas DSG0008A WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf)")
 		(tags "Texas WSON NoLead")
 		(property "Reference" "U3"
@@ -8603,14 +8603,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "91333b4d-8e3f-4f3e-9e12-1a450fec0671")
-	)
-	(segment
-		(start 140.675 120.347613)
-		(end 140.597613 120.347613)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "981b0d38-674b-47e9-87b9-39d313c995eb")
 	)
 	(segment
 		(start 140.5 129.02)
