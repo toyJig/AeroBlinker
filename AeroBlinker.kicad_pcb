@@ -796,7 +796,7 @@
 		(descr "Texas DSG0008A WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf)")
 		(tags "Texas WSON NoLead")
 		(property "Reference" "U3"
-			(at -0.419417 -1.995236 0)
+			(at -0.55 -1.995236 0)
 			(layer "F.SilkS")
 			(uuid "8d50ab15-0744-477e-a673-ff58fa567178")
 			(effects
@@ -1760,13 +1760,13 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "388b935c-e685-446e-bbdd-6a2547b3601d")
-		(at 138.5 120.1)
+		(at 138.4 121.4)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
 			(at 0 -1.43 180)
 			(layer "F.SilkS")
-			(uuid "3ab46954-d41f-4e99-a26a-778e83a18f88")
+			(uuid "c59344a1-e077-498e-a754-f84123247f8e")
 			(effects
 				(font
 					(size 1 1)
@@ -1777,7 +1777,7 @@
 		(property "Value" "100K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "2792f3c5-8376-4240-ae37-e5f4820c19af")
+			(uuid "5a88f082-1c1e-4df2-b07c-c1c948c54fdb")
 			(effects
 				(font
 					(size 1 1)
@@ -1789,7 +1789,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1f37a8a-6324-47f7-b42a-89a60c9c48e0")
+			(uuid "3091021a-9fe6-4367-90cc-8a3a4d01d65e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1800,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b26be711-7f42-4ab8-aaff-3e5b80c83803")
+			(uuid "312ad027-7944-469e-940e-b5c51bec3131")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +8210,7 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net "+3.3V")
-		(uuid "337e771c-2e65-46e4-bce8-03fadf419790")
+		(uuid "35f6a52b-f1c7-4a55-a5cd-9175ba3934e1")
 	)
 	(segment
 		(start 149.8625 129.925)
@@ -8253,6 +8253,22 @@
 		(uuid "77431f07-63cc-4a79-9921-72c947e59264")
 	)
 	(segment
+		(start 139.225 120.2)
+		(end 139.225 121.4)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "7b9d3c5d-b26e-4f99-9d6e-11810e108218")
+	)
+	(segment
+		(start 139.475 119.95)
+		(end 139.225 120.2)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "81ff8c5a-4d8d-49c8-a895-343c3dd06a2e")
+	)
+	(segment
 		(start 144.1375 129.925)
 		(end 141.555 129.925)
 		(width 0.3)
@@ -8275,14 +8291,6 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "91660681-e656-43b7-b159-5b172738041b")
-	)
-	(segment
-		(start 139.475 119.95)
-		(end 139.325 120.1)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "9fb00e5c-9e79-4b45-9fde-ab0dcce14120")
 	)
 	(segment
 		(start 148.275 120.525)
@@ -8893,12 +8901,20 @@
 		(uuid "a19781f6-843d-4c7b-a2e9-db10b28d0ec5")
 	)
 	(segment
-		(start 137.675 120.1)
+		(start 137.575 121.4)
+		(end 137.675 121.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U3-PG)")
+		(uuid "2341e9f5-7385-4a4f-914c-5ed7c4f30f7e")
+	)
+	(segment
+		(start 137.675 121.5)
 		(end 137.675 122.925)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(U3-PG)")
-		(uuid "782dc01d-ab6b-46ee-944b-f6bf30b57e06")
+		(uuid "9d0fb014-b98c-49c5-8efd-dadad75f569f")
 	)
 	(segment
 		(start 137.675 122.925)
@@ -8906,7 +8922,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(U3-PG)")
-		(uuid "a494563c-1c0b-4a7c-9249-cfe871bdadf9")
+		(uuid "eedf9e18-27e8-4220-8304-fce95f26b449")
 	)
 	(segment
 		(start 142.5 129.02)
