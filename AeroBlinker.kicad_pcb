@@ -11142,6 +11142,12 @@
 			)
 		)
 	)
+	(group ""
+		(uuid "35072bdc-726d-47ef-a707-df127f5b3fb5")
+		(members "2d48abf2-ac06-445a-8eb9-056a4e9846ed" "a155a16f-0e7b-4031-ad1d-549a403d4f91"
+			"fe880c01-141b-405f-b8ee-4e9dab0864a0"
+		)
+	)
 	(generated
 		(uuid "936d4a19-3bb4-424b-b386-087ccddd0591")
 		(type tuning_pattern)
