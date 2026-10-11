@@ -7321,7 +7321,7 @@
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J4"
-			(at -1.4925 -3.2 180)
+			(at 1.0075 -4.7 180)
 			(layer "F.SilkS")
 			(uuid "2b6466be-674d-4f4c-9299-80aec67e7ced")
 			(effects
@@ -7705,6 +7705,30 @@
 		(at 129 142.25 0)
 		(layer "F.SilkS")
 		(uuid "83131f35-ec61-4ed6-a178-1d3dd223f0db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 132.75 133.75 0)
+		(layer "F.SilkS")
+		(uuid "6103ffe1-3801-4a99-8b9b-6f36fdb1940f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 132.75 140.75 0)
+		(layer "F.SilkS")
+		(uuid "2164f492-6154-4e78-94ee-20c8968ae4e8")
 		(effects
 			(font
 				(size 1 1)
