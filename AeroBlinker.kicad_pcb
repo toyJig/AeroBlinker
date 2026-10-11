@@ -9613,44 +9613,20 @@
 		(uuid "f629f002-8733-4b86-b94e-af0b7f6a6de3")
 	)
 	(segment
-		(start 149.8625 129.275)
-		(end 152.475 129.275)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "39cd41e1-2b4f-48fc-b194-1b5f0584f976")
-	)
-	(segment
 		(start 152 128.3125)
 		(end 152.3625 127.95)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "6638ad0d-4dd0-4ec6-9748-5fe131ebd77f")
+		(uuid "1b20b248-26f4-4952-98a7-d3949b95b537")
 	)
 	(segment
-		(start 152 128.75)
-		(end 152 128.3125)
+		(start 149.8625 129.275)
+		(end 151.475 129.275)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "81265f3e-d43b-4f83-abdb-3afda500a76d")
-	)
-	(segment
-		(start 152.475 129.275)
-		(end 152.75 129)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "883036a6-24a2-4cf1-ab74-67e08ca1df45")
-	)
-	(segment
-		(start 152.5 128.75)
-		(end 152 128.75)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "a228a13d-927f-4419-9d2c-004bb899cfb0")
+		(uuid "2672ef4e-84f6-4b46-b37a-f5a04c772a1b")
 	)
 	(segment
 		(start 152.75 129)
@@ -9658,7 +9634,31 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "a61ba367-69e8-4308-a147-43f5744dc73e")
+		(uuid "2b5a7e36-f844-44de-ad40-8ffcec4de7ed")
+	)
+	(segment
+		(start 152.5 128.75)
+		(end 152 128.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "cee1624e-732c-4c14-94ea-30d01f9662f6")
+	)
+	(segment
+		(start 151.475 129.275)
+		(end 152 128.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "e4ae2744-b445-4646-970a-9b7227b97ee7")
+	)
+	(segment
+		(start 152 128.75)
+		(end 152 128.3125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "f296211d-c1e5-41b0-856b-3e350c96a1e4")
 	)
 	(segment
 		(start 152.3625 127)
@@ -10473,8 +10473,7 @@
 		(layer "F.Cu")
 		(base_line
 			(pts
-				(xy 149.8625 129.275) (xy 152.475 129.275) (xy 152.75 129) (xy 152.5 128.75) (xy 152 128.75) (xy 152 128.3125)
-				(xy 152.3625 127.95)
+				(xy 152 128.75) (xy 152 128.3125) (xy 152.3625 127.95)
 			)
 		)
 		(base_line_coupled
@@ -10497,7 +10496,7 @@
 		(min_amplitude 0.2)
 		(min_spacing 0.66)
 		(origin
-			(xy 149.8625 129.275)
+			(xy 152 128.75)
 		)
 		(override_custom_rules no)
 		(rounded yes)
@@ -10512,9 +10511,8 @@
 		(target_skew_max 0.1)
 		(target_skew_min -0.1)
 		(tuning_mode "diff_pair_skew")
-		(members "39cd41e1-2b4f-48fc-b194-1b5f0584f976" "6638ad0d-4dd0-4ec6-9748-5fe131ebd77f"
-			"81265f3e-d43b-4f83-abdb-3afda500a76d" "883036a6-24a2-4cf1-ab74-67e08ca1df45"
-			"a228a13d-927f-4419-9d2c-004bb899cfb0" "a61ba367-69e8-4308-a147-43f5744dc73e"
+		(members "1b20b248-26f4-4952-98a7-d3949b95b537" "2b5a7e36-f844-44de-ad40-8ffcec4de7ed"
+			"cee1624e-732c-4c14-94ea-30d01f9662f6" "f296211d-c1e5-41b0-856b-3e350c96a1e4"
 		)
 	)
 	(embedded_fonts no)
