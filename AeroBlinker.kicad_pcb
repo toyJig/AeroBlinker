@@ -792,7 +792,7 @@
 	(footprint "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 		(layer "F.Cu")
 		(uuid "0f9a899a-e2c2-47ad-8905-db0e70ca9c75")
-		(at 138 120.8 -90)
+		(at 140 120.8 -90)
 		(descr "Texas DSG0008A WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf)")
 		(tags "Texas WSON NoLead")
 		(property "Reference" "U3"
@@ -1450,7 +1450,7 @@
 		(property "Reference" "C7"
 			(at 0 -1.75 180)
 			(layer "F.SilkS")
-			(uuid "c420a6b9-0b57-4263-a085-87d23da99073")
+			(uuid "03a034a4-3ff1-4e5e-8eaf-130cbccf1945")
 			(effects
 				(font
 					(size 1 1)
@@ -1461,7 +1461,7 @@
 		(property "Value" "22u"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "55f4217c-e467-44a2-97ae-bb916abba2c6")
+			(uuid "7e2ec301-217a-42b2-9008-76c08c42d531")
 			(effects
 				(font
 					(size 1 1)
@@ -1473,7 +1473,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebfd15f6-ab10-409c-8235-449ad3d98c2f")
+			(uuid "819554ab-f37c-41ca-9a0e-db7aea123ed4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1484,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "369c1ee8-5b60-4aa9-96dd-fc0fdf307283")
+			(uuid "a93787e2-7685-42af-8713-c654afb9273d")
 			(effects
 				(font
 					(size 1.27 1.27)
