@@ -9717,20 +9717,20 @@
 		(uuid "f7fe9a5b-4a2a-4c31-a1a0-882dbeaaa79d")
 	)
 	(segment
-		(start 152 128.6)
-		(end 152 128.4)
+		(start 151.4 129.4)
+		(end 151.6 129.4)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "02be27de-c9e5-4697-8d34-d44ee197fc41")
+		(uuid "1a2f31ac-e5f6-45f1-ba12-4a5dc5c5526e")
 	)
 	(segment
-		(start 152 128.68)
-		(end 152 128.6)
+		(start 152 128.6)
+		(end 152 128.484733)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "1cd01272-b908-4c6f-930f-4da57213ed36")
+		(uuid "388809f0-e36d-4cf4-ba71-9f6a6e1c0e83")
 	)
 	(segment
 		(start 152.284935 128.84)
@@ -9738,7 +9738,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "1fd15db2-c88a-4745-ae5a-d31ab94643a6")
+		(uuid "3c6bdd54-6559-4a1e-91c1-dcc9c09c7317")
 	)
 	(segment
 		(start 151.6 129.4)
@@ -9746,55 +9746,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "31c0ac59-2b23-45fd-9847-353c11ba2020")
-	)
-	(segment
-		(start 151.4 129.4)
-		(end 151.6 129.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "3ea720f1-fe1a-4659-8730-1d207e79ef62")
-	)
-	(segment
-		(start 151 129.2)
-		(end 151.2 129.2)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "5b2259ee-6a65-4101-ab11-7f6e2d8d193d")
-	)
-	(segment
-		(start 149.9875 129.4)
-		(end 150.8 129.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "6bba2273-d536-4596-878e-15d93749d1b5")
-	)
-	(segment
-		(start 152.16 129.24)
-		(end 152.284935 129.24)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "6fdde4a2-20d8-4147-8e45-1d99491a4c43")
-	)
-	(segment
-		(start 152 128.3125)
-		(end 152.3625 127.95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "7b36132b-fb1c-4be7-a350-36eddb8a8a8e")
-	)
-	(segment
-		(start 152 128.4)
-		(end 152 128.3125)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "7e60eca5-94d4-4254-8b53-added4ab9f66")
+		(uuid "54e24925-67cd-482f-888f-9f3bf4793ebb")
 	)
 	(segment
 		(start 149.8625 129.275)
@@ -9802,7 +9754,39 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "9035ca2a-8c88-4ce0-89ab-fe125c821157")
+		(uuid "5515ea29-5ca2-49d1-9a18-5b980afcf278")
+	)
+	(segment
+		(start 152 128.68)
+		(end 152 128.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "5a159edf-838c-4e13-b404-d329b51df41c")
+	)
+	(segment
+		(start 152.16 129.24)
+		(end 152.284935 129.24)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "66420f79-20ff-4857-91d3-f637f4fb897e")
+	)
+	(segment
+		(start 151 129.2)
+		(end 151.2 129.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "7f13f869-d689-4c5f-9d2d-e29a799d4f91")
+	)
+	(segment
+		(start 152 128.3125)
+		(end 152.3625 127.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "8a6de65d-eaed-4a15-bdb1-f62e6fdaf918")
 	)
 	(segment
 		(start 152.444935 129.08)
@@ -9810,61 +9794,23 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "95585b52-649f-4ad3-8899-d65fe7992674")
+		(uuid "99a4dd0a-1bb1-4e9e-8d3c-06d1a97a2b67")
 	)
-	(arc
-		(start 152.284935 129.24)
-		(mid 152.398072 129.193137)
-		(end 152.444935 129.08)
+	(segment
+		(start 149.9875 129.4)
+		(end 150.8 129.4)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "2b79ef92-e7ab-47cb-b538-a652b344da39")
+		(uuid "9d769de4-9c5a-4b30-b2eb-48eb27ee6cc1")
 	)
-	(arc
-		(start 151.2 129.2)
-		(mid 151.270711 129.229289)
-		(end 151.3 129.3)
+	(segment
+		(start 152 128.484733)
+		(end 152 128.3125)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "3b13829e-fefc-4b99-b00f-83c94d2fd925")
-	)
-	(arc
-		(start 152 129.4)
-		(mid 152.046863 129.286863)
-		(end 152.16 129.24)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "761ab115-0b78-435c-9efd-e473e95a8534")
-	)
-	(arc
-		(start 151.3 129.3)
-		(mid 151.329289 129.370711)
-		(end 151.4 129.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "889be664-d759-4fa0-9998-50db617573e0")
-	)
-	(arc
-		(start 150.9 129.3)
-		(mid 150.929289 129.229289)
-		(end 151 129.2)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "973c5059-bca9-449d-b908-0000227a1654")
-	)
-	(arc
-		(start 152.444935 129)
-		(mid 152.398072 128.886863)
-		(end 152.284935 128.84)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/USB_D-")
-		(uuid "c6e47ad6-1f13-42bf-821b-3b47f1991127")
+		(uuid "cbb5115a-5d14-442d-96a0-e7d0cdbc0436")
 	)
 	(arc
 		(start 152.16 128.84)
@@ -9873,7 +9819,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "e7e1054e-af51-4598-a127-d96e3c6526e7")
+		(uuid "0498ca93-2d2a-4c47-b369-ec00b6e3674b")
 	)
 	(arc
 		(start 150.8 129.4)
@@ -9882,7 +9828,61 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "f0d0b6a2-093f-423c-b5f7-43d692db8cf8")
+		(uuid "1c8ba55b-8196-453c-adf7-c2ef9a1ec5e6")
+	)
+	(arc
+		(start 151.2 129.2)
+		(mid 151.270711 129.229289)
+		(end 151.3 129.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "32a9000b-d325-4be9-b0cf-4806c1cc8707")
+	)
+	(arc
+		(start 152.444935 129)
+		(mid 152.398072 128.886863)
+		(end 152.284935 128.84)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "5b6a9d95-e230-4f3e-979b-385d388881d4")
+	)
+	(arc
+		(start 152 129.4)
+		(mid 152.046863 129.286863)
+		(end 152.16 129.24)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "b2422c30-4ab2-4327-b61d-fb4bb8cc8f6e")
+	)
+	(arc
+		(start 151.3 129.3)
+		(mid 151.329289 129.370711)
+		(end 151.4 129.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "d61b5c8d-e046-4214-b4d4-abfa113fcbf0")
+	)
+	(arc
+		(start 152.284935 129.24)
+		(mid 152.398072 129.193137)
+		(end 152.444935 129.08)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "dc09aaf8-1b03-496c-8a20-287ccf86ddcb")
+	)
+	(arc
+		(start 150.9 129.3)
+		(mid 150.929289 129.229289)
+		(end 151 129.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "fc200b70-a815-4642-9069-6060016ee2ae")
 	)
 	(zone
 		(net "+3.3V")
@@ -10554,7 +10554,7 @@
 		(layer "F.Cu")
 		(base_line
 			(pts
-				(xy 150.8 129.4) (xy 152 129.4) (xy 152 128.4)
+				(xy 150.8 129.4) (xy 152 129.4) (xy 152 128.484733)
 			)
 		)
 		(base_line_coupled
@@ -10564,7 +10564,7 @@
 		)
 		(corner_radius_percent 80)
 		(end
-			(xy 152 128.4)
+			(xy 152 128.484733)
 		)
 		(initial_side "right")
 		(is_time_domain no)
@@ -10573,7 +10573,7 @@
 		(last_status "tuned")
 		(last_track_width 0.2)
 		(last_tuning_length -5e-06)
-		(max_amplitude 3.64)
+		(max_amplitude 1.23)
 		(min_amplitude 0.2)
 		(min_spacing 0.07)
 		(origin
@@ -10592,16 +10592,15 @@
 		(target_skew_max 0.1)
 		(target_skew_min -0.1)
 		(tuning_mode "diff_pair_skew")
-		(members "02be27de-c9e5-4697-8d34-d44ee197fc41" "1cd01272-b908-4c6f-930f-4da57213ed36"
-			"1fd15db2-c88a-4745-ae5a-d31ab94643a6" "2b79ef92-e7ab-47cb-b538-a652b344da39"
-			"31c0ac59-2b23-45fd-9847-353c11ba2020" "3b13829e-fefc-4b99-b00f-83c94d2fd925"
-			"3ea720f1-fe1a-4659-8730-1d207e79ef62" "5b2259ee-6a65-4101-ab11-7f6e2d8d193d"
-			"6bba2273-d536-4596-878e-15d93749d1b5" "6fdde4a2-20d8-4147-8e45-1d99491a4c43"
-			"761ab115-0b78-435c-9efd-e473e95a8534" "7e60eca5-94d4-4254-8b53-added4ab9f66"
-			"889be664-d759-4fa0-9998-50db617573e0" "9035ca2a-8c88-4ce0-89ab-fe125c821157"
-			"95585b52-649f-4ad3-8899-d65fe7992674" "973c5059-bca9-449d-b908-0000227a1654"
-			"c6e47ad6-1f13-42bf-821b-3b47f1991127" "e7e1054e-af51-4598-a127-d96e3c6526e7"
-			"f0d0b6a2-093f-423c-b5f7-43d692db8cf8"
+		(members "0498ca93-2d2a-4c47-b369-ec00b6e3674b" "1a2f31ac-e5f6-45f1-ba12-4a5dc5c5526e"
+			"1c8ba55b-8196-453c-adf7-c2ef9a1ec5e6" "32a9000b-d325-4be9-b0cf-4806c1cc8707"
+			"388809f0-e36d-4cf4-ba71-9f6a6e1c0e83" "3c6bdd54-6559-4a1e-91c1-dcc9c09c7317"
+			"54e24925-67cd-482f-888f-9f3bf4793ebb" "5a159edf-838c-4e13-b404-d329b51df41c"
+			"5b6a9d95-e230-4f3e-979b-385d388881d4" "66420f79-20ff-4857-91d3-f637f4fb897e"
+			"7f13f869-d689-4c5f-9d2d-e29a799d4f91" "99a4dd0a-1bb1-4e9e-8d3c-06d1a97a2b67"
+			"b2422c30-4ab2-4327-b61d-fb4bb8cc8f6e" "cbb5115a-5d14-442d-96a0-e7d0cdbc0436"
+			"d61b5c8d-e046-4214-b4d4-abfa113fcbf0" "dc09aaf8-1b03-496c-8a20-287ccf86ddcb"
+			"fc200b70-a815-4642-9069-6060016ee2ae"
 		)
 	)
 	(embedded_fonts no)
