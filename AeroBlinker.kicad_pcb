@@ -8410,7 +8410,7 @@
 		(uuid "085f69a2-fafb-4536-bdf0-cdc28d3ea3fd")
 	)
 	(via
-		(at 143.25 125.75)
+		(at 143.212284 125.681515)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
