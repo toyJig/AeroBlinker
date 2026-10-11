@@ -771,7 +771,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "1aa8190a-a49b-4fcb-9c90-9d435fe357e4")
-		(at 151.5 121)
+		(at 152 121)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP1"
@@ -2231,7 +2231,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "63ba3d6b-69e6-43b8-91bd-6d4ddfadad3d")
-		(at 154 121)
+		(at 154.5 121)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP2"
@@ -2872,7 +2872,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "7ae75c21-922e-4df4-ad85-a70babb16dbb")
-		(at 159 121)
+		(at 159.5 121)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP4"
@@ -4028,7 +4028,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "9485670a-8580-4300-858b-ab76ffb0f3ca")
-		(at 156.5 121)
+		(at 157 121)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP3"
@@ -8353,14 +8353,6 @@
 		)
 	)
 	(segment
-		(start 151.5 121)
-		(end 148.75 121)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "16520b99-2df0-4d19-9309-72a3b9d82f56")
-	)
-	(segment
 		(start 137.25 124.25)
 		(end 137.75 124.25)
 		(width 0.3)
@@ -8535,6 +8527,14 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "ec795a9e-f2ec-467f-a090-85ac338df8dc")
+	)
+	(segment
+		(start 152 121)
+		(end 148.75 121)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "f3040241-8725-490a-9fc8-ab68bbf84804")
 	)
 	(segment
 		(start 140.675 120.347613)
@@ -9241,12 +9241,12 @@
 		(uuid "9671a97b-1fb4-42ee-9c47-14126f00e7fb")
 	)
 	(segment
-		(start 149.8625 127.975)
-		(end 149.135832 127.975)
+		(start 148.775 127.614168)
+		(end 148.775 126.225)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/SYS_SWDIO")
-		(uuid "02fc41b9-5d31-41b0-8daa-094e05a6552e")
+		(uuid "20989a61-fbad-4d57-bc96-efc99ce62847")
 	)
 	(segment
 		(start 148.775 126.225)
@@ -9254,7 +9254,7 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/SYS_SWDIO")
-		(uuid "46687cba-fa8c-433a-bae5-5ac2dc7d5480")
+		(uuid "20f9441d-5f4b-4e2e-9adc-e88e676077bf")
 	)
 	(segment
 		(start 149.135832 127.975)
@@ -9262,15 +9262,23 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/SYS_SWDIO")
-		(uuid "6ae2d156-553e-4773-9448-ead44e6449b6")
+		(uuid "55f5e806-4874-44a3-b6c9-5b34b5d6bd09")
 	)
 	(segment
-		(start 148.775 127.614168)
-		(end 148.775 126.225)
+		(start 149.8625 127.975)
+		(end 149.135832 127.975)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/SYS_SWDIO")
-		(uuid "82646895-b0c5-4d31-8bbd-3ee1dffa13af")
+		(uuid "65e20e90-041e-460a-ba0f-cdbccd8e4952")
+	)
+	(segment
+		(start 154 121)
+		(end 154.5 121)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/SYS_SWDIO")
+		(uuid "bf150813-d4e8-4d75-b3c4-38794d16b98c")
 	)
 	(segment
 		(start 136.985 138.265)
@@ -9417,12 +9425,12 @@
 		(uuid "fcb52e82-fe93-4cb0-a4aa-0105de840382")
 	)
 	(segment
-		(start 154.75 123.5)
-		(end 156.5 121.75)
+		(start 152.5 123.5)
+		(end 154.75 123.5)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/SYS_SWCLK")
-		(uuid "0dd0ad51-ed85-49c9-bbc9-9fc2629d4432")
+		(uuid "5ebe6f78-9676-4cc2-9cc9-480cc166c24c")
 	)
 	(segment
 		(start 149.8625 126.1375)
@@ -9430,7 +9438,15 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/SYS_SWCLK")
-		(uuid "86e3025b-1e12-4e8f-b7eb-559d5735c9d8")
+		(uuid "796bf62a-bd18-4f51-a0ee-addb91c53131")
+	)
+	(segment
+		(start 157 121.25)
+		(end 157 121)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/SYS_SWCLK")
+		(uuid "7daae3a5-5fd8-4221-b0b1-cd88870c5260")
 	)
 	(segment
 		(start 149.8625 127.325)
@@ -9438,23 +9454,15 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/SYS_SWCLK")
-		(uuid "d10b416a-f6c7-4bbe-b096-6d4b0021408d")
+		(uuid "9fb4eefb-0437-4aef-9074-5d884aa08f01")
 	)
 	(segment
-		(start 156.5 121.75)
-		(end 156.5 121)
+		(start 154.75 123.5)
+		(end 157 121.25)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/SYS_SWCLK")
-		(uuid "da75c05a-1a3c-46b8-a3e6-2f8fa6f35853")
-	)
-	(segment
-		(start 152.5 123.5)
-		(end 154.75 123.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "df654b7d-d16a-479f-939e-556dd7e1c5ad")
+		(uuid "d1e39ea0-0e8c-4cc4-b220-1f83746fffae")
 	)
 	(segment
 		(start 142.25 131.99)
