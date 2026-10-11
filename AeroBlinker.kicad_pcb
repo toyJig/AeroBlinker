@@ -3721,7 +3721,7 @@
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J5"
-			(at 1.25 -3.55 270)
+			(at -3.75 0 0)
 			(layer "F.SilkS")
 			(uuid "7764549a-19dd-4ba5-88c6-9a41d8cabe03")
 			(effects
@@ -8727,7 +8727,7 @@
 		)
 	)
 	(gr_text "RECV"
-		(at 134.25 125.75 270)
+		(at 133 125.75 270)
 		(layer "F.SilkS")
 		(uuid "0e9be1b4-1bcf-4bc8-b09e-71cb64b4e411")
 		(effects
