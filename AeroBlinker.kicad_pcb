@@ -8189,20 +8189,20 @@
 		)
 	)
 	(segment
-		(start 139.5 121.9)
-		(end 138.6 121)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "0ae32c82-babc-4189-818f-357738a3c12a")
-	)
-	(segment
 		(start 149.125001 129.925)
 		(end 148.275 129.074999)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "0cac738f-0664-4a80-b154-f731276154a4")
+	)
+	(segment
+		(start 137.5 121)
+		(end 137.75 121.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "1509f11f-6bd4-4aa2-b816-c732df926061")
 	)
 	(segment
 		(start 137.25 124.25)
@@ -8229,6 +8229,14 @@
 		(uuid "3d940272-0296-45b9-be71-e49cfaf5c2f1")
 	)
 	(segment
+		(start 137.75 121.5)
+		(end 138.15 121.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "46658ed0-d7b2-45e3-ba0a-4aded528392a")
+	)
+	(segment
 		(start 149.8625 129.925)
 		(end 151.155 129.925)
 		(width 0.3)
@@ -8253,6 +8261,14 @@
 		(uuid "71f64116-3715-49d5-9119-87114ef29378")
 	)
 	(segment
+		(start 137 121)
+		(end 137.5 121)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "8a1ea405-146f-4cee-a67f-2094c35397c1")
+	)
+	(segment
 		(start 139.73 129.98)
 		(end 141.5 129.98)
 		(width 0.5)
@@ -8267,6 +8283,14 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "8cd375c1-2710-4ca1-9001-f1b455bccd3c")
+	)
+	(segment
+		(start 138.15 121.9)
+		(end 139.5 121.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "8dd6a72e-40be-4988-b831-b032688d7db3")
 	)
 	(segment
 		(start 139.25 129.5)
@@ -8317,6 +8341,14 @@
 		(uuid "c9be0567-0bd2-48c7-a01e-46c659704def")
 	)
 	(segment
+		(start 137.75 121.25)
+		(end 137.75 121.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "ca6ca371-7406-4b71-afa9-39633fe726e7")
+	)
+	(segment
 		(start 149.8625 129.925)
 		(end 149.125001 129.925)
 		(width 0.3)
@@ -8363,14 +8395,6 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "f3040241-8725-490a-9fc8-ab68bbf84804")
-	)
-	(segment
-		(start 138.6 121)
-		(end 137 121)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "f6a1b6d1-ec16-479c-a7d6-8db7b529eed9")
 	)
 	(segment
 		(start 159.07 126.3)
