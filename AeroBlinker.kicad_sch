@@ -5400,7 +5400,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 81.28) (xy 114.3 81.28)
+			(xy 100.33 81.28) (xy 118.11 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6911,7 +6911,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 81.28 270)
+		(at 118.11 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6919,9 +6919,9 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "15b71145-eb2f-44d4-a89c-e541a4ad7abe")
-		(property "Reference" "TP1"
-			(at 118.618 81.28 90)
+		(uuid "12ab9989-bb0c-45d1-8364-b25108206b09")
+		(property "Reference" "TP3"
+			(at 122.428 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6932,7 +6932,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 122.936 81.28 90)
+			(at 126.746 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6943,7 +6943,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 114.3 86.36 0)
+			(at 118.11 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6954,7 +6954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 86.36 0)
+			(at 118.11 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6965,7 +6965,85 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 81.28 0)
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bdd92bb-d18e-4044-97c5-b7f62d0dfce1")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15b71145-eb2f-44d4-a89c-e541a4ad7abe")
+		(property "Reference" "TP1"
+			(at 122.428 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.746 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 118.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
