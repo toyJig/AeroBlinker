@@ -4408,22 +4408,10 @@
 		(uuid "507fb99e-2879-47b3-bdee-777f3416161c")
 	)
 	(junction
-		(at 115.57 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51c3ea83-68be-4c01-8f35-46d6c985249a")
-	)
-	(junction
 		(at 48.26 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59651534-bad4-46ef-a6c0-fbcc3b0257d7")
-	)
-	(junction
-		(at 104.14 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "643e2c65-5808-4379-8d19-819b22abcf35")
 	)
 	(junction
 		(at 167.64 123.19)
@@ -4763,16 +4751,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 46.99) (xy 115.57 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24eeb566-bda8-445d-8302-f998f2bb29df")
-	)
-	(wire
-		(pts
 			(xy 191.77 53.34) (xy 190.5 53.34)
 		)
 		(stroke
@@ -5033,26 +5011,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 38.1) (xy 115.57 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60055105-1fe5-4bb9-aa84-23791f9d3736")
-	)
-	(wire
-		(pts
-			(xy 115.57 45.72) (xy 115.57 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68be9a31-c8e7-43c4-a25a-d9ca12ec718e")
-	)
-	(wire
-		(pts
 			(xy 40.64 121.92) (xy 40.64 127)
 		)
 		(stroke
@@ -5300,16 +5258,6 @@
 			(type default)
 		)
 		(uuid "99067deb-fbf5-4a7d-8b79-ad6b259ee198")
-	)
-	(wire
-		(pts
-			(xy 104.14 36.83) (xy 115.57 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac31b8d-a4f9-4f7f-9fdc-967f39fecd95")
 	)
 	(wire
 		(pts
@@ -5590,16 +5538,6 @@
 			(type default)
 		)
 		(uuid "c202bc1a-e12d-4278-9d82-a4dc5dbc9e81")
-	)
-	(wire
-		(pts
-			(xy 115.57 46.99) (xy 115.57 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2042f66-299d-4884-9a13-5bddf1d00b91")
 	)
 	(wire
 		(pts
@@ -7109,86 +7047,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 115.57 48.26 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c3e5096-111d-41d4-842a-c6b22f19792f")
-		(property "Reference" "#PWR03"
-			(at 115.57 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "527a2275-4c82-4bc4-a748-474a5d44d7e5")
-		)
-		(instances
-			(project "AeroBlinker"
-				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 48.26 171.45 0)
 		(mirror x)
@@ -8449,7 +8307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "100n"
 			(at 101.346 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9303,88 +9161,6 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 115.57 41.91 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93140387-2525-4f82-a464-f594064ae0cf")
-		(property "Reference" "C3"
-			(at 113.03 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 113.03 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 114.6048 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a9c27a54-08cc-42e1-abe3-e6bff194849e")
-		)
-		(pin "1"
-			(uuid "7f771c2a-07a4-4234-ac1f-0acd902bf4bc")
-		)
-		(instances
-			(project "AeroBlinker"
-				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
-					(reference "C3")
 					(unit 1)
 				)
 			)
