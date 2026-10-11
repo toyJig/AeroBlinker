@@ -9704,22 +9704,6 @@
 		(uuid "9bb806b4-9c85-4b1f-8beb-ea2cb1fe55c3")
 	)
 	(segment
-		(start 136.985 138.265)
-		(end 136.985 140.65)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/LED_SOURCE")
-		(uuid "5c16ca10-7920-4ce5-a9a5-26b542a10f83")
-	)
-	(segment
-		(start 139.75 135.5)
-		(end 136.985 138.265)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/LED_SOURCE")
-		(uuid "5d23fcc1-51e2-4f9e-90bd-218281344dab")
-	)
-	(segment
 		(start 149.98 135.4375)
 		(end 155.2425 140.7)
 		(width 0.5)
@@ -9734,6 +9718,14 @@
 		(layer "F.Cu")
 		(net "/LED_SOURCE")
 		(uuid "679f497a-9439-4782-b892-17347d5cc7bb")
+	)
+	(segment
+		(start 139.75 135.4375)
+		(end 139.75 135.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/LED_SOURCE")
+		(uuid "6bb703a3-5715-472f-85f4-2c5de360cba0")
 	)
 	(segment
 		(start 145.95 140.7)
@@ -9760,6 +9752,14 @@
 		(uuid "b9687264-b8ae-44eb-a0cb-3b96a5b60864")
 	)
 	(segment
+		(start 137.7425 137.5075)
+		(end 137.7425 139.8925)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/LED_SOURCE")
+		(uuid "be15018d-7ec1-4000-9a0f-2bc5767da235")
+	)
+	(segment
 		(start 139.75 135.4375)
 		(end 140.3125 136)
 		(width 0.5)
@@ -9768,12 +9768,12 @@
 		(uuid "db1a0e4d-6107-4028-ba9b-6415af499f92")
 	)
 	(segment
-		(start 139.75 135.4375)
-		(end 139.75 135.5)
+		(start 139.75 135.5)
+		(end 137.7425 137.5075)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/LED_SOURCE")
-		(uuid "f1a65257-d8ae-4e0a-b937-91185e880015")
+		(uuid "e65808bc-b35a-4e39-a560-a8b49505c8e1")
 	)
 	(segment
 		(start 137.7 128.8125)
