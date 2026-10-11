@@ -1366,7 +1366,7 @@
 		(descr "Inductor, Changjiang, FNR3012S, 3.0x3.0x1.2mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L1"
-			(at 0.25 -2.45 180)
+			(at 0.75 -2.45 180)
 			(layer "F.SilkS")
 			(uuid "0a782835-2c47-44fb-a14b-0de7f0e1f0b2")
 			(effects
