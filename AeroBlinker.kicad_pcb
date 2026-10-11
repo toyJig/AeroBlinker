@@ -2542,7 +2542,7 @@
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J3"
-			(at 5.7575 -2.95 0)
+			(at 0.2575 -4.45 0)
 			(layer "F.SilkS")
 			(uuid "36554415-5338-4f9a-a9c0-cc93a7fd092e")
 			(effects
@@ -3876,7 +3876,7 @@
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J2"
-			(at 5.7575 -2.95 0)
+			(at 0.0075 -4.45 0)
 			(layer "F.SilkS")
 			(uuid "7b785d7c-c4c3-4944-91bd-30379562e17d")
 			(effects
@@ -7761,6 +7761,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "-"
+		(at 160.25 138.25 0)
+		(layer "F.SilkS")
+		(uuid "b79884b9-1bdb-4aba-86f9-35f45d705836")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+"
 		(at 136 138.25 90)
 		(layer "F.SilkS")
@@ -7777,6 +7789,18 @@
 		(at 145.25 138.25 90)
 		(layer "F.SilkS")
 		(uuid "2d48abf2-ac06-445a-8eb9-056a4e9846ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 154.25 138.25 90)
+		(layer "F.SilkS")
+		(uuid "e6bae2b6-012e-4883-b6a6-26b8823cb2c4")
 		(effects
 			(font
 				(size 1 1)
