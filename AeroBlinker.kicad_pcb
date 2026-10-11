@@ -3434,9 +3434,9 @@
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J3"
-			(at 0.2575 -4.7 0)
+			(at 0.7575 -4.7 0)
 			(layer "F.SilkS")
-			(uuid "4b7b5753-880f-41e2-8bd0-8fb104080e4f")
+			(uuid "d28e37d4-d1fc-4d63-baaf-56cd28231cbb")
 			(effects
 				(font
 					(size 1 1)
@@ -3447,7 +3447,7 @@
 		(property "Value" "LED_GND"
 			(at 1.98 6 0)
 			(layer "F.Fab")
-			(uuid "79b25afb-a523-4abd-b7fc-7acc838b1e0d")
+			(uuid "52c81a22-2757-4a0a-b009-fb77e0b355d0")
 			(effects
 				(font
 					(size 1 1)
@@ -3459,7 +3459,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f220cfa6-89de-4600-a29f-b9edc2aa9962")
+			(uuid "f625e432-0daa-4f86-8141-8af0b427040c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3470,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a92adae-4a02-4865-80ce-162dc87def2d")
+			(uuid "e751f133-3920-4b67-be31-0ff1593c789e")
 			(effects
 				(font
 					(size 1.27 1.27)
