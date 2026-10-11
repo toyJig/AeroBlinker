@@ -8839,7 +8839,7 @@
 		(uuid "eea83545-c3e0-4436-af0a-b8c8f7ec95ce")
 	)
 	(via
-		(at 158 136)
+		(at 158.32 136.25)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
