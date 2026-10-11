@@ -8273,7 +8273,7 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 150 120 0)
+		(at 150.25 120 0)
 		(layer "F.SilkS")
 		(uuid "6629abfd-3654-4d61-ad6e-1d9e2fe56d03")
 		(effects
@@ -8333,7 +8333,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 157.95 120.05 0)
+		(at 158.25 120 0)
 		(layer "F.SilkS")
 		(uuid "e40e9acf-8b74-4680-8ec8-73b7abd60442")
 		(effects
