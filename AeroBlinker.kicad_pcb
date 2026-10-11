@@ -8081,10 +8081,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "IO"
-		(at 153.75 120 0)
+	(gr_text "CLK"
+		(at 153.25 118.75 0)
 		(layer "F.SilkS")
-		(uuid "29c6bf75-ed8f-45e9-9b9b-55353263d6ef")
+		(uuid "990e87c9-28b3-4f4a-abb2-4c81bd128a63")
 		(effects
 			(font
 				(size 1 1)
@@ -8093,10 +8093,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "CLK"
-		(at 155.45 120.05 0)
+	(gr_text "IO"
+		(at 156.25 120 0)
 		(layer "F.SilkS")
-		(uuid "990e87c9-28b3-4f4a-abb2-4c81bd128a63")
+		(uuid "29c6bf75-ed8f-45e9-9b9b-55353263d6ef")
 		(effects
 			(font
 				(size 1 1)
