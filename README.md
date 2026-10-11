@@ -1,2 +1,2 @@
 # AeroBlinker
-Receiver-Signal-Receiver to control lights - Aeronautics club
+Custom PCB w/ KiCAD that reads Receiver Signals to control light flash patterns - Aeronautics Team
