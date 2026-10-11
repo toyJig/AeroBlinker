@@ -3527,7 +3527,7 @@
 	(footprint "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
 		(layer "F.Cu")
 		(uuid "9485670a-8580-4300-858b-ab76ffb0f3ca")
-		(at 152.71 120.75)
+		(at 152.71 121)
 		(descr "Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm")
 		(tags "CONN DEV")
 		(property "Reference" "TP1"
