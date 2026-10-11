@@ -8329,14 +8329,6 @@
 		(net "GND")
 		(uuid "d9db4a1d-083f-4b7d-a4ac-8dcade659c9a")
 	)
-	(via
-		(at 143.25 125.75)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "GND")
-		(uuid "f1b24a86-829b-494f-bc90-e98f5abf3881")
-	)
 	(segment
 		(start 128.5 132.9425)
 		(end 128.5 124.385622)
