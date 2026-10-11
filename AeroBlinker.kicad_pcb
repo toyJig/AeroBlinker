@@ -10298,6 +10298,27 @@
 			)
 		)
 	)
+	(zone
+		(net "+3.3V")
+		(layer "B.Cu")
+		(uuid "5351faad-7efe-4c8a-92da-6fdd7ec6d568")
+		(hatch edge 0.5)
+		(priority 9)
+		(connect_pads yes
+			(clearance 0.3)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 138.25 124.5) (xy 138.25 125.5) (xy 138.75 125)
+			)
+		)
+	)
 	(group ""
 		(uuid "35072bdc-726d-47ef-a707-df127f5b3fb5")
 		(members "2d48abf2-ac06-445a-8eb9-056a4e9846ed" "a155a16f-0e7b-4031-ad1d-549a403d4f91"
