@@ -3532,6 +3532,7 @@
 		(property "Reference" "TP1"
 			(at 2.54 2.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "18844d26-0dc6-42a2-9323-909051417f67")
 			(effects
 				(font
@@ -7775,7 +7776,7 @@
 		)
 	)
 	(gr_text "BOOT"
-		(at 145.75 124.25 0)
+		(at 146.25 124.25 0)
 		(layer "F.SilkS")
 		(uuid "e7a4d02b-968c-4d95-8011-00bffc92b0b8")
 		(effects
@@ -7799,7 +7800,7 @@
 		)
 	)
 	(gr_text "SWD"
-		(at 156.75 123.75 0)
+		(at 156.75 124 0)
 		(layer "F.SilkS")
 		(uuid "7bac8985-c3f0-4ace-93bf-64a04079149c")
 		(effects
