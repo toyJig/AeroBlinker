@@ -2620,7 +2620,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "63ba3d6b-69e6-43b8-91bd-6d4ddfadad3d")
-		(at 154.5 121)
+		(at 157 121)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP2"
@@ -4229,7 +4229,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "9485670a-8580-4300-858b-ab76ffb0f3ca")
-		(at 157 121)
+		(at 154.5 121)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP3"
@@ -9364,30 +9364,6 @@
 		(layer "F.Cu")
 		(net "RECV_GND")
 		(uuid "90bce76c-620d-4440-8ffb-a9016f358876")
-	)
-	(segment
-		(start 149.8625 127.325)
-		(end 151.1 127.325)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "9501a2c3-7e82-4df5-83f4-4bbf5bdd2605")
-	)
-	(segment
-		(start 151.1 127.325)
-		(end 157 121.425)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "c6377cf7-36af-47ae-9c6f-66f25ccca1e2")
-	)
-	(segment
-		(start 157 121.425)
-		(end 157 121)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/SYS_SWCLK")
-		(uuid "e2f5f395-06ff-4b6e-a9ad-f2fd3b55dee4")
 	)
 	(segment
 		(start 142.25 131.99)
