@@ -9834,6 +9834,27 @@
 	(zone
 		(net "+3.3V")
 		(layer "F.Cu")
+		(uuid "5c1e7460-cb32-4b77-b084-0c3bb310202c")
+		(hatch edge 0.5)
+		(priority 9)
+		(connect_pads yes
+			(clearance 0.3)
+		)
+		(min_thickness 0.25)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 160.75 127) (xy 160.75 130.75) (xy 160.25 131.25) (xy 160.25 127.25)
+			)
+		)
+	)
+	(zone
+		(net "+3.3V")
+		(layer "F.Cu")
 		(uuid "62de03b3-54b3-49cc-9f51-0aa2a48cd2f7")
 		(hatch edge 0.5)
 		(priority 5)
