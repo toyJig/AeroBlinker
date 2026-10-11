@@ -7773,10 +7773,34 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "BOOT"
+		(at 145.75 124 0)
+		(layer "F.SilkS")
+		(uuid "e7a4d02b-968c-4d95-8011-00bffc92b0b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "-"
 		(at 151.25 138.25 0)
 		(layer "F.SilkS")
 		(uuid "fe880c01-141b-405f-b8ee-4e9dab0864a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SWD"
+		(at 156.75 123.75 0)
+		(layer "F.SilkS")
+		(uuid "7bac8985-c3f0-4ace-93bf-64a04079149c")
 		(effects
 			(font
 				(size 1 1)
