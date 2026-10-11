@@ -8743,6 +8743,14 @@
 		(uuid "384cddc0-7203-4f61-8e3b-00bb8727082d")
 	)
 	(via
+		(at 154.41 134.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "39ecdf56-e2a6-447b-8721-852cfeaa7a00")
+	)
+	(via
 		(at 140.5 127)
 		(size 0.6)
 		(drill 0.3)
