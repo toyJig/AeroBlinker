@@ -4107,7 +4107,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(D2-NC-Pad2)")
+			(net "RECV_GND")
 			(pinfunction "NC_2")
 			(pintype "no_connect")
 			(uuid "ebea40ee-707f-4d03-ad11-5bfafdbf6e78")
