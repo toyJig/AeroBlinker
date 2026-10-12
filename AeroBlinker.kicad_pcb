@@ -121,9 +121,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory ".history/Manufacturing/")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -1915,14 +1915,14 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_Changjiang_FNR3012S"
+	(footprint "Inductor_SMD:L_Changjiang_FNR3015S"
 		(layer "F.Cu")
 		(uuid "38987012-08ba-437a-88c3-a0f88c1f6ebd")
 		(at 140 124 -90)
-		(descr "Inductor, Changjiang, FNR3012S, 3.0x3.0x1.2mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
+		(descr "Inductor, Changjiang, FNR3015S, 3.0x3.0x1.5mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L1"
-			(at 0 -2.5 0)
+			(at 0 -2.45 0)
 			(layer "F.SilkS")
 			(uuid "cb991e7b-8216-4746-8832-71c7d6fd3b83")
 			(effects
@@ -1933,7 +1933,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 0 2.45 90)
+			(at 0 2.45 270)
 			(layer "F.Fab")
 			(uuid "6e6f821a-b31e-4911-b319-7bc8e45a0b1c")
 			(effects
@@ -1944,7 +1944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d940c721-7570-4493-8b95-7332b9cd0a36")
@@ -1955,7 +1955,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a83a70db-3237-4cb8-a896-99721f32f90d")
@@ -1966,7 +1966,7 @@
 			)
 		)
 		(property "KiLib_Generator" "inductor/SMD"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ad35b1cf-3c59-4dc3-b159-5fe5b4509ab9")
@@ -2141,7 +2141,7 @@
 			(uuid "ae2ee168-814b-4583-845e-4b092af9ea32")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "bfd13d3a-2b40-4e75-bf6f-faae1a5eb9e6")
 			(effects
@@ -2172,7 +2172,7 @@
 			(uuid "65f8bf2a-5ade-4481-b2ae-71a55faed553")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Changjiang_FNR3012S.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Changjiang_FNR3015S.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7580,7 +7580,7 @@
 				)
 			)
 		)
-		(property "Value" "BATTERY"
+		(property "Value" "BATT"
 			(at 1.98 6 90)
 			(layer "F.Fab")
 			(uuid "6ee681e8-d5cc-4911-b568-6e3415dd1a8a")
