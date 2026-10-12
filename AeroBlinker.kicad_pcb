@@ -7638,6 +7638,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C160315"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4321d3b5-ab36-47d7-985d-f62745ec99c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ac279155-a39f-461e-9215-96845aef2f40")
 		(sheetname "/")
