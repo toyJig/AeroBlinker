@@ -6065,6 +6065,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C269272"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8784bfc1-041a-4cc0-a59f-8f9c79acaa2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2797e40b-a9ba-4df1-b0ba-8ddf0931b3a9")
 		(sheetname "/")
 		(sheetfile "AeroBlinker.kicad_sch")
