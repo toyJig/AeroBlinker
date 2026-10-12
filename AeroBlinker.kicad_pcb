@@ -818,7 +818,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS62162DGR"
+		(property "Value" "TPS62162DSGR"
 			(at 0 1.95 0)
 			(layer "F.Fab")
 			(uuid "c5729420-a41a-4aee-982e-63805f5611fc")
@@ -4253,7 +4253,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "RECV_GND")
+			(net "unconnected-(D2-NC-Pad2)")
 			(pinfunction "NC_2")
 			(pintype "no_connect")
 			(uuid "ebea40ee-707f-4d03-ad11-5bfafdbf6e78")
