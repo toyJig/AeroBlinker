@@ -8612,7 +8612,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS62162DGR"
+		(property "Value" "TPS62162DSGR"
 			(at 60.96 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
