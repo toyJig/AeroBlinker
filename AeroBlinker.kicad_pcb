@@ -4903,6 +4903,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C20917"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1120af86-638c-4261-a874-5175ce2f8473")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/1ca0b261-dffb-42ae-8e1d-8b0cc6cff2d1")
 		(sheetname "/")
