@@ -2012,6 +2012,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C167747"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "790092ba-e572-436e-b15c-092db44c9a58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/3397a53a-262c-4c1d-9bd2-9ab09327f301")
 		(sheetname "/")
@@ -7100,6 +7111,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C7519"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c5e5396e-0210-4a91-a84b-425c6f069785")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
