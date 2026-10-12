@@ -3852,7 +3852,7 @@
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
 		(property "Reference" "D2"
-			(at 0 -1.3 270)
+			(at 0 -1.3 90)
 			(layer "F.SilkS")
 			(uuid "4a0bcabb-9ec2-42dd-8640-80dfb4a9e2b6")
 			(effects
@@ -3863,7 +3863,7 @@
 			)
 		)
 		(property "Value" "MM5Z3V3"
-			(at 0 1.4 270)
+			(at 0 1.4 90)
 			(layer "F.Fab")
 			(uuid "dc7b499a-05cd-4c65-bb84-04c2903b8088")
 			(effects
@@ -4082,7 +4082,7 @@
 			(uuid "a7f13052-9717-4781-b626-14c788f0a1b2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.3 270)
+			(at 0 -1.3 90)
 			(layer "F.Fab")
 			(uuid "e9a68c49-01a3-4da8-96bd-4e80b263752e")
 			(effects
