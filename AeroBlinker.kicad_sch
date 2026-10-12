@@ -10060,7 +10060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32F042F6Px"
+		(property "Value" "STM32F042F6P6"
 			(at 74.676 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
