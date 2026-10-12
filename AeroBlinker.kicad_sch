@@ -6431,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "5K1"
 			(at 186.69 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6589,7 +6589,7 @@
 				)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "5K1"
 			(at 186.69 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
