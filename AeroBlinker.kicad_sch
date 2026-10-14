@@ -4248,7 +4248,7 @@
 		(uuid "913870df-17f7-4569-be76-8aceefc37ceb")
 	)
 	(junction
-		(at 176.53 123.19)
+		(at 177.8 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cae5ff4-4f46-4363-b852-85e48f90f6e5")
@@ -4701,6 +4701,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 123.19) (xy 185.42 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f40fc4f-4f54-4022-9a22-4bc9287cfc6f")
+	)
+	(wire
+		(pts
 			(xy 100.33 76.2) (xy 111.76 76.2)
 		)
 		(stroke
@@ -4751,7 +4761,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 133.35) (xy 176.53 133.35)
+			(xy 167.64 133.35) (xy 177.8 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4881,7 +4891,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 133.35) (xy 176.53 132.08)
+			(xy 177.8 133.35) (xy 177.8 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5041,7 +5051,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 123.19) (xy 176.53 124.46)
+			(xy 177.8 123.19) (xy 177.8 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5561,7 +5571,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 123.19) (xy 185.42 123.19)
+			(xy 167.64 123.19) (xy 168.91 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8138,7 +8148,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 128.27 0)
+		(at 177.8 128.27 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8149,7 +8159,7 @@
 		(dnp no)
 		(uuid "54d24eff-9fc6-41e8-8a5c-75db5656d264")
 		(property "Reference" "R7"
-			(at 179.578 129.54 0)
+			(at 180.848 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8159,7 +8169,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 180.34 127.254 0)
+			(at 181.61 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8169,7 +8179,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 178.308 128.27 90)
+			(at 179.578 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8180,7 +8190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 128.27 0)
+			(at 177.8 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8191,7 +8201,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 128.27 0)
+			(at 177.8 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8202,7 +8212,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 174.244 128.524 90)
+			(at 175.514 128.524 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10991,7 +11001,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 116.84 270)
+		(at 172.72 123.19 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11002,7 +11012,7 @@
 		(dnp no)
 		(uuid "f694ab79-a089-419a-88f2-be0d83998cfd")
 		(property "Reference" "R8"
-			(at 183.896 114.554 90)
+			(at 172.466 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11012,7 +11022,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 184.15 116.84 90)
+			(at 172.72 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11022,7 +11032,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 184.15 118.618 90)
+			(at 172.72 124.968 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11033,7 +11043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 116.84 0)
+			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11044,7 +11054,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 184.15 116.84 0)
+			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11055,7 +11065,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 183.896 114.554 90)
+			(at 172.466 120.904 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
