@@ -11012,7 +11012,7 @@
 		(dnp no)
 		(uuid "f694ab79-a089-419a-88f2-be0d83998cfd")
 		(property "Reference" "R8"
-			(at 172.466 120.904 90)
+			(at 172.72 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
