@@ -7898,7 +7898,7 @@
 		)
 	)
 	(gr_text "BATT"
-		(at 132.5 142.25 0)
+		(at 132.5 141.25 0)
 		(layer "F.SilkS")
 		(uuid "83131f35-ec61-4ed6-a178-1d3dd223f0db")
 		(effects
@@ -7922,7 +7922,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 136 133.5 0)
+		(at 136 132.75 0)
 		(layer "F.SilkS")
 		(uuid "6103ffe1-3801-4a99-8b9b-6f36fdb1940f")
 		(effects
@@ -8006,7 +8006,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 137.25 140.75 90)
+		(at 137.25 140 90)
 		(layer "F.SilkS")
 		(uuid "5e3aa0a0-af5a-4b8e-be43-9d43540cff43")
 		(effects
