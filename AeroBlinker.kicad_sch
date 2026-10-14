@@ -6157,6 +6157,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 43.434 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a45502b6-b7d0-466c-8a31-73fec4fce05b")
 		)
@@ -6395,6 +6406,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 59.69 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "33967155-509f-4dc5-80a8-6514d230af08")
 		)
@@ -6465,6 +6487,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 186.69 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 186.69 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6623,6 +6656,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 186.69 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 186.436 48.514 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6869,6 +6913,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 91.694 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b603ee5a-40ed-4605-bf65-440134e83f2d")
 		)
@@ -6939,6 +6994,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 49.53 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 52.324 77.978 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7025,6 +7091,17 @@
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 			(at 48.26 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 54.61 170.1799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,6 +7263,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 41.91 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 45.212 177.546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7510,6 +7598,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C269272"
+			(at 41.656 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "919039b8-f85a-4079-9a04-71cdcaf502e9")
 		)
@@ -7581,6 +7680,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 76.2 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C167747"
+			(at 76.2 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7903,6 +8013,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2828430"
+			(at 175.26 126.9999 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51c405d7-b2c6-4be9-b341-5cc0d71ab04b")
 		)
@@ -7977,6 +8098,17 @@
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 207.01 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3025063"
+			(at 207.01 38.862 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8268,6 +8400,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 101.346 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "568820d2-3f85-44ea-af97-07417d0230f5")
 		)
@@ -8278,6 +8421,97 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 116.84 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54d24eff-9fc6-41e8-8a5c-75db5656d264")
+		(property "Reference" "R7"
+			(at 173.736 114.554 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 173.99 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 173.99 118.618 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 173.736 114.554 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4d932f53-787d-4a39-9064-67ccce019cfe")
+		)
+		(pin "1"
+			(uuid "921982b5-3c34-48cb-81be-2e5c426829d2")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8647,6 +8881,17 @@
 		)
 		(property "Description" "1A Step-Down Converter with DCS-Control, adjustable output, 3-17V input voltage, WSON-8"
 			(at 60.96 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C40256"
+			(at 60.96 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9068,6 +9313,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 72.644 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3fe97671-efcb-4ec2-9d59-da84e3efd967")
 		)
@@ -9307,6 +9563,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 49.784 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "611a9210-052c-4a2b-80ae-5961749743d8")
 		)
@@ -9380,6 +9647,17 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 127 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160315"
+			(at 124.46 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9783,6 +10061,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 159.258 126.238 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d4401c43-71cd-4338-ab48-fc6b3de634ae")
 		)
@@ -9853,6 +10142,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 55.88 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 55.753 66.929 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10021,6 +10321,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 76.2 129.286 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "08294e69-21f9-4fce-a646-a5abd7228da5")
 		)
@@ -10098,6 +10409,17 @@
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0 MCU, 32KB flash, 6KB RAM, 48 MHz, 2.0-3.6V, 16 GPIO, TSSOP20"
 			(at 82.55 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81000"
+			(at 81.28 71.628 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10312,6 +10634,17 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 127 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C158012"
+			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10640,6 +10973,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 81.28 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f025bf30-4c48-4251-8eb0-359688ee3366")
 		)
@@ -10716,6 +11060,17 @@
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
 			(at 173.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2827654"
+			(at 177.292 67.564 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10819,6 +11174,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 102.87 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bf8ee716-a502-41eb-87f3-fb4b2a76bfaa")
 		)
@@ -10908,6 +11274,97 @@
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 116.84 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f694ab79-a089-419a-88f2-be0d83998cfd")
+		(property "Reference" "R8"
+			(at 183.896 114.554 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 184.15 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 184.15 118.618 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 183.896 114.554 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "81c46dca-1ee5-4283-9060-f202bbf535cb")
+		)
+		(pin "1"
+			(uuid "cd4ff69d-9e4a-4ee9-b15b-f0ca2c8b0aec")
+		)
+		(instances
+			(project "AeroBlinker"
+				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
+					(reference "R8")
 					(unit 1)
 				)
 			)
