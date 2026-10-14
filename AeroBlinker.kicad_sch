@@ -8159,7 +8159,7 @@
 		(dnp no)
 		(uuid "54d24eff-9fc6-41e8-8a5c-75db5656d264")
 		(property "Reference" "R7"
-			(at 180.848 129.54 0)
+			(at 180.848 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11012,7 +11012,7 @@
 		(dnp no)
 		(uuid "f694ab79-a089-419a-88f2-be0d83998cfd")
 		(property "Reference" "R8"
-			(at 172.72 120.904 90)
+			(at 172.72 118.618 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11022,7 +11022,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 172.72 123.19 90)
+			(at 172.72 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
