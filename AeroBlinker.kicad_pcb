@@ -8723,7 +8723,7 @@
 		(uuid "dd837675-09b4-4bed-bf31-b2fa6f9b85e5")
 	)
 	(via
-		(at 135.5 120.5)
+		(at 135.6 120.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
