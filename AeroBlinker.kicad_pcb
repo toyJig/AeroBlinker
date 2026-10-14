@@ -805,7 +805,7 @@
 	(footprint "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 		(layer "F.Cu")
 		(uuid "0f9a899a-e2c2-47ad-8905-db0e70ca9c75")
-		(at 138.05 123.85)
+		(at 138.05 123)
 		(descr "Texas DSG0008A WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf)")
 		(tags "Texas WSON NoLead")
 		(property "Reference" "U3"
@@ -1470,7 +1470,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "29e99209-d3ce-4d57-ab5c-b09eaacd9c31")
-		(at 135.6 123.4 90)
+		(at 135.6 122.5 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -8554,7 +8554,7 @@
 		(uuid "fe0ccb8f-206b-4933-b4f0-68aa94c38e58")
 	)
 	(via
-		(at 138.25 125.5)
+		(at 138.25 124.65)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -8611,7 +8611,7 @@
 		(uuid "37c099da-206e-4274-995a-4883df3a8b41")
 	)
 	(via
-		(at 137.632216 125.5)
+		(at 137.632216 124.65)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -8675,7 +8675,7 @@
 		(uuid "b9aa3fb5-13e5-47d5-ac32-70b794a336e7")
 	)
 	(via
-		(at 138 122.25)
+		(at 138 121.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -8707,7 +8707,7 @@
 		(uuid "cf80ea0e-eaf0-4eab-a415-19dacbbefdc2")
 	)
 	(via
-		(at 137.25 122.25)
+		(at 137.25 121.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -8715,7 +8715,7 @@
 		(uuid "d9db4a1d-083f-4b7d-a4ac-8dcade659c9a")
 	)
 	(via
-		(at 138.75 122.25)
+		(at 138.75 121.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
