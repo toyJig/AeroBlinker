@@ -8159,7 +8159,7 @@
 		(dnp no)
 		(uuid "54d24eff-9fc6-41e8-8a5c-75db5656d264")
 		(property "Reference" "R7"
-			(at 172.974 117.856 0)
+			(at 177.038 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8169,7 +8169,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 172.72 115.57 0)
+			(at 177.8 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
