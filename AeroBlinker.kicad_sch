@@ -8169,7 +8169,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 181.61 127.254 0)
+			(at 181.864 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
