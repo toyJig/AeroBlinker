@@ -7285,7 +7285,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2797e40b-a9ba-4df1-b0ba-8ddf0931b3a9")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 41.656 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,7 +7358,7 @@
 		(instances
 			(project "AeroBlinker"
 				(path "/bec00f4f-4b10-4354-9a48-d4013e030360"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
