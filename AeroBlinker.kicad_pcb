@@ -7801,7 +7801,7 @@
 		(uuid "2edf895d-0af6-4e46-bd69-4b5fcff875c6")
 	)
 	(gr_line
-		(start 128.25 143.25)
+		(start 128.25 142.5)
 		(end 128.25 120.75)
 		(stroke
 			(width 0.1)
