@@ -4224,13 +4224,13 @@
 		(uuid "59651534-bad4-46ef-a6c0-fbcc3b0257d7")
 	)
 	(junction
-		(at 167.64 123.19)
+		(at 168.91 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71e53634-d667-4ffd-ac00-4e594eaa944b")
 	)
 	(junction
-		(at 167.64 133.35)
+		(at 168.91 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "738a0ab4-9f64-4dbe-8a69-8cc4f57b7c3c")
@@ -4248,7 +4248,7 @@
 		(uuid "913870df-17f7-4569-be76-8aceefc37ceb")
 	)
 	(junction
-		(at 177.8 123.19)
+		(at 179.07 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cae5ff4-4f46-4363-b852-85e48f90f6e5")
@@ -4371,7 +4371,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 129.54) (xy 167.64 137.16)
+			(xy 168.91 129.54) (xy 168.91 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4691,7 +4691,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 119.38) (xy 167.64 127)
+			(xy 168.91 119.38) (xy 168.91 127)
 		)
 		(stroke
 			(width 0)
@@ -4701,7 +4701,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 123.19) (xy 186.69 123.19)
+			(xy 177.8 123.19) (xy 187.96 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4761,7 +4761,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 133.35) (xy 177.8 133.35)
+			(xy 168.91 133.35) (xy 179.07 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4891,7 +4891,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 133.35) (xy 177.8 132.08)
+			(xy 179.07 133.35) (xy 179.07 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4931,7 +4931,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 129.54) (xy 166.37 129.54)
+			(xy 168.91 129.54) (xy 167.64 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5051,7 +5051,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 123.19) (xy 177.8 124.46)
+			(xy 179.07 123.19) (xy 179.07 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5331,7 +5331,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 127) (xy 166.37 127)
+			(xy 168.91 127) (xy 167.64 127)
 		)
 		(stroke
 			(width 0)
@@ -5571,7 +5571,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 123.19) (xy 168.91 123.19)
+			(xy 168.91 123.19) (xy 170.18 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5690,7 +5690,7 @@
 		(uuid "495a1d01-6bef-4710-a890-f981f67a34b7")
 	)
 	(label "RECV_IN"
-		(at 186.69 123.19 180)
+		(at 187.96 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5781,7 +5781,7 @@
 	)
 	(global_label "RECV_PWM"
 		(shape input)
-		(at 167.64 119.38 180)
+		(at 168.91 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5791,7 +5791,7 @@
 		)
 		(uuid "47de90dc-13e9-4dd8-8cb0-9853883dbde5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7368 119.38 0)
+			(at 156.0068 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5805,7 +5805,7 @@
 	)
 	(global_label "RECV_GND"
 		(shape output)
-		(at 167.64 137.16 180)
+		(at 168.91 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5815,7 +5815,7 @@
 		)
 		(uuid "78c9c2d7-6001-4537-8255-3c16f97adae2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.0391 137.16 0)
+			(at 156.3091 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8148,7 +8148,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 128.27 0)
+		(at 179.07 128.27 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8159,7 +8159,7 @@
 		(dnp no)
 		(uuid "54d24eff-9fc6-41e8-8a5c-75db5656d264")
 		(property "Reference" "R7"
-			(at 180.848 127.254 0)
+			(at 182.118 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8169,7 +8169,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 181.61 129.286 0)
+			(at 182.88 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8179,7 +8179,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 179.578 128.27 90)
+			(at 180.848 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +8190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 128.27 0)
+			(at 179.07 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8201,7 +8201,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 128.27 0)
+			(at 179.07 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8212,7 +8212,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 175.514 128.524 90)
+			(at 176.784 128.524 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9716,7 +9716,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 161.29 127 0)
+		(at 162.56 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9727,7 +9727,7 @@
 		(dnp no)
 		(uuid "c0ea923b-cf43-4f20-a955-b120656d17b9")
 		(property "Reference" "J5"
-			(at 159.258 126.238 0)
+			(at 160.528 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9738,7 +9738,7 @@
 			)
 		)
 		(property "Value" "RECEIVER"
-			(at 159.258 130.302 0)
+			(at 160.528 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9749,7 +9749,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 161.29 127 0)
+			(at 162.56 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9760,7 +9760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 127 0)
+			(at 162.56 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9771,7 +9771,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 161.29 127 0)
+			(at 162.56 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9782,7 +9782,7 @@
 			)
 		)
 		(property "LCSC" "C158012"
-			(at 159.258 126.238 0)
+			(at 160.528 126.238 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11001,7 +11001,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 123.19 270)
+		(at 173.99 123.19 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11012,7 +11012,7 @@
 		(dnp no)
 		(uuid "f694ab79-a089-419a-88f2-be0d83998cfd")
 		(property "Reference" "R8"
-			(at 172.72 118.618 90)
+			(at 173.99 118.618 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11022,7 +11022,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 172.72 120.904 90)
+			(at 173.99 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11032,7 +11032,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 172.72 124.968 90)
+			(at 173.99 124.968 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11043,7 +11043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 123.19 0)
+			(at 173.99 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11054,7 +11054,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 172.72 123.19 0)
+			(at 173.99 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11065,7 +11065,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 172.466 120.904 90)
+			(at 173.736 120.904 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
