@@ -7886,7 +7886,7 @@
 		)
 	)
 	(gr_text "RECV"
-		(at 131.25 125.55 0)
+		(at 131.25 124.75 0)
 		(layer "F.SilkS")
 		(uuid "0e9be1b4-1bcf-4bc8-b09e-71cb64b4e411")
 		(effects
@@ -7910,7 +7910,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 135 125.55 0)
+		(at 135.25 124.75 0)
 		(layer "F.SilkS")
 		(uuid "d6b2fe91-d837-4f8a-b4f2-67ef6303307c")
 		(effects
