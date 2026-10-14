@@ -4248,7 +4248,7 @@
 		(uuid "913870df-17f7-4569-be76-8aceefc37ceb")
 	)
 	(junction
-		(at 172.72 123.19)
+		(at 175.26 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cae5ff4-4f46-4363-b852-85e48f90f6e5")
@@ -4751,7 +4751,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 133.35) (xy 172.72 133.35)
+			(xy 167.64 133.35) (xy 175.26 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4881,7 +4881,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 133.35) (xy 172.72 132.08)
+			(xy 175.26 133.35) (xy 175.26 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5041,23 +5041,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 123.19) (xy 172.72 124.46)
+			(xy 175.26 123.19) (xy 175.26 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "976a4271-d7a4-43cf-8a58-3c22c687447c")
-	)
-	(wire
-		(pts
-			(xy 172.72 123.19) (xy 182.88 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "984c38e1-42ae-4a65-8b58-532e9919eb11")
 	)
 	(wire
 		(pts
@@ -5571,7 +5561,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 123.19) (xy 172.72 123.19)
+			(xy 167.64 123.19) (xy 182.88 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8148,7 +8138,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 116.84 0)
+		(at 175.26 128.27 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8159,7 +8149,7 @@
 		(dnp no)
 		(uuid "54d24eff-9fc6-41e8-8a5c-75db5656d264")
 		(property "Reference" "R7"
-			(at 177.038 118.11 0)
+			(at 178.308 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8169,7 +8159,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 177.8 115.824 0)
+			(at 179.07 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8179,7 +8169,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 175.768 116.84 90)
+			(at 177.038 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +8180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 116.84 0)
+			(at 175.26 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8201,7 +8191,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 116.84 0)
+			(at 175.26 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8212,7 +8202,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 171.704 117.094 90)
+			(at 172.974 128.524 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
