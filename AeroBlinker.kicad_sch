@@ -4032,7 +4032,7 @@
 	)
 	(rectangle
 		(start 147.32 106.68)
-		(end 193.04 148.59)
+		(end 182.88 148.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -4224,7 +4224,7 @@
 		(uuid "59651534-bad4-46ef-a6c0-fbcc3b0257d7")
 	)
 	(junction
-		(at 173.99 124.46)
+		(at 168.91 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71e53634-d667-4ffd-ac00-4e594eaa944b")
@@ -4509,7 +4509,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 129.54) (xy 173.99 135.89)
+			(xy 168.91 129.54) (xy 168.91 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4679,7 +4679,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 119.38) (xy 173.99 127)
+			(xy 168.91 119.38) (xy 168.91 127)
 		)
 		(stroke
 			(width 0)
@@ -4889,7 +4889,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 129.54) (xy 172.72 129.54)
+			(xy 168.91 129.54) (xy 167.64 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5279,7 +5279,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 127) (xy 172.72 127)
+			(xy 168.91 127) (xy 167.64 127)
 		)
 		(stroke
 			(width 0)
@@ -5519,7 +5519,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 124.46) (xy 184.15 124.46)
+			(xy 168.91 124.46) (xy 179.07 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5638,7 +5638,7 @@
 		(uuid "495a1d01-6bef-4710-a890-f981f67a34b7")
 	)
 	(label "RECV_IN"
-		(at 184.15 124.46 180)
+		(at 179.07 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5729,7 +5729,7 @@
 	)
 	(global_label "RECV_PWM"
 		(shape input)
-		(at 173.99 119.38 180)
+		(at 168.91 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5739,7 +5739,7 @@
 		)
 		(uuid "47de90dc-13e9-4dd8-8cb0-9853883dbde5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.0868 119.38 0)
+			(at 156.0068 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7366,7 +7366,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 135.89 0)
+		(at 168.91 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7377,7 +7377,7 @@
 		(fields_autoplaced yes)
 		(uuid "27ceed48-7118-4f98-8e03-37c3c8b07402")
 		(property "Reference" "#PWR026"
-			(at 173.99 142.24 0)
+			(at 168.91 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7388,7 +7388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 140.97 0)
+			(at 168.91 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7399,7 +7399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 135.89 0)
+			(at 168.91 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,7 +7410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 135.89 0)
+			(at 168.91 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,7 +7421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 135.89 0)
+			(at 168.91 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9628,7 +9628,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 167.64 127 0)
+		(at 162.56 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9639,7 +9639,7 @@
 		(dnp no)
 		(uuid "c0ea923b-cf43-4f20-a955-b120656d17b9")
 		(property "Reference" "J5"
-			(at 165.608 126.238 0)
+			(at 160.528 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9650,7 +9650,7 @@
 			)
 		)
 		(property "Value" "RECEIVER"
-			(at 165.608 130.302 0)
+			(at 160.528 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9661,7 +9661,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 167.64 127 0)
+			(at 162.56 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9672,7 +9672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 127 0)
+			(at 162.56 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9683,7 +9683,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 167.64 127 0)
+			(at 162.56 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9694,7 +9694,7 @@
 			)
 		)
 		(property "LCSC" "C158012"
-			(at 165.608 126.238 0)
+			(at 160.528 126.238 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
