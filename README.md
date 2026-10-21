@@ -4,3 +4,12 @@ Custom PCB w/ KiCAD that reads Receiver Signals to control light flash patterns 
 Read [JOURNAL.md](https://github.com/toyJig/AeroBlinker/blob/main/JOURNAL.md) for the logged process!
 
 <img width="513" height="334" alt="image" src="https://github.com/user-attachments/assets/369af121-f9ed-4ea8-aa66-790e8c17a8a9" />
+
+| Features: |
+| -------- |
+| A small STM32F042F6P6 MCU that decodes PWM frequencies to control a MOSFET |
+| USB-C flashing and a LDO regulator for the USB-C VBUS (the STM can't handle 5V) |
+| An on-board 3.3v Buck Convertor to step down efficiently from 1S or 2S Voltages |
+| Connectors to connect up to 3 LEDs with (Can wire more in series if needed) |
+
+<img width="654" height="468" alt="image" src="https://github.com/user-attachments/assets/2d89f058-ab84-4155-aeac-798d83abce59" />
