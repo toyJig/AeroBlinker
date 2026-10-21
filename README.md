@@ -3,7 +3,7 @@ Custom PCB w/ KiCAD that reads Receiver Signals to control light flash patterns 
 
 Read [JOURNAL.md](https://github.com/toyJig/AeroBlinker/blob/main/JOURNAL.md) for the logged process!
 
-<img width="513" height="334" alt="image" src="https://github.com/user-attachments/assets/369af121-f9ed-4ea8-aa66-790e8c17a8a9" />
+<img width="513" height="334" alt="image" src="https://github.com/user-attachments/assets/e7677326-788c-4ba5-908d-73313c869b29" />
 
 | Features: |
 | -------- |
@@ -12,4 +12,4 @@ Read [JOURNAL.md](https://github.com/toyJig/AeroBlinker/blob/main/JOURNAL.md) fo
 | An on-board 3.3v Buck Convertor to step down efficiently from 1S or 2S Voltages |
 | Connectors to connect up to 3 LEDs with (Can wire more in series if needed) |
 
-<img width="654" height="468" alt="image" src="https://github.com/user-attachments/assets/2d89f058-ab84-4155-aeac-798d83abce59" />
+<img width="654" height="468" alt="image" src="https://github.com/user-attachments/assets/b7071b7f-a524-4b5a-ba0b-97c8dab67d2c" />
