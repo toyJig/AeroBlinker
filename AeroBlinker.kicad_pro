@@ -81,7 +81,56 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|139700000|128175000|90c05405-3bad-4938-a1c1-c1e11dd9f9d5|88689574-51ad-4adf-a17c-d0831382f974",
+          ""
+        ],
+        [
+          "clearance|140100000|125900000|db3ace69-898e-4ab4-a353-9e4bb7691fbc|2fdb6ca8-d63c-4eb1-97c2-801a5d706e0b",
+          ""
+        ],
+        [
+          "clearance|140350000|125900000|db3ace69-898e-4ab4-a353-9e4bb7691fbc|3b029a47-5f22-4cd9-8708-8702cfdbcf26",
+          ""
+        ],
+        [
+          "clearance|140350000|128175000|88689574-51ad-4adf-a17c-d0831382f974|ae66d614-f108-4b4c-8b27-f5d36cff2490",
+          ""
+        ],
+        [
+          "clearance|141000000|125900000|3b029a47-5f22-4cd9-8708-8702cfdbcf26|5453d1c5-4806-428c-a79e-ad9ffe66f8b2",
+          ""
+        ],
+        [
+          "clearance|141000000|128175000|ae66d614-f108-4b4c-8b27-f5d36cff2490|d3f6d672-2911-4c0e-b018-9f7b56184c33",
+          ""
+        ],
+        [
+          "hole_clearance|159495000|126450000|7f4ededb-8d96-4fac-97a9-27177a5a31ab|bdc5816d-e1db-4ed0-9fd8-6ca73b54f23a",
+          ""
+        ],
+        [
+          "hole_clearance|159495000|126450000|a59f3f7a-0989-40bb-ba68-3bda88f7a944|bdc5816d-e1db-4ed0-9fd8-6ca73b54f23a",
+          ""
+        ],
+        [
+          "hole_clearance|159495000|132550000|8c73eab8-76a5-4acc-ac7d-3e1db11439bb|3c52af7a-f1bc-466d-bd68-d778bace17b4",
+          ""
+        ],
+        [
+          "hole_clearance|159495000|132550000|e4f27013-3cc8-4a1e-9f1a-895de41c5fd2|3c52af7a-f1bc-466d-bd68-d778bace17b4",
+          ""
+        ],
+        [
+          "missing_courtyard|147200000|120700000|e18b1593-36a6-493a-af1f-90c369fea5ec|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|155084516|134897210|04208ceb-e4e3-470b-b5f7-ae393bd34dd6|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -151,12 +200,12 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -164,9 +213,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.55,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -287,6 +336,10 @@
     "erc_exclusions": [
       [
         "lib_symbol_mismatch|673100|1295400|5b774ecb-441d-4e20-9b68-2667138e77fc|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|1003300|495300|47de90dc-13e9-4dd8-8cb0-9853883dbde5|0e776d32-ea6b-4942-9890-aee036bc7fe7|/bec00f4f-4b10-4354-9a48-d4013e030360|/bec00f4f-4b10-4354-9a48-d4013e030360|/bec00f4f-4b10-4354-9a48-d4013e030360",
         ""
       ],
       [
@@ -526,7 +579,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Custom Electronics AeroBlinker"
+    ]
   },
   "meta": {
     "filename": "AeroBlinker.kicad_pro",
@@ -722,7 +777,7 @@
         "uuid": "bec00f4f-4b10-4354-9a48-d4013e030360"
       }
     ],
-    "used_designators": "C1-9,BAR1,SW1-2,#FLG1-6,R1-8,J1-6,#PWR1-29,U1-5,FB1,S1,P1,TP1-4,L1,Q1,H1-4,D1-2",
+    "used_designators": "J1-6,BAR1,Q1-2,C1-12,U1-6,D1-5,H1-4,R1-11,TP1-4,SW1-2,#PWR1-35,L1-2,P1,FB1,S1,#FLG1-6",
     "variants": []
   },
   "sheets": [

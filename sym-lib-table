@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Custom Electronics AeroBlinker") (type "KiCad") (uri "${KIPRJMOD}/Custom_Electronics/Custom_footprt_sch_and_models.kicad_sym") (options "") (descr ""))
+)
