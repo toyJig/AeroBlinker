@@ -4915,7 +4915,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1dcefc03-3751-44d5-84be-38ac0f88962f")
@@ -7508,6 +7508,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C3194309"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7e0725dc-c636-47ef-a375-d19b84831805")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSOT?23*")
 		(path "/e720a2af-bfc8-4879-967d-286ecc963927")
 		(sheetname "/")
@@ -8659,7 +8671,7 @@
 			(uuid "ca5ef0cd-00cb-46e2-aea7-8babff873fac")
 		)
 		(embedded_fonts no)
-		(model "../Custom_footprt_sch_and_models.3dshapes/SW-SMD_L3.9-W2.9-H2.0-LS4.8.wrl"
+		(model "${KIPRJMOD}/Custom_Electronics/Custom_footprt_sch_and_models.3dshapes/SW-SMD_L3.9-W2.9-H2.0-LS4.8.step"
 			(offset
 				(xyz 0 0 0)
 			)
