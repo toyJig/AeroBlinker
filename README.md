@@ -2,6 +2,15 @@
 Custom PCB w/ KiCAD that reads Receiver Signals to control light flash patterns - Aeronautics Team.
 
 Read [JOURNAL.md](https://github.com/toyJig/AeroBlinker/blob/main/JOURNAL.md) for the logged process!
+JLCPCB BOM is located [here](https://github.com/toyJig/AeroBlinker/blob/main/jlcpcb/production_files/BOM-AeroBlinker.csv)!
+
+Overall BOM:
+
+| Thing | Unit Price | Amount | 
+| :--- | :--- | :--- |
+| A STM32F042F6P6 MCU PCB assembled at JLC | $14.96 | 5 | 
+| 2v2 700mA LED | Club has | 3 |
+| 700maH 1S LiPo | Club has | 1 |
 
 <img width="513" height="334" alt="image" src="https://github.com/user-attachments/assets/e7677326-788c-4ba5-908d-73313c869b29" />
 
