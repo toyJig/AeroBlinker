@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/build/Debug",
+  "command": "C:\\Users\\ToyJig\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F0XX -IC:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m0 -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\AeroBlinker.dir\\Src\\syscall.c.obj -c C:\\Users\\ToyJig\\Documents\\KiCad\\AeroBlinker\\Codebase\\AeroBlinker\\Src\\syscall.c",
+  "file": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/Src/syscall.c",
+  "output": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/build/Debug/CMakeFiles/AeroBlinker.dir/Src/syscall.c.obj"
+},
+{
+  "directory": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/build/Debug",
+  "command": "C:\\Users\\ToyJig\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F0XX -IC:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m0 -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\AeroBlinker.dir\\Src\\sysmem.c.obj -c C:\\Users\\ToyJig\\Documents\\KiCad\\AeroBlinker\\Codebase\\AeroBlinker\\Src\\sysmem.c",
+  "file": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/Src/sysmem.c",
+  "output": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/build/Debug/CMakeFiles/AeroBlinker.dir/Src/sysmem.c.obj"
+},
+{
+  "directory": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/build/Debug",
+  "command": "C:\\Users\\ToyJig\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F0XX -IC:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m0 -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\AeroBlinker.dir\\Src\\main.c.obj -c C:\\Users\\ToyJig\\Documents\\KiCad\\AeroBlinker\\Codebase\\AeroBlinker\\Src\\main.c",
+  "file": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/Src/main.c",
+  "output": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/build/Debug/CMakeFiles/AeroBlinker.dir/Src/main.c.obj"
+},
+{
+  "directory": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/build/Debug",
+  "command": "C:\\Users\\ToyJig\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F0XX -IC:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/Inc -mcpu=cortex-m0 -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -x assembler-with-cpp -MMD -MP -o CMakeFiles\\AeroBlinker.dir\\Src\\startup_stm32f0x2xx.S.obj -c C:\\Users\\ToyJig\\Documents\\KiCad\\AeroBlinker\\Codebase\\AeroBlinker\\Src\\startup_stm32f0x2xx.S",
+  "file": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/Src/startup_stm32f0x2xx.S",
+  "output": "C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/build/Debug/CMakeFiles/AeroBlinker.dir/Src/startup_stm32f0x2xx.S.obj"
+}
+]

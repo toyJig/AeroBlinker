@@ -1,0 +1,3 @@
+C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/build/Debug/CMakeFiles/AeroBlinker.dir
+C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/build/Debug/CMakeFiles/edit_cache.dir
+C:/Users/ToyJig/Documents/KiCad/AeroBlinker/Codebase/AeroBlinker/build/Debug/CMakeFiles/rebuild_cache.dir

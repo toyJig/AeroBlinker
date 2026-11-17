@@ -1,0 +1,6 @@
+# ninja log v7
+16	57	8165869947570855	CMakeFiles/AeroBlinker.dir/Src/startup_stm32f0x2xx.S.obj	15c6a0dbbe35e7e0
+13	68	8165869947540743	CMakeFiles/AeroBlinker.dir/Src/main.c.obj	aaed3b4a088188d8
+10	80	8165869947510647	CMakeFiles/AeroBlinker.dir/Src/sysmem.c.obj	a0c576b8ccad911d
+6	113	8165869947470508	CMakeFiles/AeroBlinker.dir/Src/syscall.c.obj	c8f92dca352077c8
+113	193	8165869948545236	AeroBlinker.elf	e08c3bd5d04ed2cb
