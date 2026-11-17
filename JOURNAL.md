@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 25.5h | 3 |
+| Week 1 | Tier 1 | 28h | 3 |
 
 ## Contents
 
@@ -85,7 +85,7 @@ Exported as a .step file to OnShape so the Mechanical Structures team can get st
 
 ### 2026-11-16: So after some deliberation with my team, we decided to switch to a 1S battery for no good reason. Good thing I have this specific stm32 microcontroller since it can run well all the way down to 3V, th
 
-**7h**
+**9.5h**
 
 So after some deliberation with my team, we decided to switch to a 1S battery for no good reason. Good thing I have this specific stm32 microcontroller since it can run well all the way down to 3V, the lowest a 1S LiPo can go so I don't need to worry about making extra space for a boost to 3v3 (or lets just say the battery life of this board will be longer from a fully charged battery). I decided to add a constant current driver for the LED while I'm at it, and I luckily was able to fit everything onto the PCB without any size changes so that the people that took over encasing this PCB don't need to make any changes either.
 
@@ -116,3 +116,9 @@ Redid the BOM once again. 😠
 Also figured out how to properly rotate U5 around through the Position sheet so I don't need to have my teammates manually rotate it in the JLC viewer when they download and buy it for me. Mistake prevention!
 
 ![image](https://halflife.hackclub-assets.com/sessions/A1g9crjQinL4h8m4FayIpcASMHZiPgLG/aea430d40fc032fb113c67524b12d4759b2659cfb683ff1d066bd91c001cb519.png)
+
+Since I was asked to by Hack Life, I also added LED blinker code bare bones for this project for the STM32:
+
+![image](https://halflife.hackclub-assets.com/sessions/A1g9crjQinL4h8m4FayIpcASMHZiPgLG/5b89861e786dbe9c5a1b6a849539df28edda129b92004a7f85271b73284568d5.png)
+![image](https://halflife.hackclub-assets.com/sessions/A1g9crjQinL4h8m4FayIpcASMHZiPgLG/7e1b0f40a47a5274c157e32af68520489a5ac2a2a6376a634c669782af35acdb.png)
+![image](https://halflife.hackclub-assets.com/sessions/A1g9crjQinL4h8m4FayIpcASMHZiPgLG/fbeb854b8a3792d6bf67f28afb85eeddf6df34447ec272c9bc1e5370e182df60.png)
